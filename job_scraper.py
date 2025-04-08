@@ -15,6 +15,7 @@ class UpworkScraper:
         self.first_run = True
         self.job_descriptions = {}
         self.filtered_jobs = set()
+        self.message_job_map = {}
 
     async def fetch_jobs(self):
         """Fetch job listings from Upwork search results page"""

@@ -55,17 +55,35 @@ def create_job_embed(job_category, job_data):
     embed.add_field(name="Price", value=price if price else "N/A", inline=True)
     embed.add_field(name="Proposals", value=proposal if proposal else "N/A", inline=True)
     # We don't add the description here initially
-    embed.set_footer(text=f"Job ID: {job_id}")
+    
+    # Extract a shorter job ID from the URL
+    short_job_id = "Unknown"
+    if link and "~" in link:
+        try:
+            # Try to extract the job ID number part after the tilde
+            short_job_id = link.split("~")[1].split("/")[0]
+            # If it's too long, truncate it
+            if len(short_job_id) > 12:
+                short_job_id = short_job_id[:12] + "..."
+        except:
+            # Fallback if extraction fails
+            pass
+    
+    embed.set_footer(text=f"Job ID: {short_job_id}")
+    # Removed the hidden field code here
+    
     return embed
 
 # View class for the "Show More" button
 class JobView(View):
-    def __init__(self, job_id):
+    def __init__(self, job_id, job_url):  # Add job_url parameter
         super().__init__(timeout=None) # Persist view across bot restarts (optional)
-        self.job_id = job_id
-        # Create a shorter custom ID using a hash of the job URL
-        short_id = str(hash(job_id) % 1000000)  # Convert to a 6-digit number
-        self.add_item(Button(label="Show More", style=discord.ButtonStyle.primary, custom_id=f"show_{short_id}"))
+        self.job_id = job_id # This is the short ID for the button
+        self.job_url = job_url # Store the full URL here
+        
+        # Create a shorter custom ID using a hash of the short job_id
+        short_id_hash = str(hash(job_id) % 1000000)  # Use the short_id for the hash
+        self.add_item(Button(label="Show More", style=discord.ButtonStyle.primary, custom_id=f"show_{short_id_hash}"))
 
 async def send_discord_message(job_category, job_data):
     job_id, title, description, link, proposal, price = job_data
@@ -80,11 +98,15 @@ async def send_discord_message(job_category, job_data):
             logger.warning(f"Could not find channel with ID: {channel_id}")
             return
 
-        logger.info(f"Preparing job for channel: {channel.name} (ID: {channel.id}) - Job ID: {job_id}")
+        logger.info(f"Preparing job for channel: {channel.name} (ID: {channel.id}) - Job Link: {link}") # Log the link
         
-        # Create the initial embed and view
+        # Create the initial embed
         embed = create_job_embed(job_category, job_data)
-        view = JobView(job_id)
+        # Get the short ID from the footer for the View
+        short_job_id = embed.footer.text.split("Job ID: ")[1]
+        
+        # Pass the short ID and the full link to the View
+        view = JobView(short_job_id, link) 
         
         # Add retry logic for sending messages
         max_retries = 3
@@ -93,24 +115,26 @@ async def send_discord_message(job_category, job_data):
         
         while retry_count < max_retries and not success:
             try:
-                await channel.send(embed=embed, view=view)
-                logger.info(f"Successfully sent job {job_id} to {job_category} channel: {title}")
+                message = await channel.send(embed=embed, view=view)
+                logger.info(f"Successfully sent job {short_job_id} ({title}) to {job_category} channel (Message ID: {message.id})") # Log short ID & message ID
+                # Store the mapping
+                job_scraper.message_job_map[message.id] = link
                 success = True
             except discord.errors.RateLimited as e:
                 retry_after = e.retry_after
-                logger.warning(f"Rate limited sending job {job_id}. Waiting {retry_after:.2f} seconds...")
+                logger.warning(f"Rate limited sending job {short_job_id}. Waiting {retry_after:.2f} seconds...")
                 await asyncio.sleep(retry_after)
                 retry_count += 1
             except Exception as e:
-                logger.error(f"Failed to send job {job_id} (attempt {retry_count + 1}/{max_retries}): {e}")
+                logger.error(f"Failed to send job {short_job_id} (attempt {retry_count + 1}/{max_retries}): {e}")
                 retry_count += 1
                 await asyncio.sleep(5)  # Wait before retrying
         
         if not success:
-            logger.error(f"Failed to send job {job_id} after {max_retries} attempts: {title}")
+            logger.error(f"Failed to send job {short_job_id} after {max_retries} attempts: {title}")
 
     except Exception as e:
-        logger.error(f"Error in send_discord_message for job {job_id}: {e}")
+        logger.error(f"Error in send_discord_message for job link {link}: {e}") # Log the link on error
         import traceback
         traceback.print_exc()
 
@@ -199,43 +223,65 @@ async def on_interaction(interaction):
     if interaction.type == discord.InteractionType.component:
         if interaction.data['custom_id'].startswith('show_'):
             try:
-                # Get the job ID from the custom ID
-                short_id = interaction.data['custom_id'].split('_')[1]
+                # Get the job URL from the scraper's message mapping
+                message_id = interaction.message.id
+                job_url = job_scraper.message_job_map.get(message_id)
                 
-                # Find the original job URL from the embed
-                job_url = None
-                for embed in interaction.message.embeds:
-                    if embed.footer and embed.footer.text.startswith('Job ID:'):
-                        job_url = embed.footer.text.split('Job ID: ')[1]
-                        break
-                
+                # Fallback: try getting URL from the embed title link if map fails
+                if not job_url and interaction.message.embeds and interaction.message.embeds[0].url:
+                    job_url = interaction.message.embeds[0].url
+                    logger.warning(f"Could not get job_url from message_job_map for {message_id}, using embed URL: {job_url}")
+
                 if not job_url:
-                    await interaction.response.send_message("Could not find job details.", ephemeral=True)
+                    logger.error(f"Could not retrieve job_url for message {message_id} from map or embed.")
+                    await interaction.response.send_message("Could not find job details for this message.", ephemeral=True)
                     return
+                
+                logger.info(f"Retrieved job URL for 'Show More' (Message {message_id}): {job_url}")
                 
                 # Get the description from the scraper
                 description = job_scraper.get_job_description(job_url)
                 if not description:
-                    await interaction.response.send_message("Job description not available.", ephemeral=True)
-                    return
+                    # Try fetching the description again if not found in cache
+                    logger.warning(f"Description for {job_url} not found in cache, attempting re-fetch.")
+                    # We need title to re-fetch, get it from embed
+                    title = interaction.message.embeds[0].title.split(" ", 1)[1] # Remove emoji
+                    job_data = await job_scraper._fetch_and_extract_job_details(job_url, title)
+                    if job_data:
+                        description = job_data[2] # Index 2 is description
+                    else:
+                        await interaction.response.send_message("Job description not available.", ephemeral=True)
+                        return
                 
                 # Create a new embed with the full description
                 embed = discord.Embed(
                     title=interaction.message.embeds[0].title,
+                    url=job_url,  # Use the retrieved URL
                     description=description,
                     color=discord.Color.blue()
                 )
                 
-                # Add the original fields
+                # Add the original fields (excluding any potential hidden ones)
                 for field in interaction.message.embeds[0].fields:
-                    embed.add_field(name=field.name, value=field.value, inline=field.inline)
+                    if field.name != "job_url" and field.name != "\u200b":
+                        embed.add_field(name=field.name, value=field.value, inline=field.inline)
                 
-                # Update the message with the full description
+                # Preserve the footer with the job ID
+                if interaction.message.embeds[0].footer:
+                    embed.set_footer(text=interaction.message.embeds[0].footer.text)
+                
+                # Update the message with the full description and remove the button view
                 await interaction.response.edit_message(embed=embed, view=None)
                 
             except Exception as e:
                 logger.error(f"Error handling show more interaction: {e}")
-                await interaction.response.send_message("An error occurred while showing the full description.", ephemeral=True)
+                import traceback
+                traceback.print_exc()
+                # Use followup if response already sent
+                if interaction.response.is_done():
+                    await interaction.followup.send("An error occurred while showing the full description.", ephemeral=True)
+                else:
+                    await interaction.response.send_message("An error occurred while showing the full description.", ephemeral=True)
     else:
         # Handle other types of interactions (like commands)
         await bot.process_commands(interaction)
