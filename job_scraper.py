@@ -94,7 +94,8 @@ class UpworkScraper:
             # Extract description
             text_element = soup.find('div', class_='break mt-2')
             description = text_element.text if text_element else "Description not available"
-            description = re.sub(r'\s+', ' ', description).strip()
+            # Keep description formatting by not removing whitespace
+            # description = re.sub(r'\s+', ' ', description).strip()
             
             # Extract price
             price = "Not specified"
@@ -141,4 +142,49 @@ class UpworkScraper:
 
     def get_job_description(self, job_id):
         """Get the description for a job ID"""
-        return self.job_descriptions.get(job_id) 
+        return self.job_descriptions.get(job_id)
+
+    def get_job_activity(self, job_url):
+        """Get the activity data (proposals, etc.) for a job"""
+        try:
+            # If we don't have HTML for this job, fetch it
+            response = self.scraper.get(job_url)
+            html = response.text
+            soup = BeautifulSoup(html, "html.parser")
+            
+            # Extract the Activity section
+            activity_section = soup.find('section', class_='air3-card-section py-4x')
+            
+            if not activity_section:
+                return None
+                
+            # Extract all activity items
+            activity_data = []
+            
+            # Extract proposals
+            proposals_item = activity_section.find('li', class_='ca-item')
+            if proposals_item:
+                title_span = proposals_item.find('span', class_='title')
+                value_span = proposals_item.find('span', class_='value')
+                if title_span and value_span:
+                    proposals_text = f"{title_span.text.strip()} {value_span.text.strip()}"
+                    activity_data.append(proposals_text)
+            
+            # Extract other items (interviewing, invites, etc.)
+            other_items = activity_section.find_all('li', class_='ca-item')
+            for item in other_items[1:] if other_items else []:
+                title_span = item.find('span', class_='title')
+                value_div = item.find('div', class_='value')
+                if title_span and value_div:
+                    item_text = f"{title_span.text.strip()} {value_div.text.strip()}"
+                    activity_data.append(item_text)
+            
+            # Join all activity data into one string
+            if activity_data:
+                return "\n".join(activity_data)
+            else:
+                return None
+                
+        except Exception as e:
+            logger.error(f"Error getting activity data for {job_url}: {e}")
+            return None 

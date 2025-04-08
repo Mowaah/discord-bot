@@ -1466,3 +1466,430 @@ AttributeError: 'Interaction' object has no attribute 'author'
 2025-04-08 19:28:34,128 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/MVP-Dev-Next-and-Supabase_~021909643177733260197/?referrer_url_path=/nx/search/jobs/
 2025-04-08 19:28:37,725 - upwork_bot - WARNING - Could not get job_url from message_job_map for 1359202448165568752, using embed URL: https://upwork.com/jobs/MVP-Dev-Next-and-Supabase_~021909643177733260197/?referrer_url_path=/nx/search/jobs/
 2025-04-08 19:28:37,725 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359202448165568752): https://upwork.com/jobs/MVP-Dev-Next-and-Supabase_~021909643177733260197/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:33:49,791 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-08 18:33:49,927 - discord.client - INFO - logging in using static token
+2025-04-08 18:33:51,079 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 0562286d2cb99d299b7918e8e9a68567).
+2025-04-08 18:33:53,097 - upwork_bot - INFO - Upwork Jobs#9704 has connected to Discord!
+2025-04-08 18:33:53,097 - upwork_bot - INFO - Bot is in 1 servers
+2025-04-08 18:33:53,097 - upwork_bot - INFO - - Gamers' Castle (ID: 426670702511521792)
+2025-04-08 18:33:53,097 - upwork_bot - INFO -   - upwork-job-fullstack (ID: 1359137471689916477)
+2025-04-08 18:33:53,098 - upwork_bot - INFO -   - upwork-job-backend (ID: 1359136722079711484)
+2025-04-08 18:33:53,098 - upwork_bot - INFO -   - upwork-job-frontend (ID: 1359136544337957016)
+2025-04-08 18:33:53,098 - upwork_bot - INFO -   - upwork-job-automation (ID: 1359136863562104913)
+2025-04-08 18:33:53,098 - upwork_bot - INFO -   - upwork-job-scrape (ID: 1359136986476183723)
+2025-04-08 18:33:53,098 - upwork_bot - INFO -   - osu-patches (ID: 873289703011545168)
+2025-04-08 18:33:53,098 - upwork_bot - INFO -   - freebies (ID: 893699869385056336)
+2025-04-08 18:33:53,098 - upwork_bot - INFO -   - valorant-patches (ID: 719978113999831142)
+2025-04-08 18:33:53,099 - upwork_bot - INFO -   - ow-patches (ID: 705507759935848548)
+2025-04-08 18:33:53,099 - upwork_bot - INFO -   - brawlhalla-patches (ID: 873289455065255989)
+2025-04-08 18:33:53,099 - upwork_bot - INFO -   - lostark-patches (ID: 1034804611091005491)
+2025-04-08 18:33:53,099 - upwork_bot - INFO -   - deadlock-patches (ID: 1316096249388073111)
+2025-04-08 18:33:53,099 - upwork_bot - INFO -   - general (ID: 426671613044457472)
+2025-04-08 18:33:53,099 - upwork_bot - INFO -   - games (ID: 618154626814050304)
+2025-04-08 18:33:53,099 - upwork_bot - INFO -   - memes (ID: 434091270198263809)
+2025-04-08 18:33:53,099 - upwork_bot - INFO -   - bots (ID: 427549071172173824)
+2025-04-08 18:33:53,099 - upwork_bot - INFO -   - music (ID: 873288615642431569)
+2025-04-08 18:33:53,100 - upwork_bot - INFO -   - poker-night-commands (ID: 844213254712852540)
+2025-04-08 18:33:53,100 - upwork_bot - INFO -   - voice-typers (ID: 452665393425940480)
+2025-04-08 18:33:53,100 - upwork_bot - INFO -   - upwork-job-others (ID: 1359140874759438386)
+2025-04-08 18:33:53,100 - upwork_bot - INFO - Looking for channels...
+2025-04-08 18:33:53,100 - upwork_bot - INFO - Found frontend channel: upwork-job-frontend
+2025-04-08 18:33:53,100 - upwork_bot - INFO - Found backend channel: upwork-job-backend
+2025-04-08 18:33:53,100 - upwork_bot - INFO - Found fullstack channel: upwork-job-fullstack
+2025-04-08 18:33:53,100 - upwork_bot - INFO - Found automation channel: upwork-job-automation
+2025-04-08 18:33:53,100 - upwork_bot - INFO - Found scraping channel: upwork-job-scrape
+2025-04-08 18:33:53,100 - upwork_bot - INFO - Found other channel: upwork-job-others
+2025-04-08 18:33:53,100 - upwork_bot - INFO - Bot is ready and listening for interactions.
+2025-04-08 18:33:53,100 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-08 18:33:54,617 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-08 18:33:54,617 - upwork_bot - INFO - Newest job title: PDF Modification Script Development
+2025-04-08 18:33:54,618 - upwork_bot - INFO - Processing job: PDF Modification Script Development
+2025-04-08 18:33:54,618 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/PDF-Modification-Script-Development_~021909645684465265826/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:33:57,312 - upwork_bot - INFO - Processing job: Hailo-based Tool Inventory Monitor
+2025-04-08 18:33:57,313 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Hailo-based-Tool-Inventory-Monitor_~021909645499727146146/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:33:59,285 - upwork_bot - WARNING - Could not get job_url from message_job_map for 1359202771517046905, using embed URL: https://upwork.com/jobs/Exert-Binance-Crypto-span-class-highlight-Full-span-span-class-highlight-stack-span-Developer_~021909643757203549346/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:33:59,285 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359202771517046905): https://upwork.com/jobs/Exert-Binance-Crypto-span-class-highlight-Full-span-span-class-highlight-stack-span-Developer_~021909643757203549346/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:33:59,286 - upwork_bot - WARNING - Description for https://upwork.com/jobs/Exert-Binance-Crypto-span-class-highlight-Full-span-span-class-highlight-stack-span-Developer_~021909643757203549346/?referrer_url_path=/nx/search/jobs/ not found in cache, attempting re-fetch.
+2025-04-08 18:33:59,286 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Exert-Binance-Crypto-span-class-highlight-Full-span-span-class-highlight-stack-span-Developer_~021909643757203549346/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:34:01,205 - upwork_bot - INFO - Processing job: Looking for an experience Game developer to create a Trivia game
+2025-04-08 18:34:01,205 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Looking-for-experience-Game-developer-create-Trivia-game_~021909645496910742437/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:34:04,448 - upwork_bot - INFO - Processing job: Power Automate Expert Needed to Streamline Internal Recruitment Process
+2025-04-08 18:34:04,449 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Power-span-class-highlight-Automate-span-Expert-Needed-Streamline-Internal-Recruitment-Process_~021909645393247683630/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:34:08,870 - upwork_bot - INFO - Processing job: Outreach/ Transaction Copywriting Specialist
+2025-04-08 18:34:08,871 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Outreach-Transaction-Copywriting-Specialist_~021909645271489506217/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:34:10,526 - upwork_bot - WARNING - Could not get job_url from message_job_map for 1359202769273225461, using embed URL: https://upwork.com/jobs/Mortgage-broker-Integrations-span-class-highlight-automations-span-email-campaigns-landing-pages_~021909643899275183013/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:34:10,526 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359202769273225461): https://upwork.com/jobs/Mortgage-broker-Integrations-span-class-highlight-automations-span-email-campaigns-landing-pages_~021909643899275183013/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:34:10,526 - upwork_bot - WARNING - Description for https://upwork.com/jobs/Mortgage-broker-Integrations-span-class-highlight-automations-span-email-campaigns-landing-pages_~021909643899275183013/?referrer_url_path=/nx/search/jobs/ not found in cache, attempting re-fetch.
+2025-04-08 18:34:10,526 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Mortgage-broker-Integrations-span-class-highlight-automations-span-email-campaigns-landing-pages_~021909643899275183013/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:34:12,021 - upwork_bot - INFO - First run limit reached
+2025-04-08 18:34:12,021 - upwork_bot - INFO - Updated last job title to: PDF Modification Script Development
+2025-04-08 18:34:12,022 - upwork_bot - INFO - First run completed
+2025-04-08 18:34:12,024 - upwork_bot - INFO - Processing job: PDF Modification Script Development (https://upwork.com/jobs/PDF-Modification-Script-Development_~021909645684465265826/?referrer_url_path=/nx/search/jobs/) for categories: ['automation']
+2025-04-08 18:34:12,024 - upwork_bot - INFO - Preparing job for channel: upwork-job-automation (ID: 1359136863562104913) - Job Link: https://upwork.com/jobs/PDF-Modification-Script-Development_~021909645684465265826/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:34:12,400 - upwork_bot - INFO - Successfully sent job 021909645684... (PDF Modification Script Development) to automation channel (Message ID: 1359204694559559701)
+2025-04-08 18:34:12,401 - upwork_bot - INFO - Filtered out AI-related job: Hailo-based Tool Inventory Monitor (matched term: AI)
+2025-04-08 18:34:12,401 - upwork_bot - INFO - Filtered job by content: Hailo-based Tool Inventory Monitor (https://upwork.com/jobs/Hailo-based-Tool-Inventory-Monitor_~021909645499727146146/?referrer_url_path=/nx/search/jobs/)
+2025-04-08 18:34:12,401 - upwork_bot - INFO - Added job https://upwork.com/jobs/Hailo-based-Tool-Inventory-Monitor_~021909645499727146146/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-08 18:34:12,402 - upwork_bot - INFO - Processing job: Looking for an experience Game developer to create a Trivia game (https://upwork.com/jobs/Looking-for-experience-Game-developer-create-Trivia-game_~021909645496910742437/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-08 18:34:12,402 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Looking-for-experience-Game-developer-create-Trivia-game_~021909645496910742437/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:34:12,781 - upwork_bot - INFO - Successfully sent job 021909645496... (Looking for an experience Game developer to create a Trivia game) to other channel (Message ID: 1359204695687696436)
+2025-04-08 18:34:12,783 - upwork_bot - INFO - Processing job: Power Automate Expert Needed to Streamline Internal Recruitment Process (https://upwork.com/jobs/Power-span-class-highlight-Automate-span-Expert-Needed-Streamline-Internal-Recruitment-Process_~021909645393247683630/?referrer_url_path=/nx/search/jobs/) for categories: ['automation']
+2025-04-08 18:34:12,784 - upwork_bot - INFO - Preparing job for channel: upwork-job-automation (ID: 1359136863562104913) - Job Link: https://upwork.com/jobs/Power-span-class-highlight-Automate-span-Expert-Needed-Streamline-Internal-Recruitment-Process_~021909645393247683630/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:34:13,132 - upwork_bot - INFO - Successfully sent job 021909645393... (Power Automate Expert Needed to Streamline Internal Recruitment Process) to automation channel (Message ID: 1359204697428459611)
+2025-04-08 18:34:13,132 - upwork_bot - INFO - Filtered out AI-related job: Outreach/ Transaction Copywriting Specialist (matched term: AI)
+2025-04-08 18:34:13,132 - upwork_bot - INFO - Filtered job by content: Outreach/ Transaction Copywriting Specialist (https://upwork.com/jobs/Outreach-Transaction-Copywriting-Specialist_~021909645271489506217/?referrer_url_path=/nx/search/jobs/)
+2025-04-08 18:34:13,132 - upwork_bot - INFO - Added job https://upwork.com/jobs/Outreach-Transaction-Copywriting-Specialist_~021909645271489506217/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-08 18:34:13,133 - upwork_bot - INFO - Updated last job title to: PDF Modification Script Development
+2025-04-08 18:34:15,134 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359204697428459611): https://upwork.com/jobs/Power-span-class-highlight-Automate-span-Expert-Needed-Streamline-Internal-Recruitment-Process_~021909645393247683630/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:34:17,875 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359204694559559701): https://upwork.com/jobs/PDF-Modification-Script-Development_~021909645684465265826/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:34:20,831 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359204695687696436): https://upwork.com/jobs/Looking-for-experience-Game-developer-create-Trivia-game_~021909645496910742437/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:34:24,601 - upwork_bot - WARNING - Could not get job_url from message_job_map for 1359203137931706419, using embed URL: https://upwork.com/jobs/Expert-Web-Scraper-Needed-Build-Targeted-B2B-Email-Lists-Name-Company-Email-Address-etc_~021909644119539057573/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:34:24,601 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359203137931706419): https://upwork.com/jobs/Expert-Web-Scraper-Needed-Build-Targeted-B2B-Email-Lists-Name-Company-Email-Address-etc_~021909644119539057573/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:34:24,601 - upwork_bot - WARNING - Description for https://upwork.com/jobs/Expert-Web-Scraper-Needed-Build-Targeted-B2B-Email-Lists-Name-Company-Email-Address-etc_~021909644119539057573/?referrer_url_path=/nx/search/jobs/ not found in cache, attempting re-fetch.
+2025-04-08 18:34:24,602 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Expert-Web-Scraper-Needed-Build-Targeted-B2B-Email-Lists-Name-Company-Email-Address-etc_~021909644119539057573/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:50:51,581 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-08 18:50:51,721 - discord.client - INFO - logging in using static token
+2025-04-08 18:50:54,043 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 23f4e61e1bcdbb0cd96b3e7b31094c2b).
+2025-04-08 18:50:56,061 - upwork_bot - INFO - Upwork Jobs#9704 has connected to Discord!
+2025-04-08 18:50:56,061 - upwork_bot - INFO - Bot is in 1 servers
+2025-04-08 18:50:56,061 - upwork_bot - INFO - - Gamers' Castle (ID: 426670702511521792)
+2025-04-08 18:50:56,061 - upwork_bot - INFO -   - upwork-job-fullstack (ID: 1359137471689916477)
+2025-04-08 18:50:56,061 - upwork_bot - INFO -   - upwork-job-backend (ID: 1359136722079711484)
+2025-04-08 18:50:56,061 - upwork_bot - INFO -   - upwork-job-frontend (ID: 1359136544337957016)
+2025-04-08 18:50:56,062 - upwork_bot - INFO -   - upwork-job-automation (ID: 1359136863562104913)
+2025-04-08 18:50:56,062 - upwork_bot - INFO -   - upwork-job-scrape (ID: 1359136986476183723)
+2025-04-08 18:50:56,062 - upwork_bot - INFO -   - osu-patches (ID: 873289703011545168)
+2025-04-08 18:50:56,062 - upwork_bot - INFO -   - freebies (ID: 893699869385056336)
+2025-04-08 18:50:56,062 - upwork_bot - INFO -   - valorant-patches (ID: 719978113999831142)
+2025-04-08 18:50:56,062 - upwork_bot - INFO -   - ow-patches (ID: 705507759935848548)
+2025-04-08 18:50:56,062 - upwork_bot - INFO -   - brawlhalla-patches (ID: 873289455065255989)
+2025-04-08 18:50:56,062 - upwork_bot - INFO -   - lostark-patches (ID: 1034804611091005491)
+2025-04-08 18:50:56,062 - upwork_bot - INFO -   - deadlock-patches (ID: 1316096249388073111)
+2025-04-08 18:50:56,062 - upwork_bot - INFO -   - general (ID: 426671613044457472)
+2025-04-08 18:50:56,062 - upwork_bot - INFO -   - games (ID: 618154626814050304)
+2025-04-08 18:50:56,062 - upwork_bot - INFO -   - memes (ID: 434091270198263809)
+2025-04-08 18:50:56,062 - upwork_bot - INFO -   - bots (ID: 427549071172173824)
+2025-04-08 18:50:56,062 - upwork_bot - INFO -   - music (ID: 873288615642431569)
+2025-04-08 18:50:56,063 - upwork_bot - INFO -   - poker-night-commands (ID: 844213254712852540)
+2025-04-08 18:50:56,063 - upwork_bot - INFO -   - voice-typers (ID: 452665393425940480)
+2025-04-08 18:50:56,063 - upwork_bot - INFO -   - upwork-job-others (ID: 1359140874759438386)
+2025-04-08 18:50:56,063 - upwork_bot - INFO - Looking for channels...
+2025-04-08 18:50:56,063 - upwork_bot - INFO - Found frontend channel: upwork-job-frontend
+2025-04-08 18:50:56,063 - upwork_bot - INFO - Found backend channel: upwork-job-backend
+2025-04-08 18:50:56,063 - upwork_bot - INFO - Found fullstack channel: upwork-job-fullstack
+2025-04-08 18:50:56,063 - upwork_bot - INFO - Found automation channel: upwork-job-automation
+2025-04-08 18:50:56,063 - upwork_bot - INFO - Found scraping channel: upwork-job-scrape
+2025-04-08 18:50:56,063 - upwork_bot - INFO - Found other channel: upwork-job-others
+2025-04-08 18:50:56,063 - upwork_bot - INFO - Bot is ready and listening for interactions.
+2025-04-08 18:50:56,064 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-08 18:50:58,105 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-08 18:50:58,105 - upwork_bot - INFO - Newest job title: Global Python Mentor in AWS DevOps & Scripting Automation
+2025-04-08 18:50:58,105 - upwork_bot - INFO - Processing job: Global Python Mentor in AWS DevOps & Scripting Automation
+2025-04-08 18:50:58,105 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Global-Python-Mentor-AWS-DevOps-amp-Scripting-span-class-highlight-Automation-span_~021909650088398749124/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:51:01,879 - upwork_bot - INFO - Processing job: React UI
+2025-04-08 18:51:01,879 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/React_~021909649929901632425/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:51:04,337 - upwork_bot - INFO - Processing job: Remote Network Engineer - Reconfigure Large Network
+2025-04-08 18:51:04,337 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Remote-Network-Engineer-Reconfigure-Large-Network_~021909649811743894441/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:51:06,720 - upwork_bot - INFO - Processing job: Telesales Expert Needed for AI Automation Solutions
+2025-04-08 18:51:06,720 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Telesales-Expert-Needed-for-span-class-highlight-Automation-span-Solutions_~021909649428047332261/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:51:10,426 - upwork_bot - INFO - Processing job: Sr. Python Mentor for AWS Cloud DevOps Scripting & Automation
+2025-04-08 18:51:10,427 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Python-Mentor-for-AWS-Cloud-DevOps-Scripting-amp-span-class-highlight-Automation-span_~021909649332872211618/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:51:13,978 - upwork_bot - INFO - First run limit reached
+2025-04-08 18:51:13,978 - upwork_bot - INFO - Updated last job title to: Global Python Mentor in AWS DevOps & Scripting Automation
+2025-04-08 18:51:13,978 - upwork_bot - INFO - First run completed
+2025-04-08 18:51:13,980 - upwork_bot - INFO - Filtered out devops-related job: Global Python Mentor in AWS DevOps & Scripting Automation (matched term: devops)
+2025-04-08 18:51:13,980 - upwork_bot - INFO - Filtered job by content: Global Python Mentor in AWS DevOps & Scripting Automation (https://upwork.com/jobs/Global-Python-Mentor-AWS-DevOps-amp-Scripting-span-class-highlight-Automation-span_~021909650088398749124/?referrer_url_path=/nx/search/jobs/)
+2025-04-08 18:51:13,981 - upwork_bot - INFO - Added job https://upwork.com/jobs/Global-Python-Mentor-AWS-DevOps-amp-Scripting-span-class-highlight-Automation-span_~021909650088398749124/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-08 18:51:13,982 - upwork_bot - INFO - Processing job: React UI (https://upwork.com/jobs/React_~021909649929901632425/?referrer_url_path=/nx/search/jobs/) for categories: ['frontend']
+2025-04-08 18:51:13,982 - upwork_bot - INFO - Preparing job for channel: upwork-job-frontend (ID: 1359136544337957016) - Job Link: https://upwork.com/jobs/React_~021909649929901632425/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:51:14,334 - upwork_bot - INFO - Successfully sent job 021909649929... (React UI) to frontend channel (Message ID: 1359208981012152491)
+2025-04-08 18:51:14,339 - upwork_bot - INFO - Processing job: Remote Network Engineer - Reconfigure Large Network (https://upwork.com/jobs/Remote-Network-Engineer-Reconfigure-Large-Network_~021909649811743894441/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-08 18:51:14,339 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Remote-Network-Engineer-Reconfigure-Large-Network_~021909649811743894441/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:51:14,608 - upwork_bot - INFO - Successfully sent job 021909649811... (Remote Network Engineer - Reconfigure Large Network) to other channel (Message ID: 1359208982409122112)
+2025-04-08 18:51:14,608 - upwork_bot - INFO - Filtered out AI-related job: Telesales Expert Needed for AI Automation Solutions (matched term: AI)
+2025-04-08 18:51:14,608 - upwork_bot - INFO - Filtered job by content: Telesales Expert Needed for AI Automation Solutions (https://upwork.com/jobs/Telesales-Expert-Needed-for-span-class-highlight-Automation-span-Solutions_~021909649428047332261/?referrer_url_path=/nx/search/jobs/)
+2025-04-08 18:51:14,609 - upwork_bot - INFO - Added job https://upwork.com/jobs/Telesales-Expert-Needed-for-span-class-highlight-Automation-span-Solutions_~021909649428047332261/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-08 18:51:14,610 - upwork_bot - INFO - Filtered out devops-related job: Sr. Python Mentor for AWS Cloud DevOps Scripting & Automation (matched term: devops)
+2025-04-08 18:51:14,610 - upwork_bot - INFO - Filtered job by content: Sr. Python Mentor for AWS Cloud DevOps Scripting & Automation (https://upwork.com/jobs/Python-Mentor-for-AWS-Cloud-DevOps-Scripting-amp-span-class-highlight-Automation-span_~021909649332872211618/?referrer_url_path=/nx/search/jobs/)
+2025-04-08 18:51:14,610 - upwork_bot - INFO - Added job https://upwork.com/jobs/Python-Mentor-for-AWS-Cloud-DevOps-Scripting-amp-span-class-highlight-Automation-span_~021909649332872211618/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-08 18:51:14,610 - upwork_bot - INFO - Updated last job title to: React UI
+2025-04-08 18:51:17,951 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359208981012152491): https://upwork.com/jobs/React_~021909649929901632425/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:51:27,816 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359208982409122112): https://upwork.com/jobs/Remote-Network-Engineer-Reconfigure-Large-Network_~021909649811743894441/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:57:46,608 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-08 18:57:46,750 - discord.client - INFO - logging in using static token
+2025-04-08 18:57:47,939 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 94954c75e5658683bb43c9f801fa41ed).
+2025-04-08 18:57:49,966 - upwork_bot - INFO - Upwork Jobs#9704 has connected to Discord!
+2025-04-08 18:57:49,966 - upwork_bot - INFO - Bot is in 1 servers
+2025-04-08 18:57:49,967 - upwork_bot - INFO - - Gamers' Castle (ID: 426670702511521792)
+2025-04-08 18:57:49,967 - upwork_bot - INFO -   - upwork-job-fullstack (ID: 1359137471689916477)
+2025-04-08 18:57:49,967 - upwork_bot - INFO -   - upwork-job-backend (ID: 1359136722079711484)
+2025-04-08 18:57:49,967 - upwork_bot - INFO -   - upwork-job-frontend (ID: 1359136544337957016)
+2025-04-08 18:57:49,967 - upwork_bot - INFO -   - upwork-job-automation (ID: 1359136863562104913)
+2025-04-08 18:57:49,967 - upwork_bot - INFO -   - upwork-job-scrape (ID: 1359136986476183723)
+2025-04-08 18:57:49,967 - upwork_bot - INFO -   - osu-patches (ID: 873289703011545168)
+2025-04-08 18:57:49,967 - upwork_bot - INFO -   - freebies (ID: 893699869385056336)
+2025-04-08 18:57:49,967 - upwork_bot - INFO -   - valorant-patches (ID: 719978113999831142)
+2025-04-08 18:57:49,967 - upwork_bot - INFO -   - ow-patches (ID: 705507759935848548)
+2025-04-08 18:57:49,967 - upwork_bot - INFO -   - brawlhalla-patches (ID: 873289455065255989)
+2025-04-08 18:57:49,967 - upwork_bot - INFO -   - lostark-patches (ID: 1034804611091005491)
+2025-04-08 18:57:49,968 - upwork_bot - INFO -   - deadlock-patches (ID: 1316096249388073111)
+2025-04-08 18:57:49,968 - upwork_bot - INFO -   - general (ID: 426671613044457472)
+2025-04-08 18:57:49,968 - upwork_bot - INFO -   - games (ID: 618154626814050304)
+2025-04-08 18:57:49,968 - upwork_bot - INFO -   - memes (ID: 434091270198263809)
+2025-04-08 18:57:49,968 - upwork_bot - INFO -   - bots (ID: 427549071172173824)
+2025-04-08 18:57:49,968 - upwork_bot - INFO -   - music (ID: 873288615642431569)
+2025-04-08 18:57:49,968 - upwork_bot - INFO -   - poker-night-commands (ID: 844213254712852540)
+2025-04-08 18:57:49,968 - upwork_bot - INFO -   - voice-typers (ID: 452665393425940480)
+2025-04-08 18:57:49,968 - upwork_bot - INFO -   - upwork-job-others (ID: 1359140874759438386)
+2025-04-08 18:57:49,968 - upwork_bot - INFO - Looking for channels...
+2025-04-08 18:57:49,968 - upwork_bot - INFO - Found frontend channel: upwork-job-frontend
+2025-04-08 18:57:49,969 - upwork_bot - INFO - Found backend channel: upwork-job-backend
+2025-04-08 18:57:49,969 - upwork_bot - INFO - Found fullstack channel: upwork-job-fullstack
+2025-04-08 18:57:49,969 - upwork_bot - INFO - Found automation channel: upwork-job-automation
+2025-04-08 18:57:49,969 - upwork_bot - INFO - Found scraping channel: upwork-job-scrape
+2025-04-08 18:57:49,969 - upwork_bot - INFO - Found other channel: upwork-job-others
+2025-04-08 18:57:49,969 - upwork_bot - INFO - Bot is ready and listening for interactions.
+2025-04-08 18:57:49,969 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-08 18:57:51,585 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-08 18:57:51,585 - upwork_bot - INFO - Newest job title: YouTube Video Editor
+2025-04-08 18:57:51,585 - upwork_bot - INFO - Processing job: YouTube Video Editor
+2025-04-08 18:57:51,585 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/YouTube-Video-Editor_~021909651876171934633/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:57:54,253 - upwork_bot - INFO - Processing job: Merge and Unify GitHub Repositories (MERN Stack)
+2025-04-08 18:57:54,253 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Merge-and-Unify-GitHub-Repositories-MERN-Stack_~021909651551912854437/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:57:57,588 - upwork_bot - INFO - Processing job: GoHighLevel GHL SMS Unsuccessful Troubleshoot
+2025-04-08 18:57:57,588 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/GoHighLevel-GHL-SMS-Unsuccessful-Troubleshoot_~021909651546857882671/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:58:00,139 - upwork_bot - INFO - Processing job: RAG Chatbot Developer (Langchain + LLM + Vector DB)
+2025-04-08 18:58:00,139 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/RAG-Chatbot-Developer-Langchain-LLM-Vector_~021909651346494253993/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:58:02,595 - upwork_bot - INFO - Processing job: SMS Support Agent
+2025-04-08 18:58:02,596 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/SMS-Support-Agent_~021909651242499048357/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:58:05,055 - upwork_bot - INFO - First run limit reached
+2025-04-08 18:58:05,055 - upwork_bot - INFO - Updated last job title to: YouTube Video Editor
+2025-04-08 18:58:05,055 - upwork_bot - INFO - First run completed
+2025-04-08 18:58:05,057 - upwork_bot - INFO - Processing job: YouTube Video Editor (https://upwork.com/jobs/YouTube-Video-Editor_~021909651876171934633/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-08 18:58:05,058 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/YouTube-Video-Editor_~021909651876171934633/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:58:05,494 - upwork_bot - INFO - Successfully sent job 021909651876... (YouTube Video Editor) to other channel (Message ID: 1359210705517023233)
+2025-04-08 18:58:05,495 - upwork_bot - INFO - Processing job: Merge and Unify GitHub Repositories (MERN Stack) (https://upwork.com/jobs/Merge-and-Unify-GitHub-Repositories-MERN-Stack_~021909651551912854437/?referrer_url_path=/nx/search/jobs/) for categories: ['frontend']
+2025-04-08 18:58:05,495 - upwork_bot - INFO - Preparing job for channel: upwork-job-frontend (ID: 1359136544337957016) - Job Link: https://upwork.com/jobs/Merge-and-Unify-GitHub-Repositories-MERN-Stack_~021909651551912854437/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:58:05,816 - upwork_bot - INFO - Successfully sent job 021909651551... (Merge and Unify GitHub Repositories (MERN Stack)) to frontend channel (Message ID: 1359210706829840536)
+2025-04-08 18:58:05,816 - upwork_bot - INFO - Processing job: GoHighLevel GHL SMS Unsuccessful Troubleshoot (https://upwork.com/jobs/GoHighLevel-GHL-SMS-Unsuccessful-Troubleshoot_~021909651546857882671/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-08 18:58:05,817 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/GoHighLevel-GHL-SMS-Unsuccessful-Troubleshoot_~021909651546857882671/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:58:06,096 - upwork_bot - INFO - Successfully sent job 021909651546... (GoHighLevel GHL SMS Unsuccessful Troubleshoot) to other channel (Message ID: 1359210708314619954)
+2025-04-08 18:58:06,096 - upwork_bot - INFO - Filtered out ai-related job: RAG Chatbot Developer (Langchain + LLM + Vector DB) (matched term: llm)
+2025-04-08 18:58:06,096 - upwork_bot - INFO - Filtered job by content: RAG Chatbot Developer (Langchain + LLM + Vector DB) (https://upwork.com/jobs/RAG-Chatbot-Developer-Langchain-LLM-Vector_~021909651346494253993/?referrer_url_path=/nx/search/jobs/)
+2025-04-08 18:58:06,097 - upwork_bot - INFO - Added job https://upwork.com/jobs/RAG-Chatbot-Developer-Langchain-LLM-Vector_~021909651346494253993/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-08 18:58:06,097 - upwork_bot - INFO - Processing job: SMS Support Agent (https://upwork.com/jobs/SMS-Support-Agent_~021909651242499048357/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-08 18:58:06,097 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/SMS-Support-Agent_~021909651242499048357/?referrer_url_path=/nx/search/jobs/
+2025-04-08 18:58:06,529 - upwork_bot - INFO - Successfully sent job 021909651242... (SMS Support Agent) to other channel (Message ID: 1359210709396885827)
+2025-04-08 18:58:06,529 - upwork_bot - INFO - Updated last job title to: YouTube Video Editor
+2025-04-08 18:58:09,013 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359210706829840536): https://upwork.com/jobs/Merge-and-Unify-GitHub-Repositories-MERN-Stack_~021909651551912854437/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:39:51,470 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-08 19:39:51,609 - discord.client - INFO - logging in using static token
+2025-04-08 19:39:52,804 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 4b0d7b16b0328bce2fd1fed633e523dc).
+2025-04-08 19:39:54,853 - upwork_bot - INFO - Upwork Jobs#9704 has connected to Discord!
+2025-04-08 19:39:54,853 - upwork_bot - INFO - Bot is in 1 servers
+2025-04-08 19:39:54,853 - upwork_bot - INFO - - Gamers' Castle (ID: 426670702511521792)
+2025-04-08 19:39:54,853 - upwork_bot - INFO -   - upwork-job-fullstack (ID: 1359137471689916477)
+2025-04-08 19:39:54,853 - upwork_bot - INFO -   - upwork-job-backend (ID: 1359136722079711484)
+2025-04-08 19:39:54,853 - upwork_bot - INFO -   - upwork-job-frontend (ID: 1359136544337957016)
+2025-04-08 19:39:54,853 - upwork_bot - INFO -   - upwork-job-automation (ID: 1359136863562104913)
+2025-04-08 19:39:54,853 - upwork_bot - INFO -   - upwork-job-scrape (ID: 1359136986476183723)
+2025-04-08 19:39:54,854 - upwork_bot - INFO -   - osu-patches (ID: 873289703011545168)
+2025-04-08 19:39:54,854 - upwork_bot - INFO -   - freebies (ID: 893699869385056336)
+2025-04-08 19:39:54,854 - upwork_bot - INFO -   - valorant-patches (ID: 719978113999831142)
+2025-04-08 19:39:54,854 - upwork_bot - INFO -   - ow-patches (ID: 705507759935848548)
+2025-04-08 19:39:54,854 - upwork_bot - INFO -   - brawlhalla-patches (ID: 873289455065255989)
+2025-04-08 19:39:54,854 - upwork_bot - INFO -   - lostark-patches (ID: 1034804611091005491)
+2025-04-08 19:39:54,854 - upwork_bot - INFO -   - deadlock-patches (ID: 1316096249388073111)
+2025-04-08 19:39:54,854 - upwork_bot - INFO -   - general (ID: 426671613044457472)
+2025-04-08 19:39:54,854 - upwork_bot - INFO -   - games (ID: 618154626814050304)
+2025-04-08 19:39:54,854 - upwork_bot - INFO -   - memes (ID: 434091270198263809)
+2025-04-08 19:39:54,854 - upwork_bot - INFO -   - bots (ID: 427549071172173824)
+2025-04-08 19:39:54,855 - upwork_bot - INFO -   - music (ID: 873288615642431569)
+2025-04-08 19:39:54,855 - upwork_bot - INFO -   - poker-night-commands (ID: 844213254712852540)
+2025-04-08 19:39:54,855 - upwork_bot - INFO -   - voice-typers (ID: 452665393425940480)
+2025-04-08 19:39:54,855 - upwork_bot - INFO -   - upwork-job-others (ID: 1359140874759438386)
+2025-04-08 19:39:54,855 - upwork_bot - INFO - Looking for channels...
+2025-04-08 19:39:54,855 - upwork_bot - INFO - Found frontend channel: upwork-job-frontend
+2025-04-08 19:39:54,855 - upwork_bot - INFO - Found backend channel: upwork-job-backend
+2025-04-08 19:39:54,855 - upwork_bot - INFO - Found fullstack channel: upwork-job-fullstack
+2025-04-08 19:39:54,855 - upwork_bot - INFO - Found automation channel: upwork-job-automation
+2025-04-08 19:39:54,855 - upwork_bot - INFO - Found scraping channel: upwork-job-scrape
+2025-04-08 19:39:54,855 - upwork_bot - INFO - Found other channel: upwork-job-others
+2025-04-08 19:39:54,856 - upwork_bot - INFO - Bot is ready and listening for interactions.
+2025-04-08 19:39:54,856 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-08 19:39:55,162 - upwork_bot - ERROR - No job elements found on the page
+2025-04-08 19:39:55,162 - upwork_bot - INFO - No jobs found. Retrying in next cycle.
+2025-04-08 19:41:23,803 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-08 19:41:23,940 - discord.client - INFO - logging in using static token
+2025-04-08 19:41:25,020 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: fa3873f21c20495b573eb502efe48167).
+2025-04-08 19:41:27,039 - upwork_bot - INFO - Upwork Jobs#9704 has connected to Discord!
+2025-04-08 19:41:27,039 - upwork_bot - INFO - Bot is in 1 servers
+2025-04-08 19:41:27,039 - upwork_bot - INFO - - Gamers' Castle (ID: 426670702511521792)
+2025-04-08 19:41:27,040 - upwork_bot - INFO -   - upwork-job-fullstack (ID: 1359137471689916477)
+2025-04-08 19:41:27,040 - upwork_bot - INFO -   - upwork-job-backend (ID: 1359136722079711484)
+2025-04-08 19:41:27,040 - upwork_bot - INFO -   - upwork-job-frontend (ID: 1359136544337957016)
+2025-04-08 19:41:27,040 - upwork_bot - INFO -   - upwork-job-automation (ID: 1359136863562104913)
+2025-04-08 19:41:27,041 - upwork_bot - INFO -   - upwork-job-scrape (ID: 1359136986476183723)
+2025-04-08 19:41:27,041 - upwork_bot - INFO -   - osu-patches (ID: 873289703011545168)
+2025-04-08 19:41:27,041 - upwork_bot - INFO -   - freebies (ID: 893699869385056336)
+2025-04-08 19:41:27,041 - upwork_bot - INFO -   - valorant-patches (ID: 719978113999831142)
+2025-04-08 19:41:27,042 - upwork_bot - INFO -   - ow-patches (ID: 705507759935848548)
+2025-04-08 19:41:27,042 - upwork_bot - INFO -   - brawlhalla-patches (ID: 873289455065255989)
+2025-04-08 19:41:27,042 - upwork_bot - INFO -   - lostark-patches (ID: 1034804611091005491)
+2025-04-08 19:41:27,043 - upwork_bot - INFO -   - deadlock-patches (ID: 1316096249388073111)
+2025-04-08 19:41:27,043 - upwork_bot - INFO -   - general (ID: 426671613044457472)
+2025-04-08 19:41:27,043 - upwork_bot - INFO -   - games (ID: 618154626814050304)
+2025-04-08 19:41:27,043 - upwork_bot - INFO -   - memes (ID: 434091270198263809)
+2025-04-08 19:41:27,043 - upwork_bot - INFO -   - bots (ID: 427549071172173824)
+2025-04-08 19:41:27,044 - upwork_bot - INFO -   - music (ID: 873288615642431569)
+2025-04-08 19:41:27,044 - upwork_bot - INFO -   - poker-night-commands (ID: 844213254712852540)
+2025-04-08 19:41:27,044 - upwork_bot - INFO -   - voice-typers (ID: 452665393425940480)
+2025-04-08 19:41:27,044 - upwork_bot - INFO -   - upwork-job-others (ID: 1359140874759438386)
+2025-04-08 19:41:27,044 - upwork_bot - INFO - Looking for channels...
+2025-04-08 19:41:27,044 - upwork_bot - INFO - Found frontend channel: upwork-job-frontend
+2025-04-08 19:41:27,045 - upwork_bot - INFO - Found backend channel: upwork-job-backend
+2025-04-08 19:41:27,045 - upwork_bot - INFO - Found fullstack channel: upwork-job-fullstack
+2025-04-08 19:41:27,045 - upwork_bot - INFO - Found automation channel: upwork-job-automation
+2025-04-08 19:41:27,045 - upwork_bot - INFO - Found scraping channel: upwork-job-scrape
+2025-04-08 19:41:27,046 - upwork_bot - INFO - Found other channel: upwork-job-others
+2025-04-08 19:41:27,046 - upwork_bot - INFO - Bot is ready and listening for interactions.
+2025-04-08 19:41:27,046 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-08 19:41:28,666 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-08 19:41:28,666 - upwork_bot - INFO - Newest job title: Web Application Developer Needed for Storage Application
+2025-04-08 19:41:28,666 - upwork_bot - INFO - Processing job: Web Application Developer Needed for Storage Application
+2025-04-08 19:41:28,666 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Web-Application-Developer-Needed-for-Storage-Application_~021909662785720216489/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:41:31,782 - upwork_bot - INFO - Processing job: Web scraping
+2025-04-08 19:41:31,783 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Web-span-class-highlight-scraping-span_~021909662767621794729/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:41:34,470 - upwork_bot - INFO - Processing job: Program Manager
+2025-04-08 19:41:34,470 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Program-Manager_~021909662639859100585/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:41:37,142 - upwork_bot - INFO - Processing job: Office 365
+2025-04-08 19:41:37,143 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Office-365_~021909662607714357739/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:41:40,231 - upwork_bot - INFO - Processing job: Conference Prospecting in the Southwest Region
+2025-04-08 19:41:40,232 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Conference-Prospecting-the-Southwest-Region_~021909662300865252988/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:41:42,860 - upwork_bot - INFO - First run limit reached
+2025-04-08 19:41:42,861 - upwork_bot - INFO - Updated last job title to: Web Application Developer Needed for Storage Application
+2025-04-08 19:41:42,861 - upwork_bot - INFO - First run completed
+2025-04-08 19:41:42,863 - upwork_bot - INFO - Processing job: Web Application Developer Needed for Storage Application (https://upwork.com/jobs/Web-Application-Developer-Needed-for-Storage-Application_~021909662785720216489/?referrer_url_path=/nx/search/jobs/) for categories: ['frontend']
+2025-04-08 19:41:42,863 - upwork_bot - INFO - Preparing job for channel: upwork-job-frontend (ID: 1359136544337957016) - Job Link: https://upwork.com/jobs/Web-Application-Developer-Needed-for-Storage-Application_~021909662785720216489/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:41:43,211 - upwork_bot - INFO - Successfully sent job 021909662785... (Web Application Developer Needed for Storage Application) to frontend channel (Message ID: 1359221685529870597)
+2025-04-08 19:41:43,212 - upwork_bot - INFO - Processing job: Web scraping (https://upwork.com/jobs/Web-span-class-highlight-scraping-span_~021909662767621794729/?referrer_url_path=/nx/search/jobs/) for categories: ['scraping', 'automation']
+2025-04-08 19:41:43,213 - upwork_bot - INFO - Preparing job for channel: upwork-job-scrape (ID: 1359136986476183723) - Job Link: https://upwork.com/jobs/Web-span-class-highlight-scraping-span_~021909662767621794729/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:41:43,475 - upwork_bot - INFO - Successfully sent job 021909662767... (Web scraping) to scraping channel (Message ID: 1359221686678978701)
+2025-04-08 19:41:43,476 - upwork_bot - INFO - Preparing job for channel: upwork-job-automation (ID: 1359136863562104913) - Job Link: https://upwork.com/jobs/Web-span-class-highlight-scraping-span_~021909662767621794729/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:41:43,778 - upwork_bot - INFO - Successfully sent job 021909662767... (Web scraping) to automation channel (Message ID: 1359221687861641478)
+2025-04-08 19:41:43,779 - upwork_bot - INFO - Processing job: Program Manager (https://upwork.com/jobs/Program-Manager_~021909662639859100585/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-08 19:41:43,779 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Program-Manager_~021909662639859100585/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:41:44,225 - upwork_bot - INFO - Successfully sent job 021909662639... (Program Manager) to other channel (Message ID: 1359221689061212523)
+2025-04-08 19:41:44,225 - upwork_bot - INFO - Processing job: Office 365 (https://upwork.com/jobs/Office-365_~021909662607714357739/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-08 19:41:44,226 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Office-365_~021909662607714357739/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:41:44,568 - upwork_bot - INFO - Successfully sent job 021909662607... (Office 365) to other channel (Message ID: 1359221691049447766)
+2025-04-08 19:41:44,569 - upwork_bot - INFO - Processing job: Conference Prospecting in the Southwest Region (https://upwork.com/jobs/Conference-Prospecting-the-Southwest-Region_~021909662300865252988/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-08 19:41:44,570 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Conference-Prospecting-the-Southwest-Region_~021909662300865252988/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:41:44,875 - upwork_bot - INFO - Successfully sent job 021909662300... (Conference Prospecting in the Southwest Region) to other channel (Message ID: 1359221692450210095)
+2025-04-08 19:41:44,875 - upwork_bot - INFO - Updated last job title to: Web Application Developer Needed for Storage Application
+2025-04-08 19:41:47,149 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359221685529870597): https://upwork.com/jobs/Web-Application-Developer-Needed-for-Storage-Application_~021909662785720216489/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:45:19,800 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-08 19:45:19,940 - discord.client - INFO - logging in using static token
+2025-04-08 19:45:21,433 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 7c3fae65ab5cfcf9f4d9b4ea3154ea68).
+2025-04-08 19:45:23,467 - upwork_bot - INFO - Upwork Jobs#9704 has connected to Discord!
+2025-04-08 19:45:23,468 - upwork_bot - INFO - Bot is in 1 servers
+2025-04-08 19:45:23,468 - upwork_bot - INFO - - Gamers' Castle (ID: 426670702511521792)
+2025-04-08 19:45:23,468 - upwork_bot - INFO -   - upwork-job-fullstack (ID: 1359137471689916477)
+2025-04-08 19:45:23,468 - upwork_bot - INFO -   - upwork-job-backend (ID: 1359136722079711484)
+2025-04-08 19:45:23,468 - upwork_bot - INFO -   - upwork-job-frontend (ID: 1359136544337957016)
+2025-04-08 19:45:23,469 - upwork_bot - INFO -   - upwork-job-automation (ID: 1359136863562104913)
+2025-04-08 19:45:23,469 - upwork_bot - INFO -   - upwork-job-scrape (ID: 1359136986476183723)
+2025-04-08 19:45:23,469 - upwork_bot - INFO -   - osu-patches (ID: 873289703011545168)
+2025-04-08 19:45:23,469 - upwork_bot - INFO -   - freebies (ID: 893699869385056336)
+2025-04-08 19:45:23,469 - upwork_bot - INFO -   - valorant-patches (ID: 719978113999831142)
+2025-04-08 19:45:23,469 - upwork_bot - INFO -   - ow-patches (ID: 705507759935848548)
+2025-04-08 19:45:23,470 - upwork_bot - INFO -   - brawlhalla-patches (ID: 873289455065255989)
+2025-04-08 19:45:23,470 - upwork_bot - INFO -   - lostark-patches (ID: 1034804611091005491)
+2025-04-08 19:45:23,470 - upwork_bot - INFO -   - deadlock-patches (ID: 1316096249388073111)
+2025-04-08 19:45:23,470 - upwork_bot - INFO -   - general (ID: 426671613044457472)
+2025-04-08 19:45:23,470 - upwork_bot - INFO -   - games (ID: 618154626814050304)
+2025-04-08 19:45:23,470 - upwork_bot - INFO -   - memes (ID: 434091270198263809)
+2025-04-08 19:45:23,471 - upwork_bot - INFO -   - bots (ID: 427549071172173824)
+2025-04-08 19:45:23,471 - upwork_bot - INFO -   - music (ID: 873288615642431569)
+2025-04-08 19:45:23,471 - upwork_bot - INFO -   - poker-night-commands (ID: 844213254712852540)
+2025-04-08 19:45:23,471 - upwork_bot - INFO -   - voice-typers (ID: 452665393425940480)
+2025-04-08 19:45:23,472 - upwork_bot - INFO -   - upwork-job-others (ID: 1359140874759438386)
+2025-04-08 19:45:23,472 - upwork_bot - INFO - Looking for channels...
+2025-04-08 19:45:23,473 - upwork_bot - INFO - Found frontend channel: upwork-job-frontend
+2025-04-08 19:45:23,473 - upwork_bot - INFO - Found backend channel: upwork-job-backend
+2025-04-08 19:45:23,473 - upwork_bot - INFO - Found fullstack channel: upwork-job-fullstack
+2025-04-08 19:45:23,473 - upwork_bot - INFO - Found automation channel: upwork-job-automation
+2025-04-08 19:45:23,473 - upwork_bot - INFO - Found scraping channel: upwork-job-scrape
+2025-04-08 19:45:23,474 - upwork_bot - INFO - Found other channel: upwork-job-others
+2025-04-08 19:45:23,474 - upwork_bot - INFO - Bot is ready and listening for interactions.
+2025-04-08 19:45:23,474 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-08 19:45:23,757 - upwork_bot - ERROR - No job elements found on the page
+2025-04-08 19:45:23,757 - upwork_bot - INFO - No jobs found. Retrying in next cycle.
+2025-04-08 19:46:20,853 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-08 19:46:20,993 - discord.client - INFO - logging in using static token
+2025-04-08 19:46:22,354 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 7c330d07975631cfb6dff757423a5648).
+2025-04-08 19:46:24,405 - upwork_bot - INFO - Upwork Jobs#9704 has connected to Discord!
+2025-04-08 19:46:24,405 - upwork_bot - INFO - Bot is in 1 servers
+2025-04-08 19:46:24,405 - upwork_bot - INFO - - Gamers' Castle (ID: 426670702511521792)
+2025-04-08 19:46:24,405 - upwork_bot - INFO -   - upwork-job-fullstack (ID: 1359137471689916477)
+2025-04-08 19:46:24,405 - upwork_bot - INFO -   - upwork-job-backend (ID: 1359136722079711484)
+2025-04-08 19:46:24,405 - upwork_bot - INFO -   - upwork-job-frontend (ID: 1359136544337957016)
+2025-04-08 19:46:24,406 - upwork_bot - INFO -   - upwork-job-automation (ID: 1359136863562104913)
+2025-04-08 19:46:24,406 - upwork_bot - INFO -   - upwork-job-scrape (ID: 1359136986476183723)
+2025-04-08 19:46:24,406 - upwork_bot - INFO -   - osu-patches (ID: 873289703011545168)
+2025-04-08 19:46:24,406 - upwork_bot - INFO -   - freebies (ID: 893699869385056336)
+2025-04-08 19:46:24,406 - upwork_bot - INFO -   - valorant-patches (ID: 719978113999831142)
+2025-04-08 19:46:24,406 - upwork_bot - INFO -   - ow-patches (ID: 705507759935848548)
+2025-04-08 19:46:24,406 - upwork_bot - INFO -   - brawlhalla-patches (ID: 873289455065255989)
+2025-04-08 19:46:24,406 - upwork_bot - INFO -   - lostark-patches (ID: 1034804611091005491)
+2025-04-08 19:46:24,407 - upwork_bot - INFO -   - deadlock-patches (ID: 1316096249388073111)
+2025-04-08 19:46:24,407 - upwork_bot - INFO -   - general (ID: 426671613044457472)
+2025-04-08 19:46:24,407 - upwork_bot - INFO -   - games (ID: 618154626814050304)
+2025-04-08 19:46:24,407 - upwork_bot - INFO -   - memes (ID: 434091270198263809)
+2025-04-08 19:46:24,407 - upwork_bot - INFO -   - bots (ID: 427549071172173824)
+2025-04-08 19:46:24,408 - upwork_bot - INFO -   - music (ID: 873288615642431569)
+2025-04-08 19:46:24,408 - upwork_bot - INFO -   - poker-night-commands (ID: 844213254712852540)
+2025-04-08 19:46:24,408 - upwork_bot - INFO -   - voice-typers (ID: 452665393425940480)
+2025-04-08 19:46:24,408 - upwork_bot - INFO -   - upwork-job-others (ID: 1359140874759438386)
+2025-04-08 19:46:24,408 - upwork_bot - INFO - Looking for channels...
+2025-04-08 19:46:24,408 - upwork_bot - INFO - Found frontend channel: upwork-job-frontend
+2025-04-08 19:46:24,408 - upwork_bot - INFO - Found backend channel: upwork-job-backend
+2025-04-08 19:46:24,409 - upwork_bot - INFO - Found fullstack channel: upwork-job-fullstack
+2025-04-08 19:46:24,409 - upwork_bot - INFO - Found automation channel: upwork-job-automation
+2025-04-08 19:46:24,409 - upwork_bot - INFO - Found scraping channel: upwork-job-scrape
+2025-04-08 19:46:24,409 - upwork_bot - INFO - Found other channel: upwork-job-others
+2025-04-08 19:46:24,409 - upwork_bot - INFO - Bot is ready and listening for interactions.
+2025-04-08 19:46:24,409 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-08 19:46:25,782 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-08 19:46:25,782 - upwork_bot - INFO - Newest job title: Google  Sheets/AppsScript Expert
+2025-04-08 19:46:25,782 - upwork_bot - INFO - Processing job: Google  Sheets/AppsScript Expert
+2025-04-08 19:46:25,782 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Google-Sheets-AppsScript-Expert_~021909663545713886117/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:46:28,983 - upwork_bot - INFO - Processing job: Build Custom Inventory Management App (Google Sheets + AppSheet) for Manufacturing Unit
+2025-04-08 19:46:28,984 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Build-Custom-Inventory-Management-App-Google-Sheets-AppSheet-for-Manufacturing-Unit_~021909663376758096942/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:46:31,456 - upwork_bot - INFO - Processing job: n8n Automation Expert – WhatsApp, GPT-4o, Google Drive Integration
+2025-04-08 19:46:31,456 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/n8n-span-class-highlight-Automation-span-Expert-WhatsApp-GPT-Google-Drive-Integration_~021909663225109499516/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:46:35,291 - upwork_bot - INFO - Processing job: Copper CRM Automation Tutor Needed
+2025-04-08 19:46:35,291 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Copper-CRM-span-class-highlight-Automation-span-Tutor-Needed_~021909658327376391081/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:46:38,873 - upwork_bot - INFO - Processing job: Web Application Developer Needed for Storage Application
+2025-04-08 19:46:38,874 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Web-Application-Developer-Needed-for-Storage-Application_~021909662785720216489/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:46:41,299 - upwork_bot - INFO - First run limit reached
+2025-04-08 19:46:41,300 - upwork_bot - INFO - Updated last job title to: Google  Sheets/AppsScript Expert
+2025-04-08 19:46:41,300 - upwork_bot - INFO - First run completed
+2025-04-08 19:46:41,302 - upwork_bot - INFO - Processing job: Google  Sheets/AppsScript Expert (https://upwork.com/jobs/Google-Sheets-AppsScript-Expert_~021909663545713886117/?referrer_url_path=/nx/search/jobs/) for categories: ['automation']
+2025-04-08 19:46:41,302 - upwork_bot - INFO - Preparing job for channel: upwork-job-automation (ID: 1359136863562104913) - Job Link: https://upwork.com/jobs/Google-Sheets-AppsScript-Expert_~021909663545713886117/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:46:41,804 - upwork_bot - INFO - Successfully sent job 021909663545... (Google  Sheets/AppsScript Expert) to automation channel (Message ID: 1359222937315577982)
+2025-04-08 19:46:41,807 - upwork_bot - INFO - Processing job: Build Custom Inventory Management App (Google Sheets + AppSheet) for Manufacturing Unit (https://upwork.com/jobs/Build-Custom-Inventory-Management-App-Google-Sheets-AppSheet-for-Manufacturing-Unit_~021909663376758096942/?referrer_url_path=/nx/search/jobs/) for categories: ['frontend']
+2025-04-08 19:46:41,807 - upwork_bot - INFO - Preparing job for channel: upwork-job-frontend (ID: 1359136544337957016) - Job Link: https://upwork.com/jobs/Build-Custom-Inventory-Management-App-Google-Sheets-AppSheet-for-Manufacturing-Unit_~021909663376758096942/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:46:42,122 - upwork_bot - INFO - Successfully sent job 021909663376... (Build Custom Inventory Management App (Google Sheets + AppSheet) for Manufacturing Unit) to frontend channel (Message ID: 1359222939152548032)
+2025-04-08 19:46:42,122 - upwork_bot - INFO - Filtered out AI-related job: n8n Automation Expert – WhatsApp, GPT-4o, Google Drive Integration (matched term: AI)
+2025-04-08 19:46:42,122 - upwork_bot - INFO - Filtered job by content: n8n Automation Expert – WhatsApp, GPT-4o, Google Drive Integration (https://upwork.com/jobs/n8n-span-class-highlight-Automation-span-Expert-WhatsApp-GPT-Google-Drive-Integration_~021909663225109499516/?referrer_url_path=/nx/search/jobs/)
+2025-04-08 19:46:42,123 - upwork_bot - INFO - Added job https://upwork.com/jobs/n8n-span-class-highlight-Automation-span-Expert-WhatsApp-GPT-Google-Drive-Integration_~021909663225109499516/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-08 19:46:42,123 - upwork_bot - INFO - Processing job: Copper CRM Automation Tutor Needed (https://upwork.com/jobs/Copper-CRM-span-class-highlight-Automation-span-Tutor-Needed_~021909658327376391081/?referrer_url_path=/nx/search/jobs/) for categories: ['automation']
+2025-04-08 19:46:42,124 - upwork_bot - INFO - Preparing job for channel: upwork-job-automation (ID: 1359136863562104913) - Job Link: https://upwork.com/jobs/Copper-CRM-span-class-highlight-Automation-span-Tutor-Needed_~021909658327376391081/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:46:42,764 - upwork_bot - INFO - Successfully sent job 021909658327... (Copper CRM Automation Tutor Needed) to automation channel (Message ID: 1359222941799419905)
+2025-04-08 19:46:42,765 - upwork_bot - INFO - Processing job: Web Application Developer Needed for Storage Application (https://upwork.com/jobs/Web-Application-Developer-Needed-for-Storage-Application_~021909662785720216489/?referrer_url_path=/nx/search/jobs/) for categories: ['frontend']
+2025-04-08 19:46:42,765 - upwork_bot - INFO - Preparing job for channel: upwork-job-frontend (ID: 1359136544337957016) - Job Link: https://upwork.com/jobs/Web-Application-Developer-Needed-for-Storage-Application_~021909662785720216489/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:46:43,103 - upwork_bot - INFO - Successfully sent job 021909662785... (Web Application Developer Needed for Storage Application) to frontend channel (Message ID: 1359222943275548885)
+2025-04-08 19:46:43,103 - upwork_bot - INFO - Updated last job title to: Google  Sheets/AppsScript Expert
+2025-04-08 19:46:45,327 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359222943275548885): https://upwork.com/jobs/Web-Application-Developer-Needed-for-Storage-Application_~021909662785720216489/?referrer_url_path=/nx/search/jobs/
+2025-04-08 19:47:47,914 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359222943275548885): https://upwork.com/jobs/Web-Application-Developer-Needed-for-Storage-Application_~021909662785720216489/?referrer_url_path=/nx/search/jobs/

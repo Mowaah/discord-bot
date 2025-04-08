@@ -241,6 +241,7 @@ async def on_interaction(interaction):
                 
                 # Get the description from the scraper
                 description = job_scraper.get_job_description(job_url)
+                
                 if not description:
                     # Try fetching the description again if not found in cache
                     logger.warning(f"Description for {job_url} not found in cache, attempting re-fetch.")
@@ -253,11 +254,12 @@ async def on_interaction(interaction):
                         await interaction.response.send_message("Job description not available.", ephemeral=True)
                         return
                 
-                # Create a new embed with the full description
+                # Create a new embed with the full description - preserve formatting by using ``` blocks
                 embed = discord.Embed(
                     title=interaction.message.embeds[0].title,
                     url=job_url,  # Use the retrieved URL
-                    description=description,
+                    # Wrap description in code block to preserve formatting
+                    description=f"```{description}```",
                     color=discord.Color.blue()
                 )
                 
@@ -270,8 +272,8 @@ async def on_interaction(interaction):
                 if interaction.message.embeds[0].footer:
                     embed.set_footer(text=interaction.message.embeds[0].footer.text)
                 
-                # Update the message with the full description and remove the button view
-                await interaction.response.edit_message(embed=embed, view=None)
+                # Send as ephemeral message (only visible to the user who clicked)
+                await interaction.response.send_message(embed=embed, ephemeral=True)
                 
             except Exception as e:
                 logger.error(f"Error handling show more interaction: {e}")
