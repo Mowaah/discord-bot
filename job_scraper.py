@@ -5,6 +5,7 @@ import asyncio
 import re
 import random
 from config import UPWORK_URL, MAX_RETRIES, RETRY_DELAY
+from utils import restart_warp  # Import restart_warp from utils.py
 
 logger = logging.getLogger("upwork_bot")
 
@@ -22,6 +23,14 @@ class UpworkScraper:
         try:
             logger.info("Fetching job list from Upwork...")
             response = self.scraper.get(UPWORK_URL)
+            
+            # Check for 403 error and restart WARP if needed
+            if response.status_code == 403:
+                logger.warning("Received 403 Forbidden error. Restarting WARP...")
+                restart_warp()
+                # Retry the request after restarting WARP
+                response = self.scraper.get(UPWORK_URL)
+            
             html = response.text
             soup = BeautifulSoup(html, "html.parser")
             
@@ -88,6 +97,15 @@ class UpworkScraper:
         try:
             logger.info(f"Fetching details for: {job_url}")
             response = self.scraper.get(job_url)
+            print(response.status_code)
+            
+            # Check for 403 error and restart WARP if needed
+            if response.status_code == 403:
+                logger.warning("Received 403 Forbidden error. Restarting WARP...")
+                restart_warp()
+                # Retry the request after restarting WARP
+                response = self.scraper.get(job_url)
+            
             html = response.text
             soup = BeautifulSoup(html, "html.parser")
             

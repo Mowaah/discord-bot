@@ -14,7 +14,6 @@ CHANNEL_IDS = {
     'scraping': int(os.getenv('SCRAPING_CHANNEL_ID')),
     'other': int(os.getenv('OTHER_CHANNEL_ID'))
 }
-
 # Upwork configuration
 UPWORK_URL = "https://www.upwork.com/nx/search/jobs/?page=1&per_page=20&q=%28frontend%20OR%20backend%20OR%20%22full%20stack%22%20OR%20scraping%20OR%20scrapping%20OR%20automation%20OR%20automations%29&sort=recency"
 
@@ -117,6 +116,6 @@ FILTERED_TERMS = {
 
 # Bot settings
 COMMAND_PREFIX = '!'
-CHECK_INTERVAL = 300  # 5 minutes in seconds
+CHECK_INTERVAL = 120 # 5 minutes in seconds
 MAX_RETRIES = 3
 RETRY_DELAY = 5  # seconds 

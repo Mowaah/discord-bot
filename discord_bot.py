@@ -7,10 +7,11 @@ import sys
 import time
 from discord.ui import Button, View
 import logging
-
-from config import TOKEN, CHANNEL_IDS, JOB_CATEGORIES, COMMAND_PREFIX
+import subprocess
+from config import TOKEN, CHANNEL_IDS, JOB_CATEGORIES, COMMAND_PREFIX, CHECK_INTERVAL
 from job_scraper import UpworkScraper
 from job_categorizer import JobCategorizer
+from utils import restart_warp  # Import restart_warp from utils.py
 
 # Configure logging
 logging.basicConfig(
@@ -127,6 +128,7 @@ async def send_discord_message(job_category, job_data):
                 retry_count += 1
             except Exception as e:
                 logger.error(f"Failed to send job {short_job_id} (attempt {retry_count + 1}/{max_retries}): {e}")
+                
                 retry_count += 1
                 await asyncio.sleep(5)  # Wait before retrying
         
@@ -134,67 +136,79 @@ async def send_discord_message(job_category, job_data):
             logger.error(f"Failed to send job {short_job_id} after {max_retries} attempts: {title}")
 
     except Exception as e:
+        
         logger.error(f"Error in send_discord_message for job link {link}: {e}") # Log the link on error
         import traceback
         traceback.print_exc()
 
 async def check_upwork_jobs():
     """Check for new Upwork jobs and send them to Discord"""
-    try:
-        # Fetch jobs from Upwork
-        jobs = await job_scraper.fetch_jobs()
-        
-        if not jobs:
-            logger.info("No jobs found. Retrying in next cycle.")
-            return
-        
-        new_jobs_found = False
-        newest_job_title = None
-        
-        # Process each job
-        for job_data in jobs:
-            try:
-                job_id, title, description, link, proposal, price = job_data
-                
-                # Skip if job should be filtered based on keywords
-                if JobCategorizer.is_filtered_job(title, description):
-                    logger.info(f"Filtered job by content: {title} ({job_id})")
-                    job_scraper.add_filtered_job(job_id)
-                    continue
-                
-                # Get job categories
-                categories = JobCategorizer.get_job_category(title, description)
-                
-                logger.info(f"Processing job: {title} ({job_id}) for categories: {categories}")
-                
-                # Send to appropriate channels
-                for category in categories:
-                    if category in CHANNEL_IDS:
-                        await send_discord_message(category, job_data)
-                
-                new_jobs_found = True
-                if newest_job_title is None:
-                    newest_job_title = title
-                
-            except Exception as e:
-                # Log error with job_id if available
-                job_id_str = f" (Job ID: {job_id})" if 'job_id' in locals() else ""
-                logger.error(f"Error processing job{job_id_str}: {e}")
-                import traceback
-                traceback.print_exc() # Print full traceback for debugging
+    while True:  # Add continuous loop
+        try:
+            # Fetch jobs from Upwork
+            jobs = await job_scraper.fetch_jobs()
+            
+            if not jobs:
+                logger.info("No jobs found. Retrying in next cycle.")
+                await asyncio.sleep(CHECK_INTERVAL)  # Wait for the check interval
                 continue
-        
-        # Update last job with the title of the newest job processed in this cycle
-        if new_jobs_found and newest_job_title:
-            job_scraper.update_last_job(newest_job_title)
-        
-        if job_scraper.first_run:
-            job_scraper.complete_first_run()
-        
-    except Exception as e:
-        logger.error(f"Major error in check_upwork_jobs loop: {e}")
-        import traceback
-        traceback.print_exc() # Print full traceback for debugging
+            
+            
+            new_jobs_found = False
+            newest_job_title = None
+            
+            # Process each job
+            for job_data in jobs:
+                try:
+                    job_id, title, description, link, proposal, price = job_data
+                    
+                    # Skip if job should be filtered based on keywords
+                    if JobCategorizer.is_filtered_job(title, description):
+                        logger.info(f"Filtered job by content: {title} ({job_id})")
+                        job_scraper.add_filtered_job(job_id)
+                        continue
+                    
+                    # Get job categories
+                    categories = JobCategorizer.get_job_category(title, description)
+                    
+                    logger.info(f"Processing job: {title} ({job_id}) for categories: {categories}")
+                    
+                    # Send to appropriate channels
+                    for category in categories:
+                        if category in CHANNEL_IDS:
+                            await send_discord_message(category, job_data)
+                    
+                    new_jobs_found = True
+                    if newest_job_title is None:
+                        newest_job_title = title
+                    
+                except Exception as e:
+                    # Log error with job_id if available
+                    job_id_str = f" (Job ID: {job_id})" if 'job_id' in locals() else ""
+                    
+                    logger.error(f"Error processing job{job_id_str}: {e}")
+                    import traceback
+                    traceback.print_exc() # Print full traceback for debugging
+                    continue
+            
+            # Update last job with the title of the newest job processed in this cycle
+            if new_jobs_found and newest_job_title:
+                job_scraper.update_last_job(newest_job_title)
+            
+            if job_scraper.first_run:
+                job_scraper.complete_first_run()
+            
+            # Wait for the check interval before the next cycle
+            logger.info(f"Job check completed. Waiting {CHECK_INTERVAL} seconds before next check.")
+            await asyncio.sleep(CHECK_INTERVAL)
+            
+        except Exception as e:
+            
+            logger.error(f"Major error in check_upwork_jobs loop: {e}")
+            import traceback
+            traceback.print_exc() # Print full traceback for debugging
+            # Wait before retrying after an error
+            await asyncio.sleep(CHECK_INTERVAL)
 
 @bot.event
 async def on_ready():
@@ -213,7 +227,8 @@ async def on_ready():
         else:
             logger.warning(f"Could not find {category} channel with ID: {channel_id}")
     
-    # Start the job checking loop
+    # Start the continuous job checking task
+    logger.info(f"Starting continuous job checking task (interval: {CHECK_INTERVAL} seconds)")
     bot.loop.create_task(check_upwork_jobs())
     logger.info("Bot is ready and listening for interactions.")
 
@@ -276,6 +291,7 @@ async def on_interaction(interaction):
                 await interaction.response.send_message(embed=embed, ephemeral=True)
                 
             except Exception as e:
+                
                 logger.error(f"Error handling show more interaction: {e}")
                 import traceback
                 traceback.print_exc()
@@ -329,6 +345,7 @@ async def status(ctx):
         
         await ctx.send(status_message)
     except Exception as e:
+        
         await ctx.send(f"Error checking status: {e}")
 
 # Add start_time to track uptime
@@ -353,6 +370,7 @@ async def filter_job(ctx, job_id=None):
         job_scraper.add_filtered_job(job_id)
         await ctx.send(f"Job ID {job_id} has been added to the filter list.")
     except Exception as e:
+        
         await ctx.send(f"Error filtering job: {e}")
 
 # Command to list filtered jobs
@@ -368,4 +386,5 @@ async def list_filtered(ctx):
     await ctx.send(f"**Manually Filtered Jobs**\n{filtered_list}")
 
 # Run the bot
+restart_warp()
 bot.run(TOKEN) 
