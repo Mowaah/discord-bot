@@ -2615,3 +2615,83 @@ TypeError: telegram_sender() missing 2 required positional arguments: 'token' an
 2025-04-08 20:51:21,860 - upwork_bot - INFO - Added job https://upwork.com/jobs/Fullstack-Developer-Needed-for-Website-Web-Game-Update_~021909679904945685550/?referrer_url_path=/nx/search/jobs/ to filtered list
 2025-04-08 20:51:21,860 - upwork_bot - INFO - Updated last job title to: Community Management and Automation in Slack, Kajabi, and Zapier
 2025-04-08 20:51:21,861 - upwork_bot - INFO - Job check completed. Waiting 30 seconds before next check.
+2025-04-10 01:57:18,746 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-10 01:57:22,694 - discord.client - INFO - logging in using static token
+2025-04-10 01:57:24,164 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 3ea501929e1dec64327b6cbb84183058).
+2025-04-10 01:57:26,214 - upwork_bot - INFO - Upwork Jobs#9704 has connected to Discord!
+2025-04-10 01:57:26,214 - upwork_bot - INFO - Bot is in 1 servers
+2025-04-10 01:57:26,214 - upwork_bot - INFO - - Gamers' Castle (ID: 426670702511521792)
+2025-04-10 01:57:26,214 - upwork_bot - INFO -   - upwork-job-fullstack (ID: 1359137471689916477)
+2025-04-10 01:57:26,214 - upwork_bot - INFO -   - upwork-job-backend (ID: 1359136722079711484)
+2025-04-10 01:57:26,214 - upwork_bot - INFO -   - upwork-job-frontend (ID: 1359136544337957016)
+2025-04-10 01:57:26,215 - upwork_bot - INFO -   - upwork-job-automation (ID: 1359136863562104913)
+2025-04-10 01:57:26,215 - upwork_bot - INFO -   - upwork-job-scrape (ID: 1359136986476183723)
+2025-04-10 01:57:26,215 - upwork_bot - INFO -   - osu-patches (ID: 873289703011545168)
+2025-04-10 01:57:26,215 - upwork_bot - INFO -   - freebies (ID: 893699869385056336)
+2025-04-10 01:57:26,215 - upwork_bot - INFO -   - valorant-patches (ID: 719978113999831142)
+2025-04-10 01:57:26,215 - upwork_bot - INFO -   - ow-patches (ID: 705507759935848548)
+2025-04-10 01:57:26,215 - upwork_bot - INFO -   - brawlhalla-patches (ID: 873289455065255989)
+2025-04-10 01:57:26,215 - upwork_bot - INFO -   - lostark-patches (ID: 1034804611091005491)
+2025-04-10 01:57:26,215 - upwork_bot - INFO -   - deadlock-patches (ID: 1316096249388073111)
+2025-04-10 01:57:26,215 - upwork_bot - INFO -   - general (ID: 426671613044457472)
+2025-04-10 01:57:26,216 - upwork_bot - INFO -   - games (ID: 618154626814050304)
+2025-04-10 01:57:26,216 - upwork_bot - INFO -   - memes (ID: 434091270198263809)
+2025-04-10 01:57:26,216 - upwork_bot - INFO -   - bots (ID: 427549071172173824)
+2025-04-10 01:57:26,216 - upwork_bot - INFO -   - music (ID: 873288615642431569)
+2025-04-10 01:57:26,216 - upwork_bot - INFO -   - poker-night-commands (ID: 844213254712852540)
+2025-04-10 01:57:26,216 - upwork_bot - INFO -   - voice-typers (ID: 452665393425940480)
+2025-04-10 01:57:26,216 - upwork_bot - INFO -   - upwork-job-others (ID: 1359140874759438386)
+2025-04-10 01:57:26,216 - upwork_bot - INFO -   - bot-log (ID: 1359576933003825313)
+2025-04-10 01:57:26,216 - upwork_bot - INFO - Looking for channels...
+2025-04-10 01:57:26,216 - upwork_bot - INFO - Found frontend channel: upwork-job-frontend
+2025-04-10 01:57:26,216 - upwork_bot - INFO - Found backend channel: upwork-job-backend
+2025-04-10 01:57:26,217 - upwork_bot - INFO - Found fullstack channel: upwork-job-fullstack
+2025-04-10 01:57:26,217 - upwork_bot - INFO - Found automation channel: upwork-job-automation
+2025-04-10 01:57:26,217 - upwork_bot - INFO - Found scraping channel: upwork-job-scrape
+2025-04-10 01:57:26,217 - upwork_bot - INFO - Found other channel: upwork-job-others
+2025-04-10 01:57:26,217 - upwork_bot - INFO - Starting continuous job checking task (interval: 120 seconds)
+2025-04-10 01:57:26,217 - upwork_bot - INFO - Bot is ready and listening for interactions.
+2025-04-10 01:57:26,217 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 01:57:28,393 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-10 01:57:28,393 - upwork_bot - INFO - Newest job title: Cold Email Deliverability and Systems Specialist Needed
+2025-04-10 01:57:28,393 - upwork_bot - INFO - Processing job: Cold Email Deliverability and Systems Specialist Needed
+2025-04-10 01:57:28,393 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Cold-Email-Deliverability-and-Systems-Specialist-Needed_~021910104627685753765/?referrer_url_path=/nx/search/jobs/
+2025-04-10 01:57:31,286 - upwork_bot - INFO - Processing job: Backend Developer Needed for Notifications & Settings Module – Unshakeable App
+2025-04-10 01:57:31,287 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/span-class-highlight-Backend-span-Developer-Needed-for-Notifications-amp-Settings-Module-Unshakeable-App_~021910103786358703013/?referrer_url_path=/nx/search/jobs/
+2025-04-10 01:57:34,749 - upwork_bot - INFO - Processing job: Python Developer + Google calendar API
+2025-04-10 01:57:34,750 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Python-Developer-Google-calendar-API_~021910103733861958703/?referrer_url_path=/nx/search/jobs/
+2025-04-10 01:57:37,458 - upwork_bot - INFO - Processing job: URGENT – Experienced Apollo.io B2B List Builder (Screenshots Only)
+2025-04-10 01:57:37,459 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/URGENT-Experienced-Apollo-B2B-List-Builder-Screenshots-Only_~021910103257416657833/?referrer_url_path=/nx/search/jobs/
+2025-04-10 01:57:39,934 - upwork_bot - INFO - Processing job: UX/UI Design Partner for CleanTech Infrastructure SaaS Tool
+2025-04-10 01:57:39,934 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Design-Partner-for-CleanTech-Infrastructure-SaaS-Tool_~021910103152119049378/?referrer_url_path=/nx/search/jobs/
+2025-04-10 01:57:42,672 - upwork_bot - INFO - First run limit reached
+2025-04-10 01:57:42,672 - upwork_bot - INFO - Updated last job title to: Cold Email Deliverability and Systems Specialist Needed
+2025-04-10 01:57:42,672 - upwork_bot - INFO - First run completed
+2025-04-10 01:57:42,678 - upwork_bot - INFO - Processing job: Cold Email Deliverability and Systems Specialist Needed (https://upwork.com/jobs/Cold-Email-Deliverability-and-Systems-Specialist-Needed_~021910104627685753765/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 01:57:42,678 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Cold-Email-Deliverability-and-Systems-Specialist-Needed_~021910104627685753765/?referrer_url_path=/nx/search/jobs/
+2025-04-10 01:57:43,323 - upwork_bot - INFO - Successfully sent job 021910104627... (Cold Email Deliverability and Systems Specialist Needed) to other channel (Message ID: 1359663598036586611)
+2025-04-10 01:57:43,325 - upwork_bot - INFO - Processing job: Backend Developer Needed for Notifications & Settings Module – Unshakeable App (https://upwork.com/jobs/span-class-highlight-Backend-span-Developer-Needed-for-Notifications-amp-Settings-Module-Unshakeable-App_~021910103786358703013/?referrer_url_path=/nx/search/jobs/) for categories: ['backend']
+2025-04-10 01:57:43,325 - upwork_bot - INFO - Preparing job for channel: upwork-job-backend (ID: 1359136722079711484) - Job Link: https://upwork.com/jobs/span-class-highlight-Backend-span-Developer-Needed-for-Notifications-amp-Settings-Module-Unshakeable-App_~021910103786358703013/?referrer_url_path=/nx/search/jobs/
+2025-04-10 01:57:43,727 - upwork_bot - INFO - Successfully sent job 021910103786... (Backend Developer Needed for Notifications & Settings Module – Unshakeable App) to backend channel (Message ID: 1359663600284995604)
+2025-04-10 01:57:43,728 - upwork_bot - INFO - Processing job: Python Developer + Google calendar API (https://upwork.com/jobs/Python-Developer-Google-calendar-API_~021910103733861958703/?referrer_url_path=/nx/search/jobs/) for categories: ['backend']
+2025-04-10 01:57:43,728 - upwork_bot - INFO - Preparing job for channel: upwork-job-backend (ID: 1359136722079711484) - Job Link: https://upwork.com/jobs/Python-Developer-Google-calendar-API_~021910103733861958703/?referrer_url_path=/nx/search/jobs/
+2025-04-10 01:57:44,143 - upwork_bot - INFO - Successfully sent job 021910103733... (Python Developer + Google calendar API) to backend channel (Message ID: 1359663601337766041)
+2025-04-10 01:57:44,145 - upwork_bot - INFO - Processing job: URGENT – Experienced Apollo.io B2B List Builder (Screenshots Only) (https://upwork.com/jobs/URGENT-Experienced-Apollo-B2B-List-Builder-Screenshots-Only_~021910103257416657833/?referrer_url_path=/nx/search/jobs/) for categories: ['frontend']
+2025-04-10 01:57:44,145 - upwork_bot - INFO - Preparing job for channel: upwork-job-frontend (ID: 1359136544337957016) - Job Link: https://upwork.com/jobs/URGENT-Experienced-Apollo-B2B-List-Builder-Screenshots-Only_~021910103257416657833/?referrer_url_path=/nx/search/jobs/
+2025-04-10 01:57:44,429 - upwork_bot - INFO - Successfully sent job 021910103257... (URGENT – Experienced Apollo.io B2B List Builder (Screenshots Only)) to frontend channel (Message ID: 1359663602973409553)
+2025-04-10 01:57:44,430 - upwork_bot - INFO - Filtered out AI-related job: UX/UI Design Partner for CleanTech Infrastructure SaaS Tool (matched term: AI)
+2025-04-10 01:57:44,430 - upwork_bot - INFO - Filtered job by content: UX/UI Design Partner for CleanTech Infrastructure SaaS Tool (https://upwork.com/jobs/Design-Partner-for-CleanTech-Infrastructure-SaaS-Tool_~021910103152119049378/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 01:57:44,430 - upwork_bot - INFO - Added job https://upwork.com/jobs/Design-Partner-for-CleanTech-Infrastructure-SaaS-Tool_~021910103152119049378/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 01:57:44,430 - upwork_bot - INFO - Updated last job title to: Cold Email Deliverability and Systems Specialist Needed
+2025-04-10 01:57:44,431 - upwork_bot - INFO - Job check completed. Waiting 120 seconds before next check.
+2025-04-10 01:57:49,256 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359663602973409553): https://upwork.com/jobs/URGENT-Experienced-Apollo-B2B-List-Builder-Screenshots-Only_~021910103257416657833/?referrer_url_path=/nx/search/jobs/
+2025-04-10 01:57:55,878 - upwork_bot - WARNING - Could not get job_url from message_job_map for 1359619990726115530, using embed URL: https://upwork.com/jobs/Accounting-Clerk-Part-time_~021909222935205593228/?referrer_url_path=/nx/search/jobs/
+2025-04-10 01:57:55,878 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359619990726115530): https://upwork.com/jobs/Accounting-Clerk-Part-time_~021909222935205593228/?referrer_url_path=/nx/search/jobs/
+2025-04-10 01:57:55,878 - upwork_bot - WARNING - Description for https://upwork.com/jobs/Accounting-Clerk-Part-time_~021909222935205593228/?referrer_url_path=/nx/search/jobs/ not found in cache, attempting re-fetch.
+2025-04-10 01:57:55,878 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Accounting-Clerk-Part-time_~021909222935205593228/?referrer_url_path=/nx/search/jobs/
+2025-04-10 01:58:04,254 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359663602973409553): https://upwork.com/jobs/URGENT-Experienced-Apollo-B2B-List-Builder-Screenshots-Only_~021910103257416657833/?referrer_url_path=/nx/search/jobs/
+2025-04-10 01:58:07,020 - upwork_bot - WARNING - Could not get job_url from message_job_map for 1359616272752709633, using embed URL: https://upwork.com/jobs/ARX-file-creation-for-New-Lisp-Functions-read-MDB-Files_~021910057497044118441/?referrer_url_path=/nx/search/jobs/
+2025-04-10 01:58:07,020 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359616272752709633): https://upwork.com/jobs/ARX-file-creation-for-New-Lisp-Functions-read-MDB-Files_~021910057497044118441/?referrer_url_path=/nx/search/jobs/
+2025-04-10 01:58:07,021 - upwork_bot - WARNING - Description for https://upwork.com/jobs/ARX-file-creation-for-New-Lisp-Functions-read-MDB-Files_~021910057497044118441/?referrer_url_path=/nx/search/jobs/ not found in cache, attempting re-fetch.
+2025-04-10 01:58:07,021 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/ARX-file-creation-for-New-Lisp-Functions-read-MDB-Files_~021910057497044118441/?referrer_url_path=/nx/search/jobs/
+2025-04-10 01:58:21,990 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359663602973409553): https://upwork.com/jobs/URGENT-Experienced-Apollo-B2B-List-Builder-Screenshots-Only_~021910103257416657833/?referrer_url_path=/nx/search/jobs/
