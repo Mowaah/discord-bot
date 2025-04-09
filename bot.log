@@ -2695,3 +2695,168 @@ TypeError: telegram_sender() missing 2 required positional arguments: 'token' an
 2025-04-10 01:58:07,021 - upwork_bot - WARNING - Description for https://upwork.com/jobs/ARX-file-creation-for-New-Lisp-Functions-read-MDB-Files_~021910057497044118441/?referrer_url_path=/nx/search/jobs/ not found in cache, attempting re-fetch.
 2025-04-10 01:58:07,021 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/ARX-file-creation-for-New-Lisp-Functions-read-MDB-Files_~021910057497044118441/?referrer_url_path=/nx/search/jobs/
 2025-04-10 01:58:21,990 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359663602973409553): https://upwork.com/jobs/URGENT-Experienced-Apollo-B2B-List-Builder-Screenshots-Only_~021910103257416657833/?referrer_url_path=/nx/search/jobs/
+2025-04-10 02:01:12,371 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-10 02:01:15,948 - discord.client - INFO - logging in using static token
+2025-04-10 02:01:17,713 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 15477759098417f1603febc440a2cb5a).
+2025-04-10 02:01:19,748 - upwork_bot - INFO - Upwork Jobs#9704 has connected to Discord!
+2025-04-10 02:01:19,748 - upwork_bot - INFO - Bot is in 1 servers
+2025-04-10 02:01:19,749 - upwork_bot - INFO - - Gamers' Castle (ID: 426670702511521792)
+2025-04-10 02:01:19,749 - upwork_bot - INFO -   - upwork-job-fullstack (ID: 1359137471689916477)
+2025-04-10 02:01:19,750 - upwork_bot - INFO -   - upwork-job-backend (ID: 1359136722079711484)
+2025-04-10 02:01:19,750 - upwork_bot - INFO -   - upwork-job-frontend (ID: 1359136544337957016)
+2025-04-10 02:01:19,750 - upwork_bot - INFO -   - upwork-job-automation (ID: 1359136863562104913)
+2025-04-10 02:01:19,750 - upwork_bot - INFO -   - upwork-job-scrape (ID: 1359136986476183723)
+2025-04-10 02:01:19,750 - upwork_bot - INFO -   - osu-patches (ID: 873289703011545168)
+2025-04-10 02:01:19,750 - upwork_bot - INFO -   - freebies (ID: 893699869385056336)
+2025-04-10 02:01:19,751 - upwork_bot - INFO -   - valorant-patches (ID: 719978113999831142)
+2025-04-10 02:01:19,751 - upwork_bot - INFO -   - ow-patches (ID: 705507759935848548)
+2025-04-10 02:01:19,751 - upwork_bot - INFO -   - brawlhalla-patches (ID: 873289455065255989)
+2025-04-10 02:01:19,751 - upwork_bot - INFO -   - lostark-patches (ID: 1034804611091005491)
+2025-04-10 02:01:19,751 - upwork_bot - INFO -   - deadlock-patches (ID: 1316096249388073111)
+2025-04-10 02:01:19,752 - upwork_bot - INFO -   - general (ID: 426671613044457472)
+2025-04-10 02:01:19,752 - upwork_bot - INFO -   - games (ID: 618154626814050304)
+2025-04-10 02:01:19,752 - upwork_bot - INFO -   - memes (ID: 434091270198263809)
+2025-04-10 02:01:19,752 - upwork_bot - INFO -   - bots (ID: 427549071172173824)
+2025-04-10 02:01:19,752 - upwork_bot - INFO -   - music (ID: 873288615642431569)
+2025-04-10 02:01:19,753 - upwork_bot - INFO -   - poker-night-commands (ID: 844213254712852540)
+2025-04-10 02:01:19,753 - upwork_bot - INFO -   - voice-typers (ID: 452665393425940480)
+2025-04-10 02:01:19,753 - upwork_bot - INFO -   - upwork-job-others (ID: 1359140874759438386)
+2025-04-10 02:01:19,753 - upwork_bot - INFO -   - bot-log (ID: 1359576933003825313)
+2025-04-10 02:01:19,753 - upwork_bot - INFO - Looking for channels...
+2025-04-10 02:01:19,754 - upwork_bot - INFO - Found frontend channel: upwork-job-frontend
+2025-04-10 02:01:19,754 - upwork_bot - INFO - Found backend channel: upwork-job-backend
+2025-04-10 02:01:19,754 - upwork_bot - INFO - Found fullstack channel: upwork-job-fullstack
+2025-04-10 02:01:19,754 - upwork_bot - INFO - Found automation channel: upwork-job-automation
+2025-04-10 02:01:19,754 - upwork_bot - INFO - Found scraping channel: upwork-job-scrape
+2025-04-10 02:01:19,754 - upwork_bot - INFO - Found other channel: upwork-job-others
+2025-04-10 02:01:19,755 - upwork_bot - INFO - Starting continuous job checking task (interval: 120 seconds)
+2025-04-10 02:01:19,755 - upwork_bot - INFO - Bot is ready and listening for interactions.
+2025-04-10 02:01:19,755 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 02:01:20,841 - upwork_bot - ERROR - Error in fetch_jobs: ('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))
+2025-04-10 02:01:20,841 - upwork_bot - INFO - No jobs found. Retrying in next cycle.
+2025-04-10 02:01:20,844 - discord.client - ERROR - Attempting a reconnect in 1.12s
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\resolver.py", line 105, in resolve
+    resp = await self._resolver.getaddrinfo(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+aiodns.error.DNSError: (11, 'Could not contact DNS servers')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1335, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 989, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1020, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\resolver.py", line 114, in resolve
+    raise OSError(None, msg) from exc
+OSError: [Errno None] Could not contact DNS servers
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\client.py", line 701, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\gateway.py", line 375, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\http.py", line 554, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\client.py", line 938, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\client.py", line 663, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 538, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1050, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1341, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [Could not contact DNS servers]
+2025-04-10 02:01:21,983 - discord.client - ERROR - Attempting a reconnect in 2.37s
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\resolver.py", line 105, in resolve
+    resp = await self._resolver.getaddrinfo(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+aiodns.error.DNSError: (11, 'Could not contact DNS servers')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1335, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 989, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1020, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\resolver.py", line 114, in resolve
+    raise OSError(None, msg) from exc
+OSError: [Errno None] Could not contact DNS servers
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\client.py", line 701, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\gateway.py", line 375, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\http.py", line 554, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\client.py", line 938, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\client.py", line 663, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 538, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1050, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1341, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [Could not contact DNS servers]
