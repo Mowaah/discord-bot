@@ -1893,3 +1893,1039 @@ AttributeError: 'Interaction' object has no attribute 'author'
 2025-04-08 19:46:43,103 - upwork_bot - INFO - Updated last job title to: Google  Sheets/AppsScript Expert
 2025-04-08 19:46:45,327 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359222943275548885): https://upwork.com/jobs/Web-Application-Developer-Needed-for-Storage-Application_~021909662785720216489/?referrer_url_path=/nx/search/jobs/
 2025-04-08 19:47:47,914 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359222943275548885): https://upwork.com/jobs/Web-Application-Developer-Needed-for-Storage-Application_~021909662785720216489/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:17:17,320 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-10 17:17:17,340 - discord.client - INFO - logging in using static token
+2025-04-10 17:17:18,946 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: ebcede9299c2104c1a4738f89ab068f5).
+2025-04-10 17:17:20,966 - upwork_bot - INFO - Upwork Jobs#9704 has connected to Discord!
+2025-04-10 17:17:20,966 - upwork_bot - INFO - Bot is in 1 servers
+2025-04-10 17:17:20,967 - upwork_bot - INFO - - Gamers' Castle (ID: 426670702511521792)
+2025-04-10 17:17:20,968 - upwork_bot - INFO -   - upwork-job-fullstack (ID: 1359137471689916477)
+2025-04-10 17:17:20,968 - upwork_bot - INFO -   - upwork-job-backend (ID: 1359136722079711484)
+2025-04-10 17:17:20,968 - upwork_bot - INFO -   - upwork-job-frontend (ID: 1359136544337957016)
+2025-04-10 17:17:20,969 - upwork_bot - INFO -   - upwork-job-automation (ID: 1359136863562104913)
+2025-04-10 17:17:20,969 - upwork_bot - INFO -   - upwork-job-scrape (ID: 1359136986476183723)
+2025-04-10 17:17:20,970 - upwork_bot - INFO -   - osu-patches (ID: 873289703011545168)
+2025-04-10 17:17:20,970 - upwork_bot - INFO -   - freebies (ID: 893699869385056336)
+2025-04-10 17:17:20,970 - upwork_bot - INFO -   - valorant-patches (ID: 719978113999831142)
+2025-04-10 17:17:20,970 - upwork_bot - INFO -   - ow-patches (ID: 705507759935848548)
+2025-04-10 17:17:20,971 - upwork_bot - INFO -   - brawlhalla-patches (ID: 873289455065255989)
+2025-04-10 17:17:20,971 - upwork_bot - INFO -   - lostark-patches (ID: 1034804611091005491)
+2025-04-10 17:17:20,971 - upwork_bot - INFO -   - deadlock-patches (ID: 1316096249388073111)
+2025-04-10 17:17:20,971 - upwork_bot - INFO -   - general (ID: 426671613044457472)
+2025-04-10 17:17:20,972 - upwork_bot - INFO -   - games (ID: 618154626814050304)
+2025-04-10 17:17:20,972 - upwork_bot - INFO -   - memes (ID: 434091270198263809)
+2025-04-10 17:17:20,972 - upwork_bot - INFO -   - bots (ID: 427549071172173824)
+2025-04-10 17:17:20,973 - upwork_bot - INFO -   - music (ID: 873288615642431569)
+2025-04-10 17:17:20,973 - upwork_bot - INFO -   - poker-night-commands (ID: 844213254712852540)
+2025-04-10 17:17:20,973 - upwork_bot - INFO -   - voice-typers (ID: 452665393425940480)
+2025-04-10 17:17:20,973 - upwork_bot - INFO -   - upwork-job-others (ID: 1359140874759438386)
+2025-04-10 17:17:20,973 - upwork_bot - INFO -   - bot-log (ID: 1359576933003825313)
+2025-04-10 17:17:20,973 - upwork_bot - INFO - Looking for channels...
+2025-04-10 17:17:20,974 - upwork_bot - INFO - Found frontend channel: upwork-job-frontend
+2025-04-10 17:17:20,974 - upwork_bot - INFO - Found backend channel: upwork-job-backend
+2025-04-10 17:17:20,974 - upwork_bot - INFO - Found fullstack channel: upwork-job-fullstack
+2025-04-10 17:17:20,974 - upwork_bot - INFO - Found automation channel: upwork-job-automation
+2025-04-10 17:17:20,974 - upwork_bot - INFO - Found scraping channel: upwork-job-scrape
+2025-04-10 17:17:20,974 - upwork_bot - INFO - Found other channel: upwork-job-others
+2025-04-10 17:17:20,974 - upwork_bot - INFO - Bot is ready and listening for interactions.
+2025-04-10 17:17:20,975 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 17:17:22,529 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-10 17:17:22,529 - upwork_bot - INFO - Newest job title: AWS CloudFormation Expert Needed for CloudFront and Lambda Integration
+2025-04-10 17:17:22,529 - upwork_bot - INFO - Processing job: AWS CloudFormation Expert Needed for CloudFront and Lambda Integration
+2025-04-10 17:17:22,530 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/AWS-CloudFormation-Expert-Needed-for-CloudFront-and-Lambda-Integration_~021910336064840770352/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:17:25,215 - upwork_bot - INFO - Processing job: E-commerce storelead scraper needed for some leads.
+2025-04-10 17:17:25,216 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/commerce-storelead-scraper-needed-for-some-leads_~021910335893474980980/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:17:27,708 - upwork_bot - INFO - Processing job: Hiring For a Simple Data Entry Project – Image to Excel
+2025-04-10 17:17:27,708 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Hiring-For-Simple-Data-Entry-Project-Image-Excel_~021910335857730233136/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:17:30,341 - upwork_bot - INFO - Processing job: FULL-TIME Sales Virtual Assistant
+2025-04-10 17:17:30,343 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/FULL-TIME-Sales-Virtual-Assistant_~021910335823584404272/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:17:33,249 - upwork_bot - INFO - Processing job: Full-Stack AI Expert Needed for Content Creation and SEO
+2025-04-10 17:17:33,250 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-Expert-Needed-for-Content-Creation-and-SEO_~021910335710073955120/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:17:36,182 - upwork_bot - INFO - First run limit reached
+2025-04-10 17:17:36,182 - upwork_bot - INFO - Updated last job title to: AWS CloudFormation Expert Needed for CloudFront and Lambda Integration
+2025-04-10 17:17:36,183 - upwork_bot - INFO - First run completed
+2025-04-10 17:17:36,188 - upwork_bot - INFO - Filtered out devops-related job: AWS CloudFormation Expert Needed for CloudFront and Lambda Integration (matched term: aws)
+2025-04-10 17:17:36,189 - upwork_bot - INFO - Filtered job by content: AWS CloudFormation Expert Needed for CloudFront and Lambda Integration (https://upwork.com/jobs/AWS-CloudFormation-Expert-Needed-for-CloudFront-and-Lambda-Integration_~021910336064840770352/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 17:17:36,189 - upwork_bot - INFO - Added job https://upwork.com/jobs/AWS-CloudFormation-Expert-Needed-for-CloudFront-and-Lambda-Integration_~021910336064840770352/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 17:17:36,190 - upwork_bot - INFO - Filtered out AI-related job: E-commerce storelead scraper needed for some leads. (matched term: AI)
+2025-04-10 17:17:36,190 - upwork_bot - INFO - Filtered job by content: E-commerce storelead scraper needed for some leads. (https://upwork.com/jobs/commerce-storelead-scraper-needed-for-some-leads_~021910335893474980980/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 17:17:36,190 - upwork_bot - INFO - Added job https://upwork.com/jobs/commerce-storelead-scraper-needed-for-some-leads_~021910335893474980980/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 17:17:36,194 - upwork_bot - INFO - Processing job: Hiring For a Simple Data Entry Project – Image to Excel (https://upwork.com/jobs/Hiring-For-Simple-Data-Entry-Project-Image-Excel_~021910335857730233136/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 17:17:36,195 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Hiring-For-Simple-Data-Entry-Project-Image-Excel_~021910335857730233136/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:17:36,645 - upwork_bot - INFO - Successfully sent job 021910335857... (Hiring For a Simple Data Entry Project – Image to Excel) to other channel (Message ID: 1359895095632986322)
+2025-04-10 17:17:36,648 - upwork_bot - INFO - Processing job: FULL-TIME Sales Virtual Assistant (https://upwork.com/jobs/FULL-TIME-Sales-Virtual-Assistant_~021910335823584404272/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 17:17:36,648 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/FULL-TIME-Sales-Virtual-Assistant_~021910335823584404272/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:17:36,926 - upwork_bot - INFO - Successfully sent job 021910335823... (FULL-TIME Sales Virtual Assistant) to other channel (Message ID: 1359895096837017821)
+2025-04-10 17:17:36,927 - upwork_bot - INFO - Filtered out AI-related job: Full-Stack AI Expert Needed for Content Creation and SEO (matched term: AI)
+2025-04-10 17:17:36,927 - upwork_bot - INFO - Filtered job by content: Full-Stack AI Expert Needed for Content Creation and SEO (https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-Expert-Needed-for-Content-Creation-and-SEO_~021910335710073955120/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 17:17:36,927 - upwork_bot - INFO - Added job https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-Expert-Needed-for-Content-Creation-and-SEO_~021910335710073955120/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 17:17:36,928 - upwork_bot - INFO - Updated last job title to: Hiring For a Simple Data Entry Project – Image to Excel
+2025-04-10 17:21:13,637 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-10 17:21:13,659 - discord.client - INFO - logging in using static token
+2025-04-10 17:21:15,130 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 99f5fb7246ac7f0f421f348271a86d14).
+2025-04-10 17:21:17,145 - upwork_bot - INFO - Upwork Jobs#9704 has connected to Discord!
+2025-04-10 17:21:17,145 - upwork_bot - INFO - Bot is in 1 servers
+2025-04-10 17:21:17,145 - upwork_bot - INFO - - Gamers' Castle (ID: 426670702511521792)
+2025-04-10 17:21:17,145 - upwork_bot - INFO -   - upwork-job-fullstack (ID: 1359137471689916477)
+2025-04-10 17:21:17,145 - upwork_bot - INFO -   - upwork-job-backend (ID: 1359136722079711484)
+2025-04-10 17:21:17,145 - upwork_bot - INFO -   - upwork-job-frontend (ID: 1359136544337957016)
+2025-04-10 17:21:17,145 - upwork_bot - INFO -   - upwork-job-automation (ID: 1359136863562104913)
+2025-04-10 17:21:17,146 - upwork_bot - INFO -   - upwork-job-scrape (ID: 1359136986476183723)
+2025-04-10 17:21:17,146 - upwork_bot - INFO -   - osu-patches (ID: 873289703011545168)
+2025-04-10 17:21:17,146 - upwork_bot - INFO -   - freebies (ID: 893699869385056336)
+2025-04-10 17:21:17,146 - upwork_bot - INFO -   - valorant-patches (ID: 719978113999831142)
+2025-04-10 17:21:17,146 - upwork_bot - INFO -   - ow-patches (ID: 705507759935848548)
+2025-04-10 17:21:17,146 - upwork_bot - INFO -   - brawlhalla-patches (ID: 873289455065255989)
+2025-04-10 17:21:17,146 - upwork_bot - INFO -   - lostark-patches (ID: 1034804611091005491)
+2025-04-10 17:21:17,146 - upwork_bot - INFO -   - deadlock-patches (ID: 1316096249388073111)
+2025-04-10 17:21:17,146 - upwork_bot - INFO -   - general (ID: 426671613044457472)
+2025-04-10 17:21:17,146 - upwork_bot - INFO -   - games (ID: 618154626814050304)
+2025-04-10 17:21:17,146 - upwork_bot - INFO -   - memes (ID: 434091270198263809)
+2025-04-10 17:21:17,146 - upwork_bot - INFO -   - bots (ID: 427549071172173824)
+2025-04-10 17:21:17,146 - upwork_bot - INFO -   - music (ID: 873288615642431569)
+2025-04-10 17:21:17,147 - upwork_bot - INFO -   - poker-night-commands (ID: 844213254712852540)
+2025-04-10 17:21:17,147 - upwork_bot - INFO -   - voice-typers (ID: 452665393425940480)
+2025-04-10 17:21:17,147 - upwork_bot - INFO -   - upwork-job-others (ID: 1359140874759438386)
+2025-04-10 17:21:17,147 - upwork_bot - INFO -   - bot-log (ID: 1359576933003825313)
+2025-04-10 17:21:17,147 - upwork_bot - INFO - Looking for channels...
+2025-04-10 17:21:17,147 - upwork_bot - INFO - Found frontend channel: upwork-job-frontend
+2025-04-10 17:21:17,147 - upwork_bot - INFO - Found backend channel: upwork-job-backend
+2025-04-10 17:21:17,147 - upwork_bot - INFO - Found fullstack channel: upwork-job-fullstack
+2025-04-10 17:21:17,147 - upwork_bot - INFO - Found automation channel: upwork-job-automation
+2025-04-10 17:21:17,147 - upwork_bot - INFO - Found scraping channel: upwork-job-scrape
+2025-04-10 17:21:17,148 - upwork_bot - INFO - Found other channel: upwork-job-others
+2025-04-10 17:21:17,148 - upwork_bot - INFO - Bot is ready and listening for interactions.
+2025-04-10 17:21:17,148 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 17:21:18,227 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-10 17:21:18,227 - upwork_bot - INFO - Newest job title: Estimatrix MVP
+2025-04-10 17:21:18,228 - upwork_bot - INFO - Processing job: Estimatrix MVP
+2025-04-10 17:21:18,228 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Estimatrix-MVP_~021910336927999173424/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:21:21,701 - upwork_bot - INFO - Processing job: PDF Hyperlink Integration Specialist Needed
+2025-04-10 17:21:21,702 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/PDF-Hyperlink-Integration-Specialist-Needed_~021910336772918977328/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:21:24,215 - upwork_bot - INFO - Processing job: Part-Time Digital Marketer Wanted for Growing Software Company (Ongoing Work)
+2025-04-10 17:21:24,216 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Part-Time-Digital-Marketer-Wanted-for-Growing-Software-Company-Ongoing-Work_~021910336623906883911/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:21:27,024 - upwork_bot - INFO - Processing job: MS-PowerAutomate workflow design for user approval and admission
+2025-04-10 17:21:27,025 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Power-span-class-highlight-Automate-span-workflow-design-for-user-approval-and-admission_~021910336545127216244/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:21:31,428 - upwork_bot - INFO - Processing job: Implement Supabase Apple/Google/Email authentication in Expo Dev mobile/web application
+2025-04-10 17:21:31,428 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Implement-Supabase-Apple-Google-Email-authentication-Expo-Dev-mobile-web-application_~021910336403829503092/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:21:34,216 - upwork_bot - INFO - First run limit reached
+2025-04-10 17:21:34,217 - upwork_bot - INFO - Updated last job title to: Estimatrix MVP
+2025-04-10 17:21:34,217 - upwork_bot - INFO - First run completed
+2025-04-10 17:21:34,220 - upwork_bot - INFO - Processing job: Estimatrix MVP (https://upwork.com/jobs/Estimatrix-MVP_~021910336927999173424/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 17:21:34,221 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Estimatrix-MVP_~021910336927999173424/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:21:34,658 - upwork_bot - INFO - Successfully sent job 021910336927... (Estimatrix MVP) to other channel (Message ID: 1359896093676146699)
+2025-04-10 17:21:34,661 - upwork_bot - INFO - Processing job: PDF Hyperlink Integration Specialist Needed (https://upwork.com/jobs/PDF-Hyperlink-Integration-Specialist-Needed_~021910336772918977328/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 17:21:34,661 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/PDF-Hyperlink-Integration-Specialist-Needed_~021910336772918977328/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:21:34,957 - upwork_bot - INFO - Successfully sent job 021910336772... (PDF Hyperlink Integration Specialist Needed) to other channel (Message ID: 1359896095244681398)
+2025-04-10 17:21:34,958 - upwork_bot - INFO - Filtered out AI-related job: Part-Time Digital Marketer Wanted for Growing Software Company (Ongoing Work) (matched term: AI)
+2025-04-10 17:21:34,958 - upwork_bot - INFO - Filtered job by content: Part-Time Digital Marketer Wanted for Growing Software Company (Ongoing Work) (https://upwork.com/jobs/Part-Time-Digital-Marketer-Wanted-for-Growing-Software-Company-Ongoing-Work_~021910336623906883911/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 17:21:34,958 - upwork_bot - INFO - Added job https://upwork.com/jobs/Part-Time-Digital-Marketer-Wanted-for-Growing-Software-Company-Ongoing-Work_~021910336623906883911/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 17:21:34,960 - upwork_bot - INFO - Processing job: MS-PowerAutomate workflow design for user approval and admission (https://upwork.com/jobs/Power-span-class-highlight-Automate-span-workflow-design-for-user-approval-and-admission_~021910336545127216244/?referrer_url_path=/nx/search/jobs/) for categories: ['automation']
+2025-04-10 17:21:34,960 - upwork_bot - INFO - Preparing job for channel: upwork-job-automation (ID: 1359136863562104913) - Job Link: https://upwork.com/jobs/Power-span-class-highlight-Automate-span-workflow-design-for-user-approval-and-admission_~021910336545127216244/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:21:35,251 - upwork_bot - INFO - Successfully sent job 021910336545... (MS-PowerAutomate workflow design for user approval and admission) to automation channel (Message ID: 1359896096473878789)
+2025-04-10 17:21:35,253 - upwork_bot - INFO - Processing job: Implement Supabase Apple/Google/Email authentication in Expo Dev mobile/web application (https://upwork.com/jobs/Implement-Supabase-Apple-Google-Email-authentication-Expo-Dev-mobile-web-application_~021910336403829503092/?referrer_url_path=/nx/search/jobs/) for categories: ['frontend']
+2025-04-10 17:21:35,253 - upwork_bot - INFO - Preparing job for channel: upwork-job-frontend (ID: 1359136544337957016) - Job Link: https://upwork.com/jobs/Implement-Supabase-Apple-Google-Email-authentication-Expo-Dev-mobile-web-application_~021910336403829503092/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:21:35,568 - upwork_bot - INFO - Successfully sent job 021910336403... (Implement Supabase Apple/Google/Email authentication in Expo Dev mobile/web application) to frontend channel (Message ID: 1359896097631244490)
+2025-04-10 17:21:35,568 - upwork_bot - INFO - Updated last job title to: Estimatrix MVP
+2025-04-10 17:26:12,507 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-10 17:26:12,526 - discord.client - INFO - logging in using static token
+2025-04-10 17:26:13,990 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 92ab5becb20a39dfacc0b68048c2fc2a).
+2025-04-10 17:26:16,016 - upwork_bot - INFO - Upwork Jobs#9704 has connected to Discord!
+2025-04-10 17:26:16,016 - upwork_bot - INFO - Bot is in 1 servers
+2025-04-10 17:26:16,016 - upwork_bot - INFO - - Gamers' Castle (ID: 426670702511521792)
+2025-04-10 17:26:16,016 - upwork_bot - INFO -   - upwork-job-fullstack (ID: 1359137471689916477)
+2025-04-10 17:26:16,016 - upwork_bot - INFO -   - upwork-job-backend (ID: 1359136722079711484)
+2025-04-10 17:26:16,016 - upwork_bot - INFO -   - upwork-job-frontend (ID: 1359136544337957016)
+2025-04-10 17:26:16,016 - upwork_bot - INFO -   - upwork-job-automation (ID: 1359136863562104913)
+2025-04-10 17:26:16,017 - upwork_bot - INFO -   - upwork-job-scrape (ID: 1359136986476183723)
+2025-04-10 17:26:16,017 - upwork_bot - INFO -   - osu-patches (ID: 873289703011545168)
+2025-04-10 17:26:16,017 - upwork_bot - INFO -   - freebies (ID: 893699869385056336)
+2025-04-10 17:26:16,017 - upwork_bot - INFO -   - valorant-patches (ID: 719978113999831142)
+2025-04-10 17:26:16,017 - upwork_bot - INFO -   - ow-patches (ID: 705507759935848548)
+2025-04-10 17:26:16,017 - upwork_bot - INFO -   - brawlhalla-patches (ID: 873289455065255989)
+2025-04-10 17:26:16,017 - upwork_bot - INFO -   - lostark-patches (ID: 1034804611091005491)
+2025-04-10 17:26:16,017 - upwork_bot - INFO -   - deadlock-patches (ID: 1316096249388073111)
+2025-04-10 17:26:16,017 - upwork_bot - INFO -   - general (ID: 426671613044457472)
+2025-04-10 17:26:16,017 - upwork_bot - INFO -   - games (ID: 618154626814050304)
+2025-04-10 17:26:16,017 - upwork_bot - INFO -   - memes (ID: 434091270198263809)
+2025-04-10 17:26:16,017 - upwork_bot - INFO -   - bots (ID: 427549071172173824)
+2025-04-10 17:26:16,018 - upwork_bot - INFO -   - music (ID: 873288615642431569)
+2025-04-10 17:26:16,018 - upwork_bot - INFO -   - poker-night-commands (ID: 844213254712852540)
+2025-04-10 17:26:16,018 - upwork_bot - INFO -   - voice-typers (ID: 452665393425940480)
+2025-04-10 17:26:16,018 - upwork_bot - INFO -   - upwork-job-others (ID: 1359140874759438386)
+2025-04-10 17:26:16,018 - upwork_bot - INFO -   - bot-log (ID: 1359576933003825313)
+2025-04-10 17:26:16,018 - upwork_bot - INFO - Looking for channels...
+2025-04-10 17:26:16,018 - upwork_bot - INFO - Found frontend channel: upwork-job-frontend
+2025-04-10 17:26:16,018 - upwork_bot - INFO - Found backend channel: upwork-job-backend
+2025-04-10 17:26:16,019 - upwork_bot - INFO - Found fullstack channel: upwork-job-fullstack
+2025-04-10 17:26:16,019 - upwork_bot - INFO - Found automation channel: upwork-job-automation
+2025-04-10 17:26:16,019 - upwork_bot - INFO - Found scraping channel: upwork-job-scrape
+2025-04-10 17:26:16,019 - upwork_bot - INFO - Found other channel: upwork-job-others
+2025-04-10 17:26:16,019 - upwork_bot - INFO - Bot is ready and listening for interactions.
+2025-04-10 17:26:16,019 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 17:26:17,355 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-10 17:26:17,355 - upwork_bot - INFO - Newest job title: Build Chrome Extension to Sync LinkedIn Messages (Scrape, Sync, and Reply via Webhook)
+2025-04-10 17:26:17,356 - upwork_bot - INFO - Processing job: Build Chrome Extension to Sync LinkedIn Messages (Scrape, Sync, and Reply via Webhook)
+2025-04-10 17:26:17,356 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Build-Chrome-Extension-Sync-LinkedIn-Messages-span-class-highlight-Scrape-span-Sync-and-Reply-via-Webhook_~021910337961196126568/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:26:20,996 - upwork_bot - INFO - Processing job: Notion Expert for B2B Company
+2025-04-10 17:26:20,996 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Notion-Expert-for-B2B-Company_~021910337747736611814/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:26:23,456 - upwork_bot - INFO - Processing job: Klaviyo Setup and Automation Integration for Shopify
+2025-04-10 17:26:23,456 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Klaviyo-Setup-and-span-class-highlight-Automation-span-Integration-for-Shopify_~021910336038371406964/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:26:26,923 - upwork_bot - INFO - Processing job: .Net developer
+2025-04-10 17:26:26,923 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Net-developer_~021910337395032369831/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:26:29,364 - upwork_bot - INFO - Processing job: .NET Developer (Reverse Engineering & API Integration) for Quick Job
+2025-04-10 17:26:29,365 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/NET-Developer-Reverse-Engineering-API-Integration-for-Quick-Job_~021910337296871433008/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:26:31,840 - upwork_bot - INFO - First run limit reached
+2025-04-10 17:26:31,840 - upwork_bot - INFO - Updated last job title to: Build Chrome Extension to Sync LinkedIn Messages (Scrape, Sync, and Reply via Webhook)
+2025-04-10 17:26:31,840 - upwork_bot - INFO - First run completed
+2025-04-10 17:26:31,848 - upwork_bot - INFO - Processing job: Build Chrome Extension to Sync LinkedIn Messages (Scrape, Sync, and Reply via Webhook) (https://upwork.com/jobs/Build-Chrome-Extension-Sync-LinkedIn-Messages-span-class-highlight-Scrape-span-Sync-and-Reply-via-Webhook_~021910337961196126568/?referrer_url_path=/nx/search/jobs/) for categories: ['scraping', 'automation']
+2025-04-10 17:26:31,848 - upwork_bot - INFO - Preparing job for channel: upwork-job-scrape (ID: 1359136986476183723) - Job Link: https://upwork.com/jobs/Build-Chrome-Extension-Sync-LinkedIn-Messages-span-class-highlight-Scrape-span-Sync-and-Reply-via-Webhook_~021910337961196126568/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:26:32,274 - upwork_bot - INFO - Successfully sent job 021910337961... (Build Chrome Extension to Sync LinkedIn Messages (Scrape, Sync, and Reply via Webhook)) to scraping channel (Message ID: 1359897342098280549)
+2025-04-10 17:26:32,274 - upwork_bot - INFO - Preparing job for channel: upwork-job-automation (ID: 1359136863562104913) - Job Link: https://upwork.com/jobs/Build-Chrome-Extension-Sync-LinkedIn-Messages-span-class-highlight-Scrape-span-Sync-and-Reply-via-Webhook_~021910337961196126568/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:26:32,558 - upwork_bot - INFO - Successfully sent job 021910337961... (Build Chrome Extension to Sync LinkedIn Messages (Scrape, Sync, and Reply via Webhook)) to automation channel (Message ID: 1359897343448842421)
+2025-04-10 17:26:32,559 - upwork_bot - INFO - Filtered out AI-related job: Notion Expert for B2B Company (matched term: AI)
+2025-04-10 17:26:32,559 - upwork_bot - INFO - Filtered job by content: Notion Expert for B2B Company (https://upwork.com/jobs/Notion-Expert-for-B2B-Company_~021910337747736611814/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 17:26:32,560 - upwork_bot - INFO - Added job https://upwork.com/jobs/Notion-Expert-for-B2B-Company_~021910337747736611814/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 17:26:32,564 - upwork_bot - INFO - Processing job: Klaviyo Setup and Automation Integration for Shopify (https://upwork.com/jobs/Klaviyo-Setup-and-span-class-highlight-Automation-span-Integration-for-Shopify_~021910336038371406964/?referrer_url_path=/nx/search/jobs/) for categories: ['automation']
+2025-04-10 17:26:32,565 - upwork_bot - INFO - Preparing job for channel: upwork-job-automation (ID: 1359136863562104913) - Job Link: https://upwork.com/jobs/Klaviyo-Setup-and-span-class-highlight-Automation-span-Integration-for-Shopify_~021910336038371406964/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:26:32,853 - upwork_bot - INFO - Successfully sent job 021910336038... (Klaviyo Setup and Automation Integration for Shopify) to automation channel (Message ID: 1359897344681971985)
+2025-04-10 17:26:32,856 - upwork_bot - INFO - Filtered out devops-related job: .Net developer (matched term: azure)
+2025-04-10 17:26:32,857 - upwork_bot - INFO - Filtered job by content: .Net developer (https://upwork.com/jobs/Net-developer_~021910337395032369831/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 17:26:32,857 - upwork_bot - INFO - Added job https://upwork.com/jobs/Net-developer_~021910337395032369831/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 17:26:32,860 - upwork_bot - INFO - Filtered out data-related job: .NET Developer (Reverse Engineering & API Integration) for Quick Job (matched term: etl)
+2025-04-10 17:26:32,861 - upwork_bot - INFO - Filtered job by content: .NET Developer (Reverse Engineering & API Integration) for Quick Job (https://upwork.com/jobs/NET-Developer-Reverse-Engineering-API-Integration-for-Quick-Job_~021910337296871433008/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 17:26:32,861 - upwork_bot - INFO - Added job https://upwork.com/jobs/NET-Developer-Reverse-Engineering-API-Integration-for-Quick-Job_~021910337296871433008/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 17:26:32,862 - upwork_bot - INFO - Updated last job title to: Build Chrome Extension to Sync LinkedIn Messages (Scrape, Sync, and Reply via Webhook)
+2025-04-10 17:38:03,659 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-10 17:38:03,681 - discord.client - INFO - logging in using static token
+2025-04-10 17:38:05,027 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: db826ff29d048e58aab8cd41fb8701f6).
+2025-04-10 17:38:07,049 - upwork_bot - INFO - Upwork Jobs#9704 has connected to Discord!
+2025-04-10 17:38:07,049 - upwork_bot - INFO - Bot is in 1 servers
+2025-04-10 17:38:07,050 - upwork_bot - INFO - - Gamers' Castle (ID: 426670702511521792)
+2025-04-10 17:38:07,050 - upwork_bot - INFO -   - upwork-job-fullstack (ID: 1359137471689916477)
+2025-04-10 17:38:07,051 - upwork_bot - INFO -   - upwork-job-backend (ID: 1359136722079711484)
+2025-04-10 17:38:07,051 - upwork_bot - INFO -   - upwork-job-frontend (ID: 1359136544337957016)
+2025-04-10 17:38:07,051 - upwork_bot - INFO -   - upwork-job-automation (ID: 1359136863562104913)
+2025-04-10 17:38:07,051 - upwork_bot - INFO -   - upwork-job-scrape (ID: 1359136986476183723)
+2025-04-10 17:38:07,051 - upwork_bot - INFO -   - osu-patches (ID: 873289703011545168)
+2025-04-10 17:38:07,051 - upwork_bot - INFO -   - freebies (ID: 893699869385056336)
+2025-04-10 17:38:07,052 - upwork_bot - INFO -   - valorant-patches (ID: 719978113999831142)
+2025-04-10 17:38:07,052 - upwork_bot - INFO -   - ow-patches (ID: 705507759935848548)
+2025-04-10 17:38:07,052 - upwork_bot - INFO -   - brawlhalla-patches (ID: 873289455065255989)
+2025-04-10 17:38:07,052 - upwork_bot - INFO -   - lostark-patches (ID: 1034804611091005491)
+2025-04-10 17:38:07,052 - upwork_bot - INFO -   - deadlock-patches (ID: 1316096249388073111)
+2025-04-10 17:38:07,052 - upwork_bot - INFO -   - general (ID: 426671613044457472)
+2025-04-10 17:38:07,053 - upwork_bot - INFO -   - games (ID: 618154626814050304)
+2025-04-10 17:38:07,053 - upwork_bot - INFO -   - memes (ID: 434091270198263809)
+2025-04-10 17:38:07,054 - upwork_bot - INFO -   - bots (ID: 427549071172173824)
+2025-04-10 17:38:07,054 - upwork_bot - INFO -   - music (ID: 873288615642431569)
+2025-04-10 17:38:07,055 - upwork_bot - INFO -   - poker-night-commands (ID: 844213254712852540)
+2025-04-10 17:38:07,055 - upwork_bot - INFO -   - voice-typers (ID: 452665393425940480)
+2025-04-10 17:38:07,056 - upwork_bot - INFO -   - upwork-job-others (ID: 1359140874759438386)
+2025-04-10 17:38:07,056 - upwork_bot - INFO -   - bot-log (ID: 1359576933003825313)
+2025-04-10 17:38:07,057 - upwork_bot - INFO - Looking for channels...
+2025-04-10 17:38:07,058 - upwork_bot - INFO - Found frontend channel: upwork-job-frontend
+2025-04-10 17:38:07,058 - upwork_bot - INFO - Found backend channel: upwork-job-backend
+2025-04-10 17:38:07,058 - upwork_bot - INFO - Found fullstack channel: upwork-job-fullstack
+2025-04-10 17:38:07,059 - upwork_bot - INFO - Found automation channel: upwork-job-automation
+2025-04-10 17:38:07,059 - upwork_bot - INFO - Found scraping channel: upwork-job-scrape
+2025-04-10 17:38:07,059 - upwork_bot - INFO - Found other channel: upwork-job-others
+2025-04-10 17:38:07,059 - upwork_bot - INFO - Bot is ready and listening for interactions.
+2025-04-10 17:38:07,061 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 17:38:08,371 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-10 17:38:08,371 - upwork_bot - INFO - Newest job title: Full Stack Developer Needed for Marketing Application with Django, AWS, Twilio, and OpenAI
+2025-04-10 17:38:08,372 - upwork_bot - INFO - Processing job: Full Stack Developer Needed for Marketing Application with Django, AWS, Twilio, and OpenAI
+2025-04-10 17:38:08,372 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-Developer-Needed-for-Marketing-Application-with-Django-AWS-Twilio-and-OpenAI_~021910341373735099845/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:38:12,208 - upwork_bot - INFO - Processing job: Virtual Assistant
+2025-04-10 17:38:12,210 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Virtual-Assistant_~021910341236958314712/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:38:14,935 - upwork_bot - INFO - Processing job: Virtual Editor Assurance Specialist
+2025-04-10 17:38:14,936 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Virtual-Editor-Assurance-Specialist_~021910341160653912110/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:38:17,546 - upwork_bot - INFO - Processing job: SEO Consultation on AI Scraping & Provenance Watermarks
+2025-04-10 17:38:17,547 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/SEO-Consultation-span-class-highlight-Scraping-span-amp-Provenance-Watermarks_~021910340874429835943/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:38:20,254 - upwork_bot - INFO - Processing job: HubSpot Specialist Needed for Marketing, Sales & Service Automation
+2025-04-10 17:38:20,254 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/HubSpot-Specialist-Needed-for-Marketing-Sales-amp-Service-span-class-highlight-Automation-span_~021910340602953509543/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:38:23,873 - upwork_bot - INFO - First run limit reached
+2025-04-10 17:38:23,873 - upwork_bot - INFO - Updated last job title to: Full Stack Developer Needed for Marketing Application with Django, AWS, Twilio, and OpenAI
+2025-04-10 17:38:23,873 - upwork_bot - INFO - First run completed
+2025-04-10 17:38:23,874 - upwork_bot - INFO - Filtered out AI-related job: Full Stack Developer Needed for Marketing Application with Django, AWS, Twilio, and OpenAI (matched term: AI)
+2025-04-10 17:38:23,874 - upwork_bot - INFO - Filtered job by content: Full Stack Developer Needed for Marketing Application with Django, AWS, Twilio, and OpenAI (https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-Developer-Needed-for-Marketing-Application-with-Django-AWS-Twilio-and-OpenAI_~021910341373735099845/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 17:38:23,874 - upwork_bot - INFO - Added job https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-Developer-Needed-for-Marketing-Application-with-Django-AWS-Twilio-and-OpenAI_~021910341373735099845/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 17:38:23,878 - upwork_bot - INFO - Processing job: Virtual Assistant (https://upwork.com/jobs/Virtual-Assistant_~021910341236958314712/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 17:38:23,878 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Virtual-Assistant_~021910341236958314712/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:38:24,320 - upwork_bot - INFO - Successfully sent job 021910341236... (Virtual Assistant) to other channel (Message ID: 1359900328794783885)
+2025-04-10 17:38:24,323 - upwork_bot - INFO - Processing job: Virtual Editor Assurance Specialist (https://upwork.com/jobs/Virtual-Editor-Assurance-Specialist_~021910341160653912110/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 17:38:24,324 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Virtual-Editor-Assurance-Specialist_~021910341160653912110/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:38:24,653 - upwork_bot - INFO - Successfully sent job 021910341160... (Virtual Editor Assurance Specialist) to other channel (Message ID: 1359900330044952677)
+2025-04-10 17:38:24,654 - upwork_bot - INFO - Filtered out AI-related job: SEO Consultation on AI Scraping & Provenance Watermarks (matched term: AI)
+2025-04-10 17:38:24,654 - upwork_bot - INFO - Filtered job by content: SEO Consultation on AI Scraping & Provenance Watermarks (https://upwork.com/jobs/SEO-Consultation-span-class-highlight-Scraping-span-amp-Provenance-Watermarks_~021910340874429835943/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 17:38:24,654 - upwork_bot - INFO - Added job https://upwork.com/jobs/SEO-Consultation-span-class-highlight-Scraping-span-amp-Provenance-Watermarks_~021910340874429835943/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 17:38:24,658 - upwork_bot - INFO - Processing job: HubSpot Specialist Needed for Marketing, Sales & Service Automation (https://upwork.com/jobs/HubSpot-Specialist-Needed-for-Marketing-Sales-amp-Service-span-class-highlight-Automation-span_~021910340602953509543/?referrer_url_path=/nx/search/jobs/) for categories: ['automation']
+2025-04-10 17:38:24,658 - upwork_bot - INFO - Preparing job for channel: upwork-job-automation (ID: 1359136863562104913) - Job Link: https://upwork.com/jobs/HubSpot-Specialist-Needed-for-Marketing-Sales-amp-Service-span-class-highlight-Automation-span_~021910340602953509543/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:38:25,099 - upwork_bot - INFO - Successfully sent job 021910340602... (HubSpot Specialist Needed for Marketing, Sales & Service Automation) to automation channel (Message ID: 1359900331315564705)
+2025-04-10 17:38:25,099 - upwork_bot - INFO - Updated last job title to: Virtual Assistant
+2025-04-10 17:40:07,066 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 17:40:08,883 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-10 17:40:08,884 - upwork_bot - INFO - Newest job title: Senior Kafka Expert with Nest.js Expertise Needed
+2025-04-10 17:40:08,884 - upwork_bot - INFO - Processing job: Senior Kafka Expert with Nest.js Expertise Needed
+2025-04-10 17:40:08,885 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Senior-Kafka-Expert-with-Nest-Expertise-Needed_~021910341969543839960/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:40:11,707 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Zapier-Expert-Needed-span-class-highlight-Automate-span-GoHighLevel-CRM-Excel-Tracker-with-KPI-Red-Flags_~021910341964580354094/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:40:15,399 - upwork_bot - INFO - Processing job: Cold Email Outreach and Appointment Setting
+2025-04-10 17:40:15,400 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Cold-Email-Outreach-and-Appointment-Setting_~021910341857231337518/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:40:18,801 - upwork_bot - INFO - Processing job: WordPress and Webflow Developer Needed for SEO Client Projects
+2025-04-10 17:40:18,801 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/WordPress-and-Webflow-Developer-Needed-for-SEO-Client-Projects_~021910341593856135462/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:40:21,276 - upwork_bot - INFO - Processing job: Supply Chain Manager for Dropshipping Business (Long-Term Position)
+2025-04-10 17:40:21,277 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Supply-Chain-Manager-for-Dropshipping-Business-Long-Term-Position_~021910341601839590055/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:40:23,966 - upwork_bot - INFO - Processing job: AI-Based Microsoft Word Document Analyzer Extension
+2025-04-10 17:40:23,967 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Based-Microsoft-Word-Document-Analyzer-Extension_~021910296280226261929/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:40:26,519 - upwork_bot - INFO - Processing job: Full Stack Developer Needed for Marketing Application with Django, AWS, Twilio, and OpenAI
+2025-04-10 17:40:26,519 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-Developer-Needed-for-Marketing-Application-with-Django-AWS-Twilio-and-OpenAI_~021910341373735099845/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:40:30,239 - upwork_bot - INFO - Reached previously seen job: Virtual Assistant
+2025-04-10 17:40:30,240 - upwork_bot - INFO - Updated last job title to: Senior Kafka Expert with Nest.js Expertise Needed
+2025-04-10 17:40:30,250 - upwork_bot - INFO - Filtered out devops-related job: Senior Kafka Expert with Nest.js Expertise Needed (matched term: microservices)
+2025-04-10 17:40:30,250 - upwork_bot - INFO - Filtered job by content: Senior Kafka Expert with Nest.js Expertise Needed (https://upwork.com/jobs/Senior-Kafka-Expert-with-Nest-Expertise-Needed_~021910341969543839960/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 17:40:30,251 - upwork_bot - INFO - Added job https://upwork.com/jobs/Senior-Kafka-Expert-with-Nest-Expertise-Needed_~021910341969543839960/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 17:40:30,256 - upwork_bot - INFO - Preparing job for channel: upwork-job-automation (ID: 1359136863562104913) - Job Link: https://upwork.com/jobs/Zapier-Expert-Needed-span-class-highlight-Automate-span-GoHighLevel-CRM-Excel-Tracker-with-KPI-Red-Flags_~021910341964580354094/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:40:30,769 - upwork_bot - INFO - Processing job: Cold Email Outreach and Appointment Setting (https://upwork.com/jobs/Cold-Email-Outreach-and-Appointment-Setting_~021910341857231337518/?referrer_url_path=/nx/search/jobs/) for categories: ['scraping', 'automation']
+2025-04-10 17:40:30,769 - upwork_bot - INFO - Preparing job for channel: upwork-job-scrape (ID: 1359136986476183723) - Job Link: https://upwork.com/jobs/Cold-Email-Outreach-and-Appointment-Setting_~021910341857231337518/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:40:31,097 - upwork_bot - INFO - Successfully sent job 021910341857... (Cold Email Outreach and Appointment Setting) to scraping channel (Message ID: 1359900860447985957)
+2025-04-10 17:40:31,099 - upwork_bot - INFO - Preparing job for channel: upwork-job-automation (ID: 1359136863562104913) - Job Link: https://upwork.com/jobs/Cold-Email-Outreach-and-Appointment-Setting_~021910341857231337518/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:40:31,817 - upwork_bot - INFO - Successfully sent job 021910341857... (Cold Email Outreach and Appointment Setting) to automation channel (Message ID: 1359900862142484634)
+2025-04-10 17:40:31,818 - upwork_bot - INFO - Processing job: WordPress and Webflow Developer Needed for SEO Client Projects (https://upwork.com/jobs/WordPress-and-Webflow-Developer-Needed-for-SEO-Client-Projects_~021910341593856135462/?referrer_url_path=/nx/search/jobs/) for categories: ['fullstack']
+2025-04-10 17:40:31,818 - upwork_bot - INFO - Preparing job for channel: upwork-job-fullstack (ID: 1359137471689916477) - Job Link: https://upwork.com/jobs/WordPress-and-Webflow-Developer-Needed-for-SEO-Client-Projects_~021910341593856135462/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:40:32,116 - upwork_bot - INFO - Successfully sent job 021910341593... (WordPress and Webflow Developer Needed for SEO Client Projects) to fullstack channel (Message ID: 1359900864814514267)
+2025-04-10 17:40:32,117 - upwork_bot - INFO - Processing job: Supply Chain Manager for Dropshipping Business (Long-Term Position) (https://upwork.com/jobs/Supply-Chain-Manager-for-Dropshipping-Business-Long-Term-Position_~021910341601839590055/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 17:40:32,117 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Supply-Chain-Manager-for-Dropshipping-Business-Long-Term-Position_~021910341601839590055/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:40:32,612 - upwork_bot - INFO - Successfully sent job 021910341601... (Supply Chain Manager for Dropshipping Business (Long-Term Position)) to other channel (Message ID: 1359900866521333942)
+2025-04-10 17:40:32,612 - upwork_bot - INFO - Filtered out AI-related job: AI-Based Microsoft Word Document Analyzer Extension (matched term: AI)
+2025-04-10 17:40:32,612 - upwork_bot - INFO - Filtered job by content: AI-Based Microsoft Word Document Analyzer Extension (https://upwork.com/jobs/Based-Microsoft-Word-Document-Analyzer-Extension_~021910296280226261929/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 17:40:32,612 - upwork_bot - INFO - Added job https://upwork.com/jobs/Based-Microsoft-Word-Document-Analyzer-Extension_~021910296280226261929/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 17:40:32,612 - upwork_bot - INFO - Filtered out AI-related job: Full Stack Developer Needed for Marketing Application with Django, AWS, Twilio, and OpenAI (matched term: AI)
+2025-04-10 17:40:32,613 - upwork_bot - INFO - Filtered job by content: Full Stack Developer Needed for Marketing Application with Django, AWS, Twilio, and OpenAI (https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-Developer-Needed-for-Marketing-Application-with-Django-AWS-Twilio-and-OpenAI_~021910341373735099845/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 17:40:32,613 - upwork_bot - INFO - Added job https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-Developer-Needed-for-Marketing-Application-with-Django-AWS-Twilio-and-OpenAI_~021910341373735099845/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 17:41:07,110 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359900862142484634): https://upwork.com/jobs/Cold-Email-Outreach-and-Appointment-Setting_~021910341857231337518/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:42:07,061 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 17:42:08,402 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-10 17:42:08,402 - upwork_bot - INFO - Newest job title: Web-Based Application Development
+2025-04-10 17:42:08,402 - upwork_bot - INFO - Processing job: Web-Based Application Development
+2025-04-10 17:42:08,402 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Web-Based-Application-Development_~021910341711942570278/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:42:10,908 - upwork_bot - INFO - Processing job: Technologist/Workflow Automation Expert Needed
+2025-04-10 17:42:10,909 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Technologist-Workflow-span-class-highlight-Automation-span-Expert-Needed_~021910342313600221544/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:42:14,849 - upwork_bot - INFO - Processing job: Build realtime IoT monitoring dashboard website with firebase or mqtt
+2025-04-10 17:42:14,849 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Build-realtime-IoT-monitoring-dashboard-website-with-firebase-mqtt_~021910342252397111975/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:42:17,442 - upwork_bot - INFO - Processing job: Senior Kafka Expert with Nest.js Expertise Needed
+2025-04-10 17:42:17,442 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Senior-Kafka-Expert-with-Nest-Expertise-Needed_~021910341969543839960/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:42:20,010 - upwork_bot - INFO - Updated last job title to: Web-Based Application Development
+2025-04-10 17:42:20,011 - upwork_bot - INFO - Filtered out data-related job: Web-Based Application Development (matched term: data engineer)
+2025-04-10 17:42:20,011 - upwork_bot - INFO - Filtered job by content: Web-Based Application Development (https://upwork.com/jobs/Web-Based-Application-Development_~021910341711942570278/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 17:42:20,011 - upwork_bot - INFO - Added job https://upwork.com/jobs/Web-Based-Application-Development_~021910341711942570278/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 17:42:20,012 - upwork_bot - INFO - Filtered out AI-related job: Technologist/Workflow Automation Expert Needed (matched term: AI)
+2025-04-10 17:42:20,012 - upwork_bot - INFO - Filtered job by content: Technologist/Workflow Automation Expert Needed (https://upwork.com/jobs/Technologist-Workflow-span-class-highlight-Automation-span-Expert-Needed_~021910342313600221544/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 17:42:20,012 - upwork_bot - INFO - Added job https://upwork.com/jobs/Technologist-Workflow-span-class-highlight-Automation-span-Expert-Needed_~021910342313600221544/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 17:42:20,013 - upwork_bot - INFO - Processing job: Build realtime IoT monitoring dashboard website with firebase or mqtt (https://upwork.com/jobs/Build-realtime-IoT-monitoring-dashboard-website-with-firebase-mqtt_~021910342252397111975/?referrer_url_path=/nx/search/jobs/) for categories: ['frontend']
+2025-04-10 17:42:20,013 - upwork_bot - INFO - Preparing job for channel: upwork-job-frontend (ID: 1359136544337957016) - Job Link: https://upwork.com/jobs/Build-realtime-IoT-monitoring-dashboard-website-with-firebase-mqtt_~021910342252397111975/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:42:20,516 - upwork_bot - INFO - Successfully sent job 021910342252... (Build realtime IoT monitoring dashboard website with firebase or mqtt) to frontend channel (Message ID: 1359901319112036645)
+2025-04-10 17:42:20,519 - upwork_bot - INFO - Filtered out devops-related job: Senior Kafka Expert with Nest.js Expertise Needed (matched term: microservices)
+2025-04-10 17:42:20,519 - upwork_bot - INFO - Filtered job by content: Senior Kafka Expert with Nest.js Expertise Needed (https://upwork.com/jobs/Senior-Kafka-Expert-with-Nest-Expertise-Needed_~021910341969543839960/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 17:42:20,519 - upwork_bot - INFO - Added job https://upwork.com/jobs/Senior-Kafka-Expert-with-Nest-Expertise-Needed_~021910341969543839960/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 17:42:20,519 - upwork_bot - INFO - Updated last job title to: Build realtime IoT monitoring dashboard website with firebase or mqtt
+2025-04-10 17:44:31,236 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-10 17:44:31,259 - discord.client - INFO - logging in using static token
+2025-04-10 17:44:33,201 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: af3eb311dfe23bf95edfa680f5e834aa).
+2025-04-10 17:44:35,223 - upwork_bot - INFO - Upwork Jobs#9704 has connected to Discord!
+2025-04-10 17:44:35,224 - upwork_bot - INFO - Bot is in 1 servers
+2025-04-10 17:44:35,224 - upwork_bot - INFO - - Gamers' Castle (ID: 426670702511521792)
+2025-04-10 17:44:35,224 - upwork_bot - INFO -   - upwork-job-fullstack (ID: 1359137471689916477)
+2025-04-10 17:44:35,225 - upwork_bot - INFO -   - upwork-job-backend (ID: 1359136722079711484)
+2025-04-10 17:44:35,225 - upwork_bot - INFO -   - upwork-job-frontend (ID: 1359136544337957016)
+2025-04-10 17:44:35,225 - upwork_bot - INFO -   - upwork-job-automation (ID: 1359136863562104913)
+2025-04-10 17:44:35,225 - upwork_bot - INFO -   - upwork-job-scrape (ID: 1359136986476183723)
+2025-04-10 17:44:35,225 - upwork_bot - INFO -   - osu-patches (ID: 873289703011545168)
+2025-04-10 17:44:35,225 - upwork_bot - INFO -   - freebies (ID: 893699869385056336)
+2025-04-10 17:44:35,225 - upwork_bot - INFO -   - valorant-patches (ID: 719978113999831142)
+2025-04-10 17:44:35,226 - upwork_bot - INFO -   - ow-patches (ID: 705507759935848548)
+2025-04-10 17:44:35,226 - upwork_bot - INFO -   - brawlhalla-patches (ID: 873289455065255989)
+2025-04-10 17:44:35,226 - upwork_bot - INFO -   - lostark-patches (ID: 1034804611091005491)
+2025-04-10 17:44:35,226 - upwork_bot - INFO -   - deadlock-patches (ID: 1316096249388073111)
+2025-04-10 17:44:35,226 - upwork_bot - INFO -   - general (ID: 426671613044457472)
+2025-04-10 17:44:35,226 - upwork_bot - INFO -   - games (ID: 618154626814050304)
+2025-04-10 17:44:35,226 - upwork_bot - INFO -   - memes (ID: 434091270198263809)
+2025-04-10 17:44:35,227 - upwork_bot - INFO -   - bots (ID: 427549071172173824)
+2025-04-10 17:44:35,227 - upwork_bot - INFO -   - music (ID: 873288615642431569)
+2025-04-10 17:44:35,228 - upwork_bot - INFO -   - poker-night-commands (ID: 844213254712852540)
+2025-04-10 17:44:35,230 - upwork_bot - INFO -   - voice-typers (ID: 452665393425940480)
+2025-04-10 17:44:35,230 - upwork_bot - INFO -   - upwork-job-others (ID: 1359140874759438386)
+2025-04-10 17:44:35,230 - upwork_bot - INFO -   - bot-log (ID: 1359576933003825313)
+2025-04-10 17:44:35,231 - upwork_bot - INFO - Looking for channels...
+2025-04-10 17:44:35,231 - upwork_bot - INFO - Found frontend channel: upwork-job-frontend
+2025-04-10 17:44:35,231 - upwork_bot - INFO - Found backend channel: upwork-job-backend
+2025-04-10 17:44:35,231 - upwork_bot - INFO - Found fullstack channel: upwork-job-fullstack
+2025-04-10 17:44:35,231 - upwork_bot - INFO - Found automation channel: upwork-job-automation
+2025-04-10 17:44:35,232 - upwork_bot - INFO - Found scraping channel: upwork-job-scrape
+2025-04-10 17:44:35,232 - upwork_bot - INFO - Found other channel: upwork-job-others
+2025-04-10 17:44:35,711 - upwork_bot - INFO - Synced 1 slash command(s)
+2025-04-10 17:44:35,712 - upwork_bot - INFO - Bot is ready and listening for interactions.
+2025-04-10 17:44:35,712 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 17:44:35,970 - upwork_bot - ERROR - No job elements found on the page
+2025-04-10 17:44:35,970 - upwork_bot - INFO - No jobs found. Retrying in next cycle.
+2025-04-10 17:46:27,609 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-10 17:46:27,630 - discord.client - INFO - logging in using static token
+2025-04-10 17:46:29,004 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 134301749b00705554b704ad02ec3f1a).
+2025-04-10 17:46:31,036 - upwork_bot - INFO - Upwork Jobs#9704 has connected to Discord!
+2025-04-10 17:46:31,037 - upwork_bot - INFO - Bot is in 1 servers
+2025-04-10 17:46:31,038 - upwork_bot - INFO - - Gamers' Castle (ID: 426670702511521792)
+2025-04-10 17:46:31,038 - upwork_bot - INFO -   - upwork-job-fullstack (ID: 1359137471689916477)
+2025-04-10 17:46:31,039 - upwork_bot - INFO -   - upwork-job-backend (ID: 1359136722079711484)
+2025-04-10 17:46:31,039 - upwork_bot - INFO -   - upwork-job-frontend (ID: 1359136544337957016)
+2025-04-10 17:46:31,040 - upwork_bot - INFO -   - upwork-job-automation (ID: 1359136863562104913)
+2025-04-10 17:46:31,040 - upwork_bot - INFO -   - upwork-job-scrape (ID: 1359136986476183723)
+2025-04-10 17:46:31,041 - upwork_bot - INFO -   - osu-patches (ID: 873289703011545168)
+2025-04-10 17:46:31,041 - upwork_bot - INFO -   - freebies (ID: 893699869385056336)
+2025-04-10 17:46:31,041 - upwork_bot - INFO -   - valorant-patches (ID: 719978113999831142)
+2025-04-10 17:46:31,041 - upwork_bot - INFO -   - ow-patches (ID: 705507759935848548)
+2025-04-10 17:46:31,041 - upwork_bot - INFO -   - brawlhalla-patches (ID: 873289455065255989)
+2025-04-10 17:46:31,041 - upwork_bot - INFO -   - lostark-patches (ID: 1034804611091005491)
+2025-04-10 17:46:31,042 - upwork_bot - INFO -   - deadlock-patches (ID: 1316096249388073111)
+2025-04-10 17:46:31,042 - upwork_bot - INFO -   - general (ID: 426671613044457472)
+2025-04-10 17:46:31,042 - upwork_bot - INFO -   - games (ID: 618154626814050304)
+2025-04-10 17:46:31,043 - upwork_bot - INFO -   - memes (ID: 434091270198263809)
+2025-04-10 17:46:31,043 - upwork_bot - INFO -   - bots (ID: 427549071172173824)
+2025-04-10 17:46:31,043 - upwork_bot - INFO -   - music (ID: 873288615642431569)
+2025-04-10 17:46:31,043 - upwork_bot - INFO -   - poker-night-commands (ID: 844213254712852540)
+2025-04-10 17:46:31,044 - upwork_bot - INFO -   - voice-typers (ID: 452665393425940480)
+2025-04-10 17:46:31,044 - upwork_bot - INFO -   - upwork-job-others (ID: 1359140874759438386)
+2025-04-10 17:46:31,045 - upwork_bot - INFO -   - bot-log (ID: 1359576933003825313)
+2025-04-10 17:46:31,045 - upwork_bot - INFO - Looking for channels...
+2025-04-10 17:46:31,045 - upwork_bot - INFO - Found frontend channel: upwork-job-frontend
+2025-04-10 17:46:31,045 - upwork_bot - INFO - Found backend channel: upwork-job-backend
+2025-04-10 17:46:31,046 - upwork_bot - INFO - Found fullstack channel: upwork-job-fullstack
+2025-04-10 17:46:31,046 - upwork_bot - INFO - Found automation channel: upwork-job-automation
+2025-04-10 17:46:31,046 - upwork_bot - INFO - Found scraping channel: upwork-job-scrape
+2025-04-10 17:46:31,047 - upwork_bot - INFO - Found other channel: upwork-job-others
+2025-04-10 17:46:31,434 - upwork_bot - INFO - Synced 1 slash command(s)
+2025-04-10 17:46:31,434 - upwork_bot - INFO - Bot is ready and listening for interactions.
+2025-04-10 17:46:31,434 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 17:46:32,881 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-10 17:46:32,881 - upwork_bot - INFO - Newest job title: Instagram Scraping Specialist Needed
+2025-04-10 17:46:32,882 - upwork_bot - INFO - Processing job: Instagram Scraping Specialist Needed
+2025-04-10 17:46:32,882 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Instagram-span-class-highlight-Scraping-span-Specialist-Needed_~021910343571210424614/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:46:36,405 - upwork_bot - INFO - Processing job: AI-Powered Podcast Matching System Using Airtable Data
+2025-04-10 17:46:36,405 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Powered-Podcast-Matching-System-Using-Airtable-Data_~021910343427796282023/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:46:39,818 - upwork_bot - INFO - Processing job: Data Scraping
+2025-04-10 17:46:39,819 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Data-span-class-highlight-Scraping-span_~021910343421513791534/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:46:43,392 - upwork_bot - INFO - Processing job: Growth Marketer to set up and run Community-Based Campaigns for B2B SaaS
+2025-04-10 17:46:43,393 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Growth-Marketer-set-and-run-Community-Based-Campaigns-for-B2B-SaaS_~021910342878610719080/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:46:46,000 - upwork_bot - INFO - Processing job: NEXT JS Vercel AI API AWS EXPERIENCED EFFECTIVE DEV work Ethic
+2025-04-10 17:46:46,001 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/NEXT-Vercel-API-AWS-EXPERIENCED-EFFECTIVE-DEV-work-Ethic_~021910342689762932782/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:46:49,136 - upwork_bot - INFO - First run limit reached
+2025-04-10 17:46:49,137 - upwork_bot - INFO - Updated last job title to: Instagram Scraping Specialist Needed
+2025-04-10 17:46:49,139 - upwork_bot - INFO - First run completed
+2025-04-10 17:46:49,150 - upwork_bot - INFO - Processing job: Instagram Scraping Specialist Needed (https://upwork.com/jobs/Instagram-span-class-highlight-Scraping-span-Specialist-Needed_~021910343571210424614/?referrer_url_path=/nx/search/jobs/) for categories: ['backend']
+2025-04-10 17:46:49,150 - upwork_bot - INFO - Preparing job for channel: upwork-job-backend (ID: 1359136722079711484) - Job Link: https://upwork.com/jobs/Instagram-span-class-highlight-Scraping-span-Specialist-Needed_~021910343571210424614/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:46:49,579 - upwork_bot - INFO - Successfully sent job 021910343571... (Instagram Scraping Specialist Needed) to backend channel (Message ID: 1359902448075935806)
+2025-04-10 17:46:49,579 - upwork_bot - INFO - Filtered out AI-related job: AI-Powered Podcast Matching System Using Airtable Data (matched term: AI)
+2025-04-10 17:46:49,579 - upwork_bot - INFO - Filtered job by content: AI-Powered Podcast Matching System Using Airtable Data (https://upwork.com/jobs/Powered-Podcast-Matching-System-Using-Airtable-Data_~021910343427796282023/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 17:46:49,579 - upwork_bot - INFO - Added job https://upwork.com/jobs/Powered-Podcast-Matching-System-Using-Airtable-Data_~021910343427796282023/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 17:46:49,580 - upwork_bot - INFO - Processing job: Data Scraping (https://upwork.com/jobs/Data-span-class-highlight-Scraping-span_~021910343421513791534/?referrer_url_path=/nx/search/jobs/) for categories: ['backend', 'scraping']
+2025-04-10 17:46:49,580 - upwork_bot - INFO - Preparing job for channel: upwork-job-backend (ID: 1359136722079711484) - Job Link: https://upwork.com/jobs/Data-span-class-highlight-Scraping-span_~021910343421513791534/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:46:49,893 - upwork_bot - INFO - Successfully sent job 021910343421... (Data Scraping) to backend channel (Message ID: 1359902449225306244)
+2025-04-10 17:46:49,893 - upwork_bot - INFO - Preparing job for channel: upwork-job-scrape (ID: 1359136986476183723) - Job Link: https://upwork.com/jobs/Data-span-class-highlight-Scraping-span_~021910343421513791534/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:46:50,166 - upwork_bot - INFO - Successfully sent job 021910343421... (Data Scraping) to scraping channel (Message ID: 1359902450529865912)
+2025-04-10 17:46:50,180 - upwork_bot - INFO - Processing job: Growth Marketer to set up and run Community-Based Campaigns for B2B SaaS (https://upwork.com/jobs/Growth-Marketer-set-and-run-Community-Based-Campaigns-for-B2B-SaaS_~021910342878610719080/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 17:46:50,180 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Growth-Marketer-set-and-run-Community-Based-Campaigns-for-B2B-SaaS_~021910342878610719080/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:46:50,638 - upwork_bot - INFO - Successfully sent job 021910342878... (Growth Marketer to set up and run Community-Based Campaigns for B2B SaaS) to other channel (Message ID: 1359902452119240794)
+2025-04-10 17:46:50,638 - upwork_bot - INFO - Filtered out AI-related job: NEXT JS Vercel AI API AWS EXPERIENCED EFFECTIVE DEV work Ethic (matched term: AI)
+2025-04-10 17:46:50,638 - upwork_bot - INFO - Filtered job by content: NEXT JS Vercel AI API AWS EXPERIENCED EFFECTIVE DEV work Ethic (https://upwork.com/jobs/NEXT-Vercel-API-AWS-EXPERIENCED-EFFECTIVE-DEV-work-Ethic_~021910342689762932782/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 17:46:50,638 - upwork_bot - INFO - Added job https://upwork.com/jobs/NEXT-Vercel-API-AWS-EXPERIENCED-EFFECTIVE-DEV-work-Ethic_~021910342689762932782/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 17:46:50,639 - upwork_bot - INFO - Updated last job title to: Instagram Scraping Specialist Needed
+2025-04-10 17:47:55,137 - discord.client - ERROR - Ignoring exception in on_interaction
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\PC\Desktop\discord_bot\discord_bot.py", line 298, in on_interaction
+    await bot.process_commands(interaction)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\bot.py", line 1403, in process_commands
+    if message.author.bot:
+       ^^^^^^^^^^^^^^
+AttributeError: 'Interaction' object has no attribute 'author'
+2025-04-10 17:47:59,352 - upwork_bot - INFO - User mowaa cleared 14 messages in channel upwork-job-frontend
+2025-04-10 17:48:04,614 - discord.client - ERROR - Ignoring exception in on_interaction
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\PC\Desktop\discord_bot\discord_bot.py", line 298, in on_interaction
+    await bot.process_commands(interaction)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\bot.py", line 1403, in process_commands
+    if message.author.bot:
+       ^^^^^^^^^^^^^^
+AttributeError: 'Interaction' object has no attribute 'author'
+2025-04-10 17:48:08,896 - upwork_bot - INFO - User mowaa cleared 20 messages in channel upwork-job-backend
+2025-04-10 17:48:21,855 - discord.client - ERROR - Ignoring exception in on_interaction
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\PC\Desktop\discord_bot\discord_bot.py", line 298, in on_interaction
+    await bot.process_commands(interaction)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\bot.py", line 1403, in process_commands
+    if message.author.bot:
+       ^^^^^^^^^^^^^^
+AttributeError: 'Interaction' object has no attribute 'author'
+2025-04-10 17:48:25,971 - upwork_bot - INFO - User mowaa cleared 20 messages in channel upwork-job-automation
+2025-04-10 17:48:34,666 - discord.client - ERROR - Ignoring exception in on_interaction
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\PC\Desktop\discord_bot\discord_bot.py", line 298, in on_interaction
+    await bot.process_commands(interaction)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\bot.py", line 1403, in process_commands
+    if message.author.bot:
+       ^^^^^^^^^^^^^^
+AttributeError: 'Interaction' object has no attribute 'author'
+2025-04-10 17:48:38,698 - upwork_bot - INFO - User mowaa cleared 13 messages in channel upwork-job-scrape
+2025-04-10 17:48:40,694 - discord.client - ERROR - Ignoring exception in on_interaction
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\PC\Desktop\discord_bot\discord_bot.py", line 298, in on_interaction
+    await bot.process_commands(interaction)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\bot.py", line 1403, in process_commands
+    if message.author.bot:
+       ^^^^^^^^^^^^^^
+AttributeError: 'Interaction' object has no attribute 'author'
+2025-04-10 17:48:45,179 - upwork_bot - INFO - User mowaa cleared 20 messages in channel upwork-job-others
+2025-04-10 17:49:00,644 - discord.client - ERROR - Ignoring exception in on_interaction
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\PC\Desktop\discord_bot\discord_bot.py", line 298, in on_interaction
+    await bot.process_commands(interaction)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ext\commands\bot.py", line 1403, in process_commands
+    if message.author.bot:
+       ^^^^^^^^^^^^^^
+AttributeError: 'Interaction' object has no attribute 'author'
+2025-04-10 17:49:01,878 - upwork_bot - INFO - User mowaa cleared 1 messages in channel upwork-job-fullstack
+2025-04-10 17:49:51,583 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-10 17:49:51,605 - discord.client - INFO - logging in using static token
+2025-04-10 17:49:53,154 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: e718accd5e5f6ed8e40afde485f23389).
+2025-04-10 17:49:55,170 - upwork_bot - INFO - Upwork Jobs#9704 has connected to Discord!
+2025-04-10 17:49:55,172 - upwork_bot - INFO - Bot is in 1 servers
+2025-04-10 17:49:55,173 - upwork_bot - INFO - - Gamers' Castle (ID: 426670702511521792)
+2025-04-10 17:49:55,175 - upwork_bot - INFO -   - upwork-job-fullstack (ID: 1359137471689916477)
+2025-04-10 17:49:55,176 - upwork_bot - INFO -   - upwork-job-backend (ID: 1359136722079711484)
+2025-04-10 17:49:55,177 - upwork_bot - INFO -   - upwork-job-frontend (ID: 1359136544337957016)
+2025-04-10 17:49:55,178 - upwork_bot - INFO -   - upwork-job-automation (ID: 1359136863562104913)
+2025-04-10 17:49:55,179 - upwork_bot - INFO -   - upwork-job-scrape (ID: 1359136986476183723)
+2025-04-10 17:49:55,179 - upwork_bot - INFO -   - osu-patches (ID: 873289703011545168)
+2025-04-10 17:49:55,179 - upwork_bot - INFO -   - freebies (ID: 893699869385056336)
+2025-04-10 17:49:55,179 - upwork_bot - INFO -   - valorant-patches (ID: 719978113999831142)
+2025-04-10 17:49:55,179 - upwork_bot - INFO -   - ow-patches (ID: 705507759935848548)
+2025-04-10 17:49:55,179 - upwork_bot - INFO -   - brawlhalla-patches (ID: 873289455065255989)
+2025-04-10 17:49:55,179 - upwork_bot - INFO -   - lostark-patches (ID: 1034804611091005491)
+2025-04-10 17:49:55,179 - upwork_bot - INFO -   - deadlock-patches (ID: 1316096249388073111)
+2025-04-10 17:49:55,180 - upwork_bot - INFO -   - general (ID: 426671613044457472)
+2025-04-10 17:49:55,180 - upwork_bot - INFO -   - games (ID: 618154626814050304)
+2025-04-10 17:49:55,180 - upwork_bot - INFO -   - memes (ID: 434091270198263809)
+2025-04-10 17:49:55,180 - upwork_bot - INFO -   - bots (ID: 427549071172173824)
+2025-04-10 17:49:55,180 - upwork_bot - INFO -   - music (ID: 873288615642431569)
+2025-04-10 17:49:55,180 - upwork_bot - INFO -   - poker-night-commands (ID: 844213254712852540)
+2025-04-10 17:49:55,180 - upwork_bot - INFO -   - voice-typers (ID: 452665393425940480)
+2025-04-10 17:49:55,180 - upwork_bot - INFO -   - upwork-job-others (ID: 1359140874759438386)
+2025-04-10 17:49:55,181 - upwork_bot - INFO -   - bot-log (ID: 1359576933003825313)
+2025-04-10 17:49:55,181 - upwork_bot - INFO - Looking for channels...
+2025-04-10 17:49:55,181 - upwork_bot - INFO - Found frontend channel: upwork-job-frontend
+2025-04-10 17:49:55,181 - upwork_bot - INFO - Found backend channel: upwork-job-backend
+2025-04-10 17:49:55,181 - upwork_bot - INFO - Found fullstack channel: upwork-job-fullstack
+2025-04-10 17:49:55,181 - upwork_bot - INFO - Found automation channel: upwork-job-automation
+2025-04-10 17:49:55,181 - upwork_bot - INFO - Found scraping channel: upwork-job-scrape
+2025-04-10 17:49:55,181 - upwork_bot - INFO - Found other channel: upwork-job-others
+2025-04-10 17:49:55,506 - upwork_bot - INFO - Synced 1 slash command(s)
+2025-04-10 17:49:55,507 - upwork_bot - INFO - Bot is ready and listening for interactions.
+2025-04-10 17:49:55,507 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 17:49:55,704 - upwork_bot - ERROR - No job elements found on the page
+2025-04-10 17:49:55,705 - upwork_bot - INFO - No jobs found. Retrying in next cycle.
+2025-04-10 17:50:09,995 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-10 17:50:10,016 - discord.client - INFO - logging in using static token
+2025-04-10 17:50:11,584 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: c462bc97d444b1164b41ccc93f11e86e).
+2025-04-10 17:50:13,621 - upwork_bot - INFO - Upwork Jobs#9704 has connected to Discord!
+2025-04-10 17:50:13,621 - upwork_bot - INFO - Bot is in 1 servers
+2025-04-10 17:50:13,622 - upwork_bot - INFO - - Gamers' Castle (ID: 426670702511521792)
+2025-04-10 17:50:13,622 - upwork_bot - INFO -   - upwork-job-fullstack (ID: 1359137471689916477)
+2025-04-10 17:50:13,622 - upwork_bot - INFO -   - upwork-job-backend (ID: 1359136722079711484)
+2025-04-10 17:50:13,622 - upwork_bot - INFO -   - upwork-job-frontend (ID: 1359136544337957016)
+2025-04-10 17:50:13,622 - upwork_bot - INFO -   - upwork-job-automation (ID: 1359136863562104913)
+2025-04-10 17:50:13,622 - upwork_bot - INFO -   - upwork-job-scrape (ID: 1359136986476183723)
+2025-04-10 17:50:13,622 - upwork_bot - INFO -   - osu-patches (ID: 873289703011545168)
+2025-04-10 17:50:13,623 - upwork_bot - INFO -   - freebies (ID: 893699869385056336)
+2025-04-10 17:50:13,623 - upwork_bot - INFO -   - valorant-patches (ID: 719978113999831142)
+2025-04-10 17:50:13,623 - upwork_bot - INFO -   - ow-patches (ID: 705507759935848548)
+2025-04-10 17:50:13,623 - upwork_bot - INFO -   - brawlhalla-patches (ID: 873289455065255989)
+2025-04-10 17:50:13,623 - upwork_bot - INFO -   - lostark-patches (ID: 1034804611091005491)
+2025-04-10 17:50:13,623 - upwork_bot - INFO -   - deadlock-patches (ID: 1316096249388073111)
+2025-04-10 17:50:13,624 - upwork_bot - INFO -   - general (ID: 426671613044457472)
+2025-04-10 17:50:13,624 - upwork_bot - INFO -   - games (ID: 618154626814050304)
+2025-04-10 17:50:13,625 - upwork_bot - INFO -   - memes (ID: 434091270198263809)
+2025-04-10 17:50:13,625 - upwork_bot - INFO -   - bots (ID: 427549071172173824)
+2025-04-10 17:50:13,626 - upwork_bot - INFO -   - music (ID: 873288615642431569)
+2025-04-10 17:50:13,626 - upwork_bot - INFO -   - poker-night-commands (ID: 844213254712852540)
+2025-04-10 17:50:13,627 - upwork_bot - INFO -   - voice-typers (ID: 452665393425940480)
+2025-04-10 17:50:13,628 - upwork_bot - INFO -   - upwork-job-others (ID: 1359140874759438386)
+2025-04-10 17:50:13,628 - upwork_bot - INFO -   - bot-log (ID: 1359576933003825313)
+2025-04-10 17:50:13,629 - upwork_bot - INFO - Looking for channels...
+2025-04-10 17:50:13,629 - upwork_bot - INFO - Found frontend channel: upwork-job-frontend
+2025-04-10 17:50:13,629 - upwork_bot - INFO - Found backend channel: upwork-job-backend
+2025-04-10 17:50:13,630 - upwork_bot - INFO - Found fullstack channel: upwork-job-fullstack
+2025-04-10 17:50:13,631 - upwork_bot - INFO - Found automation channel: upwork-job-automation
+2025-04-10 17:50:13,632 - upwork_bot - INFO - Found scraping channel: upwork-job-scrape
+2025-04-10 17:50:13,633 - upwork_bot - INFO - Found other channel: upwork-job-others
+2025-04-10 17:50:44,746 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-04-10 17:50:44,767 - discord.client - INFO - logging in using static token
+2025-04-10 17:50:46,303 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 24bfc06f0c6dc5d9c0bb882c8d8ac0ea).
+2025-04-10 17:50:48,436 - upwork_bot - INFO - Upwork Jobs#9704 has connected to Discord!
+2025-04-10 17:50:48,437 - upwork_bot - INFO - Bot is in 1 servers
+2025-04-10 17:50:48,437 - upwork_bot - INFO - - Gamers' Castle (ID: 426670702511521792)
+2025-04-10 17:50:48,437 - upwork_bot - INFO -   - upwork-job-fullstack (ID: 1359137471689916477)
+2025-04-10 17:50:48,437 - upwork_bot - INFO -   - upwork-job-backend (ID: 1359136722079711484)
+2025-04-10 17:50:48,437 - upwork_bot - INFO -   - upwork-job-frontend (ID: 1359136544337957016)
+2025-04-10 17:50:48,437 - upwork_bot - INFO -   - upwork-job-automation (ID: 1359136863562104913)
+2025-04-10 17:50:48,437 - upwork_bot - INFO -   - upwork-job-scrape (ID: 1359136986476183723)
+2025-04-10 17:50:48,437 - upwork_bot - INFO -   - osu-patches (ID: 873289703011545168)
+2025-04-10 17:50:48,437 - upwork_bot - INFO -   - freebies (ID: 893699869385056336)
+2025-04-10 17:50:48,437 - upwork_bot - INFO -   - valorant-patches (ID: 719978113999831142)
+2025-04-10 17:50:48,437 - upwork_bot - INFO -   - ow-patches (ID: 705507759935848548)
+2025-04-10 17:50:48,437 - upwork_bot - INFO -   - brawlhalla-patches (ID: 873289455065255989)
+2025-04-10 17:50:48,437 - upwork_bot - INFO -   - lostark-patches (ID: 1034804611091005491)
+2025-04-10 17:50:48,437 - upwork_bot - INFO -   - deadlock-patches (ID: 1316096249388073111)
+2025-04-10 17:50:48,438 - upwork_bot - INFO -   - general (ID: 426671613044457472)
+2025-04-10 17:50:48,438 - upwork_bot - INFO -   - games (ID: 618154626814050304)
+2025-04-10 17:50:48,438 - upwork_bot - INFO -   - memes (ID: 434091270198263809)
+2025-04-10 17:50:48,438 - upwork_bot - INFO -   - bots (ID: 427549071172173824)
+2025-04-10 17:50:48,438 - upwork_bot - INFO -   - music (ID: 873288615642431569)
+2025-04-10 17:50:48,438 - upwork_bot - INFO -   - poker-night-commands (ID: 844213254712852540)
+2025-04-10 17:50:48,439 - upwork_bot - INFO -   - voice-typers (ID: 452665393425940480)
+2025-04-10 17:50:48,439 - upwork_bot - INFO -   - upwork-job-others (ID: 1359140874759438386)
+2025-04-10 17:50:48,439 - upwork_bot - INFO -   - bot-log (ID: 1359576933003825313)
+2025-04-10 17:50:48,440 - upwork_bot - INFO - Looking for channels...
+2025-04-10 17:50:48,440 - upwork_bot - INFO - Found frontend channel: upwork-job-frontend
+2025-04-10 17:50:48,440 - upwork_bot - INFO - Found backend channel: upwork-job-backend
+2025-04-10 17:50:48,441 - upwork_bot - INFO - Found fullstack channel: upwork-job-fullstack
+2025-04-10 17:50:48,441 - upwork_bot - INFO - Found automation channel: upwork-job-automation
+2025-04-10 17:50:48,441 - upwork_bot - INFO - Found scraping channel: upwork-job-scrape
+2025-04-10 17:50:48,441 - upwork_bot - INFO - Found other channel: upwork-job-others
+2025-04-10 17:51:25,635 - upwork_bot - INFO - Synced 1 slash command(s)
+2025-04-10 17:51:25,636 - upwork_bot - INFO - Bot is ready and listening for interactions.
+2025-04-10 17:51:25,636 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 17:51:26,904 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-10 17:51:26,905 - upwork_bot - INFO - Newest job title: Dex Aggregator Development on Base
+2025-04-10 17:51:26,905 - upwork_bot - INFO - Processing job: Dex Aggregator Development on Base
+2025-04-10 17:51:26,905 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Dex-Aggregator-Development-Base_~021910299243045252258/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:51:29,655 - upwork_bot - INFO - Processing job: Looking for PHP Developer to Convert AJAX Chat Site to PHP WebSocket
+2025-04-10 17:51:29,655 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Looking-for-PHP-Developer-Convert-AJAX-Chat-Site-PHP-WebSocket_~021910344524153793191/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:51:32,291 - upwork_bot - INFO - Processing job: GatsbyJS, Netlify functions, WordPress and Advanced Custom Fields (ACF) Developer
+2025-04-10 17:51:32,292 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/GatsbyJS-Netlify-functions-WordPress-and-Advanced-Custom-Fields-ACF-Developer_~021910344508873943719/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:51:34,920 - upwork_bot - INFO - Processing job: Looking for a Notion Expert to Optimize and Customize Our Workspace
+2025-04-10 17:51:34,921 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Looking-for-Notion-Expert-Optimize-and-Customize-Our-Workspace_~021910344200435716390/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:51:37,813 - upwork_bot - INFO - Processing job: Automation Specialist (n8n / Make) – SaaS + AI Workflow Builder
+2025-04-10 17:51:37,813 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/span-class-highlight-Automation-span-Specialist-n8n-Make-SaaS-Workflow-Builder_~021910344146165616934/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:51:41,310 - upwork_bot - INFO - First run limit reached
+2025-04-10 17:51:41,311 - upwork_bot - INFO - Updated last job title to: Dex Aggregator Development on Base
+2025-04-10 17:51:41,311 - upwork_bot - INFO - First run completed
+2025-04-10 17:51:41,317 - upwork_bot - INFO - Processing job: Dex Aggregator Development on Base (https://upwork.com/jobs/Dex-Aggregator-Development-Base_~021910299243045252258/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 17:51:41,317 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Dex-Aggregator-Development-Base_~021910299243045252258/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:51:41,753 - upwork_bot - INFO - Successfully sent job 021910299243... (Dex Aggregator Development on Base) to other channel (Message ID: 1359903673039323279)
+2025-04-10 17:51:41,753 - upwork_bot - INFO - Processing job: Looking for PHP Developer to Convert AJAX Chat Site to PHP WebSocket (https://upwork.com/jobs/Looking-for-PHP-Developer-Convert-AJAX-Chat-Site-PHP-WebSocket_~021910344524153793191/?referrer_url_path=/nx/search/jobs/) for categories: ['backend']
+2025-04-10 17:51:41,754 - upwork_bot - INFO - Preparing job for channel: upwork-job-backend (ID: 1359136722079711484) - Job Link: https://upwork.com/jobs/Looking-for-PHP-Developer-Convert-AJAX-Chat-Site-PHP-WebSocket_~021910344524153793191/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:51:42,110 - upwork_bot - INFO - Successfully sent job 021910344524... (Looking for PHP Developer to Convert AJAX Chat Site to PHP WebSocket) to backend channel (Message ID: 1359903674511654933)
+2025-04-10 17:51:42,111 - upwork_bot - INFO - Processing job: GatsbyJS, Netlify functions, WordPress and Advanced Custom Fields (ACF) Developer (https://upwork.com/jobs/GatsbyJS-Netlify-functions-WordPress-and-Advanced-Custom-Fields-ACF-Developer_~021910344508873943719/?referrer_url_path=/nx/search/jobs/) for categories: ['fullstack']
+2025-04-10 17:51:42,111 - upwork_bot - INFO - Preparing job for channel: upwork-job-fullstack (ID: 1359137471689916477) - Job Link: https://upwork.com/jobs/GatsbyJS-Netlify-functions-WordPress-and-Advanced-Custom-Fields-ACF-Developer_~021910344508873943719/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:51:42,529 - upwork_bot - INFO - Successfully sent job 021910344508... (GatsbyJS, Netlify functions, WordPress and Advanced Custom Fields (ACF) Developer) to fullstack channel (Message ID: 1359903676197769257)
+2025-04-10 17:51:42,531 - upwork_bot - INFO - Processing job: Looking for a Notion Expert to Optimize and Customize Our Workspace (https://upwork.com/jobs/Looking-for-Notion-Expert-Optimize-and-Customize-Our-Workspace_~021910344200435716390/?referrer_url_path=/nx/search/jobs/) for categories: ['frontend']
+2025-04-10 17:51:42,531 - upwork_bot - INFO - Preparing job for channel: upwork-job-frontend (ID: 1359136544337957016) - Job Link: https://upwork.com/jobs/Looking-for-Notion-Expert-Optimize-and-Customize-Our-Workspace_~021910344200435716390/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:51:42,902 - upwork_bot - INFO - Successfully sent job 021910344200... (Looking for a Notion Expert to Optimize and Customize Our Workspace) to frontend channel (Message ID: 1359903678081011713)
+2025-04-10 17:51:42,902 - upwork_bot - INFO - Filtered out AI-related job: Automation Specialist (n8n / Make) – SaaS + AI Workflow Builder (matched term: AI)
+2025-04-10 17:51:42,902 - upwork_bot - INFO - Filtered job by content: Automation Specialist (n8n / Make) – SaaS + AI Workflow Builder (https://upwork.com/jobs/span-class-highlight-Automation-span-Specialist-n8n-Make-SaaS-Workflow-Builder_~021910344146165616934/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 17:51:42,902 - upwork_bot - INFO - Added job https://upwork.com/jobs/span-class-highlight-Automation-span-Specialist-n8n-Make-SaaS-Workflow-Builder_~021910344146165616934/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 17:51:42,902 - upwork_bot - INFO - Updated last job title to: Dex Aggregator Development on Base
+2025-04-10 17:56:25,646 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 17:56:26,877 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-10 17:56:26,877 - upwork_bot - INFO - Newest job title: Full-stack WordPress developer
+2025-04-10 17:56:26,877 - upwork_bot - INFO - Processing job: Full-stack WordPress developer
+2025-04-10 17:56:26,877 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-stack-span-WordPress-developer_~021910345970794234216/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:56:30,375 - upwork_bot - INFO - Processing job: Backend Developer Needed for Web MVP with Supabase
+2025-04-10 17:56:30,375 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/span-class-highlight-Backend-span-Developer-Needed-for-Web-MVP-with-Supabase_~021909960208138716206/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:56:32,914 - upwork_bot - INFO - Processing job: Django and Django REST Framework Expert
+2025-04-10 17:56:32,914 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Django-and-Django-REST-Framework-Expert_~021910345632522096934/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:56:35,558 - upwork_bot - INFO - Reached previously seen job: Dex Aggregator Development on Base
+2025-04-10 17:56:35,558 - upwork_bot - INFO - Updated last job title to: Full-stack WordPress developer
+2025-04-10 17:56:35,560 - upwork_bot - INFO - Processing job: Full-stack WordPress developer (https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-stack-span-WordPress-developer_~021910345970794234216/?referrer_url_path=/nx/search/jobs/) for categories: ['fullstack']
+2025-04-10 17:56:35,561 - upwork_bot - INFO - Preparing job for channel: upwork-job-fullstack (ID: 1359137471689916477) - Job Link: https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-stack-span-WordPress-developer_~021910345970794234216/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:56:36,065 - upwork_bot - INFO - Successfully sent job 021910345970... (Full-stack WordPress developer) to fullstack channel (Message ID: 1359904907829841970)
+2025-04-10 17:56:36,066 - upwork_bot - INFO - Processing job: Backend Developer Needed for Web MVP with Supabase (https://upwork.com/jobs/span-class-highlight-Backend-span-Developer-Needed-for-Web-MVP-with-Supabase_~021909960208138716206/?referrer_url_path=/nx/search/jobs/) for categories: ['backend']
+2025-04-10 17:56:36,066 - upwork_bot - INFO - Preparing job for channel: upwork-job-backend (ID: 1359136722079711484) - Job Link: https://upwork.com/jobs/span-class-highlight-Backend-span-Developer-Needed-for-Web-MVP-with-Supabase_~021909960208138716206/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:56:36,374 - upwork_bot - INFO - Successfully sent job 021909960208... (Backend Developer Needed for Web MVP with Supabase) to backend channel (Message ID: 1359904909201506467)
+2025-04-10 17:56:36,378 - upwork_bot - INFO - Processing job: Django and Django REST Framework Expert (https://upwork.com/jobs/Django-and-Django-REST-Framework-Expert_~021910345632522096934/?referrer_url_path=/nx/search/jobs/) for categories: ['backend']
+2025-04-10 17:56:36,378 - upwork_bot - INFO - Preparing job for channel: upwork-job-backend (ID: 1359136722079711484) - Job Link: https://upwork.com/jobs/Django-and-Django-REST-Framework-Expert_~021910345632522096934/?referrer_url_path=/nx/search/jobs/
+2025-04-10 17:56:36,645 - upwork_bot - INFO - Successfully sent job 021910345632... (Django and Django REST Framework Expert) to backend channel (Message ID: 1359904910430441793)
+2025-04-10 17:56:36,645 - upwork_bot - INFO - Updated last job title to: Full-stack WordPress developer
+2025-04-10 18:01:25,638 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 18:01:26,788 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-10 18:01:26,788 - upwork_bot - INFO - Newest job title: Need a shopify experty -No agency please
+2025-04-10 18:01:26,788 - upwork_bot - INFO - Processing job: Need a shopify experty -No agency please
+2025-04-10 18:01:26,789 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Need-shopify-experty-agency-please_~021910347259513590054/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:01:29,652 - upwork_bot - INFO - Processing job: Selenium + python + linux developer needed for 200 hours
+2025-04-10 18:01:29,653 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Selenium-python-linux-developer-needed-for-200-hours_~021910347170162331942/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:01:32,182 - upwork_bot - INFO - Processing job: Framer Web Developer Wanted - 5 Star Rating Guaranteed!
+2025-04-10 18:01:32,183 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Framer-Web-Developer-Wanted-Star-Rating-Guaranteed_~021910346961189224664/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:01:34,773 - upwork_bot - INFO - Processing job: Urgent Required Java with Viewjs full stack developer
+2025-04-10 18:01:34,773 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Urgent-Required-Java-with-Viewjs-span-class-highlight-full-span-span-class-highlight-stack-span-developer_~021910346652754684583/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:01:38,237 - upwork_bot - INFO - Processing job: Looking for Retail Web Scraper
+2025-04-10 18:01:38,237 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Looking-for-Retail-Web-Scraper_~021910346609190949158/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:01:40,722 - upwork_bot - INFO - Processing job: Scrape rescue centers from website Json
+2025-04-10 18:01:40,722 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/span-class-highlight-Scrape-span-rescue-centers-from-website-Json_~021910346589171221865/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:01:45,587 - upwork_bot - INFO - Processing job: Innovation Partner to Resell Next-Gen Tech Solutions with Our IT Architecture Expertise
+2025-04-10 18:01:45,589 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Innovation-Partner-Resell-Next-Gen-Tech-Solutions-with-Our-Architecture-Expertise_~021910346288114477735/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:01:48,643 - upwork_bot - INFO - Processing job: Klaviyo Setup and Automation Integration for Shopify
+2025-04-10 18:01:48,643 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Klaviyo-Setup-and-span-class-highlight-Automation-span-Integration-for-Shopify_~021910345327365509414/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:01:52,893 - upwork_bot - INFO - Reached previously seen job: Full-stack WordPress developer
+2025-04-10 18:01:52,894 - upwork_bot - INFO - Updated last job title to: Need a shopify experty -No agency please
+2025-04-10 18:01:52,902 - upwork_bot - INFO - Processing job: Need a shopify experty -No agency please (https://upwork.com/jobs/Need-shopify-experty-agency-please_~021910347259513590054/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:01:52,902 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Need-shopify-experty-agency-please_~021910347259513590054/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:01:53,350 - upwork_bot - INFO - Successfully sent job 021910347259... (Need a shopify experty -No agency please) to other channel (Message ID: 1359906238720376893)
+2025-04-10 18:01:53,351 - upwork_bot - INFO - Processing job: Selenium + python + linux developer needed for 200 hours (https://upwork.com/jobs/Selenium-python-linux-developer-needed-for-200-hours_~021910347170162331942/?referrer_url_path=/nx/search/jobs/) for categories: ['frontend', 'backend']
+2025-04-10 18:01:53,352 - upwork_bot - INFO - Preparing job for channel: upwork-job-frontend (ID: 1359136544337957016) - Job Link: https://upwork.com/jobs/Selenium-python-linux-developer-needed-for-200-hours_~021910347170162331942/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:01:53,730 - upwork_bot - INFO - Successfully sent job 021910347170... (Selenium + python + linux developer needed for 200 hours) to frontend channel (Message ID: 1359906240138055691)
+2025-04-10 18:01:53,730 - upwork_bot - INFO - Preparing job for channel: upwork-job-backend (ID: 1359136722079711484) - Job Link: https://upwork.com/jobs/Selenium-python-linux-developer-needed-for-200-hours_~021910347170162331942/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:01:54,108 - upwork_bot - INFO - Successfully sent job 021910347170... (Selenium + python + linux developer needed for 200 hours) to backend channel (Message ID: 1359906241765310696)
+2025-04-10 18:01:54,108 - upwork_bot - INFO - Filtered out AI-related job: Framer Web Developer Wanted - 5 Star Rating Guaranteed! (matched term: AI)
+2025-04-10 18:01:54,108 - upwork_bot - INFO - Filtered job by content: Framer Web Developer Wanted - 5 Star Rating Guaranteed! (https://upwork.com/jobs/Framer-Web-Developer-Wanted-Star-Rating-Guaranteed_~021910346961189224664/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 18:01:54,109 - upwork_bot - INFO - Added job https://upwork.com/jobs/Framer-Web-Developer-Wanted-Star-Rating-Guaranteed_~021910346961189224664/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 18:01:54,109 - upwork_bot - INFO - Filtered out devops-related job: Urgent Required Java with Viewjs full stack developer (matched term: aws)
+2025-04-10 18:01:54,110 - upwork_bot - INFO - Filtered job by content: Urgent Required Java with Viewjs full stack developer (https://upwork.com/jobs/Urgent-Required-Java-with-Viewjs-span-class-highlight-full-span-span-class-highlight-stack-span-developer_~021910346652754684583/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 18:01:54,110 - upwork_bot - INFO - Added job https://upwork.com/jobs/Urgent-Required-Java-with-Viewjs-span-class-highlight-full-span-span-class-highlight-stack-span-developer_~021910346652754684583/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 18:01:54,111 - upwork_bot - INFO - Processing job: Looking for Retail Web Scraper (https://upwork.com/jobs/Looking-for-Retail-Web-Scraper_~021910346609190949158/?referrer_url_path=/nx/search/jobs/) for categories: ['scraping']
+2025-04-10 18:01:54,111 - upwork_bot - INFO - Preparing job for channel: upwork-job-scrape (ID: 1359136986476183723) - Job Link: https://upwork.com/jobs/Looking-for-Retail-Web-Scraper_~021910346609190949158/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:01:54,453 - upwork_bot - INFO - Successfully sent job 021910346609... (Looking for Retail Web Scraper) to scraping channel (Message ID: 1359906243212214385)
+2025-04-10 18:01:54,455 - upwork_bot - INFO - Processing job: Scrape rescue centers from website Json (https://upwork.com/jobs/span-class-highlight-Scrape-span-rescue-centers-from-website-Json_~021910346589171221865/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:01:54,456 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/span-class-highlight-Scrape-span-rescue-centers-from-website-Json_~021910346589171221865/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:01:54,813 - upwork_bot - INFO - Successfully sent job 021910346589... (Scrape rescue centers from website Json) to other channel (Message ID: 1359906244650991637)
+2025-04-10 18:01:54,814 - upwork_bot - INFO - Filtered out AI-related job: Innovation Partner to Resell Next-Gen Tech Solutions with Our IT Architecture Expertise (matched term: AI)
+2025-04-10 18:01:54,815 - upwork_bot - INFO - Filtered job by content: Innovation Partner to Resell Next-Gen Tech Solutions with Our IT Architecture Expertise (https://upwork.com/jobs/Innovation-Partner-Resell-Next-Gen-Tech-Solutions-with-Our-Architecture-Expertise_~021910346288114477735/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 18:01:54,816 - upwork_bot - INFO - Added job https://upwork.com/jobs/Innovation-Partner-Resell-Next-Gen-Tech-Solutions-with-Our-Architecture-Expertise_~021910346288114477735/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 18:01:54,819 - upwork_bot - INFO - Processing job: Klaviyo Setup and Automation Integration for Shopify (https://upwork.com/jobs/Klaviyo-Setup-and-span-class-highlight-Automation-span-Integration-for-Shopify_~021910345327365509414/?referrer_url_path=/nx/search/jobs/) for categories: ['automation']
+2025-04-10 18:01:54,820 - upwork_bot - INFO - Preparing job for channel: upwork-job-automation (ID: 1359136863562104913) - Job Link: https://upwork.com/jobs/Klaviyo-Setup-and-span-class-highlight-Automation-span-Integration-for-Shopify_~021910345327365509414/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:01:55,138 - upwork_bot - INFO - Successfully sent job 021910345327... (Klaviyo Setup and Automation Integration for Shopify) to automation channel (Message ID: 1359906246093967380)
+2025-04-10 18:01:55,139 - upwork_bot - INFO - Updated last job title to: Need a shopify experty -No agency please
+2025-04-10 18:06:25,643 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 18:06:27,688 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-10 18:06:27,688 - upwork_bot - INFO - Newest job title: Full Stack developer (React, Redux, Java, SpringBoot) for Logistics Product Development
+2025-04-10 18:06:27,688 - upwork_bot - INFO - Processing job: Full Stack developer (React, Redux, Java, SpringBoot) for Logistics Product Development
+2025-04-10 18:06:27,689 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-developer-React-Redux-Java-SpringBoot-for-Logistics-Product-Development_~021907174446381227668/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:06:31,326 - upwork_bot - INFO - Processing job: Apollo services
+2025-04-10 18:06:31,327 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Apollo-services_~021910348476525969768/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:06:34,065 - upwork_bot - INFO - Processing job: Backend Developer with NestJS and Angular CMS Experience
+2025-04-10 18:06:34,065 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/span-class-highlight-Backend-span-Developer-with-NestJS-and-Angular-CMS-Experience_~021910348418900427112/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:06:37,968 - upwork_bot - INFO - Processing job: Google Tag Manager Expert Needed | Custom Next.js Site Tracking Setup
+2025-04-10 18:06:37,968 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Google-Tag-Manager-Expert-Needed-Custom-Next-Site-Tracking-Setup_~021910348257663167143/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:06:40,655 - upwork_bot - INFO - Processing job: Customer Service for Ecommerce Brand
+2025-04-10 18:06:40,655 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Customer-Service-for-Ecommerce-Brand_~021910348229087199592/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:06:43,276 - upwork_bot - INFO - Processing job: Web Scraper Needed for Real Estate Data Extraction
+2025-04-10 18:06:43,276 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Web-Scraper-Needed-for-Real-Estate-Data-Extraction_~021910348142610255089/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:06:45,773 - upwork_bot - INFO - Processing job: Shopify & WooCommerce Developer with Client Support Expertise
+2025-04-10 18:06:45,775 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Shopify-WooCommerce-Developer-with-Client-Support-Expertise_~021910348020970780718/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:06:48,388 - upwork_bot - INFO - Processing job: Bookkeeping Platform Development
+2025-04-10 18:06:48,388 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Bookkeeping-Platform-Development_~021910347919570911448/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:06:51,425 - upwork_bot - INFO - Processing job: Langgraph, Python
+2025-04-10 18:06:51,427 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Langgraph-Python_~021910347729917366566/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:06:53,818 - upwork_bot - INFO - Reached previously seen job: Need a shopify experty -No agency please
+2025-04-10 18:06:53,819 - upwork_bot - INFO - Updated last job title to: Full Stack developer (React, Redux, Java, SpringBoot) for Logistics Product Development
+2025-04-10 18:06:53,823 - upwork_bot - INFO - Processing job: Full Stack developer (React, Redux, Java, SpringBoot) for Logistics Product Development (https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-developer-React-Redux-Java-SpringBoot-for-Logistics-Product-Development_~021907174446381227668/?referrer_url_path=/nx/search/jobs/) for categories: ['frontend']
+2025-04-10 18:06:53,824 - upwork_bot - INFO - Preparing job for channel: upwork-job-frontend (ID: 1359136544337957016) - Job Link: https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-developer-React-Redux-Java-SpringBoot-for-Logistics-Product-Development_~021907174446381227668/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:06:54,342 - upwork_bot - INFO - Successfully sent job 021907174446... (Full Stack developer (React, Redux, Java, SpringBoot) for Logistics Product Development) to frontend channel (Message ID: 1359907501050564839)
+2025-04-10 18:06:54,343 - upwork_bot - INFO - Processing job: Apollo services (https://upwork.com/jobs/Apollo-services_~021910348476525969768/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:06:54,343 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Apollo-services_~021910348476525969768/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:06:54,678 - upwork_bot - INFO - Successfully sent job 021910348476... (Apollo services) to other channel (Message ID: 1359907502396932379)
+2025-04-10 18:06:54,682 - upwork_bot - INFO - Processing job: Backend Developer with NestJS and Angular CMS Experience (https://upwork.com/jobs/span-class-highlight-Backend-span-Developer-with-NestJS-and-Angular-CMS-Experience_~021910348418900427112/?referrer_url_path=/nx/search/jobs/) for categories: ['backend']
+2025-04-10 18:06:54,684 - upwork_bot - INFO - Preparing job for channel: upwork-job-backend (ID: 1359136722079711484) - Job Link: https://upwork.com/jobs/span-class-highlight-Backend-span-Developer-with-NestJS-and-Angular-CMS-Experience_~021910348418900427112/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:06:55,032 - upwork_bot - INFO - Successfully sent job 021910348418... (Backend Developer with NestJS and Angular CMS Experience) to backend channel (Message ID: 1359907504062070995)
+2025-04-10 18:06:55,046 - upwork_bot - INFO - Processing job: Google Tag Manager Expert Needed | Custom Next.js Site Tracking Setup (https://upwork.com/jobs/Google-Tag-Manager-Expert-Needed-Custom-Next-Site-Tracking-Setup_~021910348257663167143/?referrer_url_path=/nx/search/jobs/) for categories: ['frontend']
+2025-04-10 18:06:55,046 - upwork_bot - INFO - Preparing job for channel: upwork-job-frontend (ID: 1359136544337957016) - Job Link: https://upwork.com/jobs/Google-Tag-Manager-Expert-Needed-Custom-Next-Site-Tracking-Setup_~021910348257663167143/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:06:55,362 - upwork_bot - INFO - Successfully sent job 021910348257... (Google Tag Manager Expert Needed | Custom Next.js Site Tracking Setup) to frontend channel (Message ID: 1359907505404117125)
+2025-04-10 18:06:55,367 - upwork_bot - INFO - Processing job: Customer Service for Ecommerce Brand (https://upwork.com/jobs/Customer-Service-for-Ecommerce-Brand_~021910348229087199592/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:06:55,367 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Customer-Service-for-Ecommerce-Brand_~021910348229087199592/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:06:55,666 - upwork_bot - INFO - Successfully sent job 021910348229... (Customer Service for Ecommerce Brand) to other channel (Message ID: 1359907506280730898)
+2025-04-10 18:06:55,667 - upwork_bot - INFO - Processing job: Web Scraper Needed for Real Estate Data Extraction (https://upwork.com/jobs/Web-Scraper-Needed-for-Real-Estate-Data-Extraction_~021910348142610255089/?referrer_url_path=/nx/search/jobs/) for categories: ['scraping', 'automation']
+2025-04-10 18:06:55,667 - upwork_bot - INFO - Preparing job for channel: upwork-job-scrape (ID: 1359136986476183723) - Job Link: https://upwork.com/jobs/Web-Scraper-Needed-for-Real-Estate-Data-Extraction_~021910348142610255089/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:06:56,010 - upwork_bot - INFO - Successfully sent job 021910348142... (Web Scraper Needed for Real Estate Data Extraction) to scraping channel (Message ID: 1359907507920961589)
+2025-04-10 18:06:56,011 - upwork_bot - INFO - Preparing job for channel: upwork-job-automation (ID: 1359136863562104913) - Job Link: https://upwork.com/jobs/Web-Scraper-Needed-for-Real-Estate-Data-Extraction_~021910348142610255089/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:06:56,345 - upwork_bot - INFO - Successfully sent job 021910348142... (Web Scraper Needed for Real Estate Data Extraction) to automation channel (Message ID: 1359907509619396629)
+2025-04-10 18:06:56,349 - upwork_bot - INFO - Processing job: Shopify & WooCommerce Developer with Client Support Expertise (https://upwork.com/jobs/Shopify-WooCommerce-Developer-with-Client-Support-Expertise_~021910348020970780718/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:06:56,350 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Shopify-WooCommerce-Developer-with-Client-Support-Expertise_~021910348020970780718/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:06:56,862 - upwork_bot - INFO - Successfully sent job 021910348020... (Shopify & WooCommerce Developer with Client Support Expertise) to other channel (Message ID: 1359907511079014745)
+2025-04-10 18:06:56,863 - upwork_bot - INFO - Processing job: Bookkeeping Platform Development (https://upwork.com/jobs/Bookkeeping-Platform-Development_~021910347919570911448/?referrer_url_path=/nx/search/jobs/) for categories: ['backend']
+2025-04-10 18:06:56,863 - upwork_bot - INFO - Preparing job for channel: upwork-job-backend (ID: 1359136722079711484) - Job Link: https://upwork.com/jobs/Bookkeeping-Platform-Development_~021910347919570911448/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:06:57,123 - upwork_bot - INFO - Successfully sent job 021910347919... (Bookkeeping Platform Development) to backend channel (Message ID: 1359907512912183398)
+2025-04-10 18:06:57,126 - upwork_bot - INFO - Processing job: Langgraph, Python (https://upwork.com/jobs/Langgraph-Python_~021910347729917366566/?referrer_url_path=/nx/search/jobs/) for categories: ['backend']
+2025-04-10 18:06:57,128 - upwork_bot - INFO - Preparing job for channel: upwork-job-backend (ID: 1359136722079711484) - Job Link: https://upwork.com/jobs/Langgraph-Python_~021910347729917366566/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:06:57,550 - upwork_bot - INFO - Successfully sent job 021910347729... (Langgraph, Python) to backend channel (Message ID: 1359907514468139209)
+2025-04-10 18:06:57,551 - upwork_bot - INFO - Updated last job title to: Full Stack developer (React, Redux, Java, SpringBoot) for Logistics Product Development
+2025-04-10 18:11:25,644 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 18:11:26,953 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-10 18:11:26,953 - upwork_bot - INFO - Newest job title: Administrative assistants/Data entry/research $3/hour  to start
+2025-04-10 18:11:26,953 - upwork_bot - INFO - Processing job: Administrative assistants/Data entry/research $3/hour  to start
+2025-04-10 18:11:26,953 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Administrative-assistants-Data-entry-research-hour-start_~021910349605618503974/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:11:29,578 - upwork_bot - INFO - Processing job: Design Brief – Redesign of LuxuryLeasing.de
+2025-04-10 18:11:29,578 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Design-Brief-Redesign-LuxuryLeasing_~021910349407628077735/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:11:31,954 - upwork_bot - INFO - Processing job: Notion Workspace Designer for Restaurant Operations (SOPs, Scheduling, Training & Dashboards)
+2025-04-10 18:11:31,955 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Notion-Workspace-Designer-for-Restaurant-Operations-SOPs-Scheduling-Training-Dashboards_~021910348951206416678/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:11:34,427 - upwork_bot - INFO - Processing job: Ingénieur Électrique Cherche Opportunité de Freelance
+2025-04-10 18:11:34,427 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Ing-nieur-lectrique-Cherche-Opportunit-Freelance_~021910349004534317416/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:11:37,772 - upwork_bot - INFO - Processing job: Technical Lead / VP of Engineering
+2025-04-10 18:11:37,773 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Technical-Lead-Engineering_~021910349042216118951/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:11:40,292 - upwork_bot - INFO - Processing job: Design and Mobile App Developer for Fitness Project
+2025-04-10 18:11:40,292 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Design-and-Mobile-App-Developer-for-Fitness-Project_~021910348764585054502/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:11:42,879 - upwork_bot - INFO - Reached previously seen job: Full Stack developer (React, Redux, Java, SpringBoot) for Logistics Product Development
+2025-04-10 18:11:42,879 - upwork_bot - INFO - Updated last job title to: Administrative assistants/Data entry/research $3/hour  to start
+2025-04-10 18:11:42,884 - upwork_bot - INFO - Processing job: Administrative assistants/Data entry/research $3/hour  to start (https://upwork.com/jobs/Administrative-assistants-Data-entry-research-hour-start_~021910349605618503974/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:11:42,884 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Administrative-assistants-Data-entry-research-hour-start_~021910349605618503974/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:11:43,296 - upwork_bot - INFO - Successfully sent job 021910349605... (Administrative assistants/Data entry/research $3/hour  to start) to other channel (Message ID: 1359908713217003850)
+2025-04-10 18:11:43,297 - upwork_bot - INFO - Filtered out AI-related job: Design Brief – Redesign of LuxuryLeasing.de (matched term: AI)
+2025-04-10 18:11:43,297 - upwork_bot - INFO - Filtered job by content: Design Brief – Redesign of LuxuryLeasing.de (https://upwork.com/jobs/Design-Brief-Redesign-LuxuryLeasing_~021910349407628077735/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 18:11:43,297 - upwork_bot - INFO - Added job https://upwork.com/jobs/Design-Brief-Redesign-LuxuryLeasing_~021910349407628077735/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 18:11:43,303 - upwork_bot - INFO - Processing job: Notion Workspace Designer for Restaurant Operations (SOPs, Scheduling, Training & Dashboards) (https://upwork.com/jobs/Notion-Workspace-Designer-for-Restaurant-Operations-SOPs-Scheduling-Training-Dashboards_~021910348951206416678/?referrer_url_path=/nx/search/jobs/) for categories: ['frontend']
+2025-04-10 18:11:43,303 - upwork_bot - INFO - Preparing job for channel: upwork-job-frontend (ID: 1359136544337957016) - Job Link: https://upwork.com/jobs/Notion-Workspace-Designer-for-Restaurant-Operations-SOPs-Scheduling-Training-Dashboards_~021910348951206416678/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:11:43,581 - upwork_bot - INFO - Successfully sent job 021910348951... (Notion Workspace Designer for Restaurant Operations (SOPs, Scheduling, Training & Dashboards)) to frontend channel (Message ID: 1359908714370302113)
+2025-04-10 18:11:43,582 - upwork_bot - INFO - Processing job: Ingénieur Électrique Cherche Opportunité de Freelance (https://upwork.com/jobs/Ing-nieur-lectrique-Cherche-Opportunit-Freelance_~021910349004534317416/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:11:43,582 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Ing-nieur-lectrique-Cherche-Opportunit-Freelance_~021910349004534317416/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:11:44,031 - upwork_bot - INFO - Successfully sent job 021910349004... (Ingénieur Électrique Cherche Opportunité de Freelance) to other channel (Message ID: 1359908715939234027)
+2025-04-10 18:11:44,035 - upwork_bot - INFO - Filtered out devops-related job: Technical Lead / VP of Engineering (matched term: devops)
+2025-04-10 18:11:44,035 - upwork_bot - INFO - Filtered job by content: Technical Lead / VP of Engineering (https://upwork.com/jobs/Technical-Lead-Engineering_~021910349042216118951/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 18:11:44,035 - upwork_bot - INFO - Added job https://upwork.com/jobs/Technical-Lead-Engineering_~021910349042216118951/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 18:11:44,036 - upwork_bot - INFO - Processing job: Design and Mobile App Developer for Fitness Project (https://upwork.com/jobs/Design-and-Mobile-App-Developer-for-Fitness-Project_~021910348764585054502/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:11:44,036 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Design-and-Mobile-App-Developer-for-Fitness-Project_~021910348764585054502/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:11:44,368 - upwork_bot - INFO - Successfully sent job 021910348764... (Design and Mobile App Developer for Fitness Project) to other channel (Message ID: 1359908717507903640)
+2025-04-10 18:11:44,368 - upwork_bot - INFO - Updated last job title to: Administrative assistants/Data entry/research $3/hour  to start
+2025-04-10 18:16:25,649 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 18:16:27,127 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-10 18:16:27,127 - upwork_bot - INFO - Newest job title: Stdnt Dash
+2025-04-10 18:16:27,128 - upwork_bot - INFO - Processing job: Stdnt Dash
+2025-04-10 18:16:27,128 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Stdnt-Dash_~021910351088535654694/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:16:29,828 - upwork_bot - INFO - Processing job: Help Me Find Emails for 2K Dance Studios in the U.S.
+2025-04-10 18:16:29,828 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Help-Find-Emails-for-Dance-Studios-the_~021910350662043740839/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:16:32,599 - upwork_bot - INFO - Processing job: Create Power Automate Flow for Microsoft List to Word Document
+2025-04-10 18:16:32,601 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Create-Power-span-class-highlight-Automate-span-Flow-for-Microsoft-List-Word-Document_~021910350624265644711/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:16:36,354 - upwork_bot - INFO - Processing job: Senior Front-End Flutter Dev for Social App (Bloc, Clean Architecture only - 30% complete)
+2025-04-10 18:16:36,355 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Senior-Front-End-Flutter-Dev-for-Social-App-Bloc-Clean-Architecture-only-complete_~021909928187432332450/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:16:38,959 - upwork_bot - INFO - Processing job: Boei Chatbot Customization Expert Needed
+2025-04-10 18:16:38,960 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Boei-Chatbot-Customization-Expert-Needed_~021910350360804633255/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:16:41,747 - upwork_bot - INFO - Processing job: Build member platform with AI-generated profiles, article submission, and board roles matching
+2025-04-10 18:16:41,749 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Build-member-platform-with-generated-profiles-article-submission-and-board-roles-matching_~021910349916022165798/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:16:44,823 - upwork_bot - INFO - Processing job: Obsidian Plugin Development for Notion Sync
+2025-04-10 18:16:44,824 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Obsidian-Plugin-Development-for-Notion-Sync_~021910350122860073254/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:16:47,527 - upwork_bot - INFO - Processing job: Implement Dedicated Stripe Checkout Page Payment Integration onto WooCommerce Store
+2025-04-10 18:16:47,528 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Implement-Dedicated-Stripe-Checkout-Page-Payment-Integration-onto-WooCommerce-Store_~021910350110251995430/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:16:50,089 - upwork_bot - INFO - Processing job: Asana, ClickUp and Monday Configuration Work
+2025-04-10 18:16:50,089 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Asana-ClickUp-and-Monday-Configuration-Work_~021910350096940794216/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:16:52,800 - upwork_bot - INFO - Reached previously seen job: Administrative assistants/Data entry/research $3/hour  to start
+2025-04-10 18:16:52,802 - upwork_bot - INFO - Updated last job title to: Stdnt Dash
+2025-04-10 18:16:52,808 - upwork_bot - INFO - Processing job: Stdnt Dash (https://upwork.com/jobs/Stdnt-Dash_~021910351088535654694/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:16:52,810 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Stdnt-Dash_~021910351088535654694/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:16:53,317 - upwork_bot - INFO - Successfully sent job 021910351088... (Stdnt Dash) to other channel (Message ID: 1359910013422014525)
+2025-04-10 18:16:53,319 - upwork_bot - INFO - Processing job: Help Me Find Emails for 2K Dance Studios in the U.S. (https://upwork.com/jobs/Help-Find-Emails-for-Dance-Studios-the_~021910350662043740839/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:16:53,320 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Help-Find-Emails-for-Dance-Studios-the_~021910350662043740839/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:16:53,733 - upwork_bot - INFO - Successfully sent job 021910350662... (Help Me Find Emails for 2K Dance Studios in the U.S.) to other channel (Message ID: 1359910015074304070)
+2025-04-10 18:16:53,734 - upwork_bot - INFO - Processing job: Create Power Automate Flow for Microsoft List to Word Document (https://upwork.com/jobs/Create-Power-span-class-highlight-Automate-span-Flow-for-Microsoft-List-Word-Document_~021910350624265644711/?referrer_url_path=/nx/search/jobs/) for categories: ['automation']
+2025-04-10 18:16:53,735 - upwork_bot - INFO - Preparing job for channel: upwork-job-automation (ID: 1359136863562104913) - Job Link: https://upwork.com/jobs/Create-Power-span-class-highlight-Automate-span-Flow-for-Microsoft-List-Word-Document_~021910350624265644711/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:16:54,089 - upwork_bot - INFO - Successfully sent job 021910350624... (Create Power Automate Flow for Microsoft List to Word Document) to automation channel (Message ID: 1359910016424869951)
+2025-04-10 18:16:54,090 - upwork_bot - INFO - Processing job: Senior Front-End Flutter Dev for Social App (Bloc, Clean Architecture only - 30% complete) (https://upwork.com/jobs/Senior-Front-End-Flutter-Dev-for-Social-App-Bloc-Clean-Architecture-only-complete_~021909928187432332450/?referrer_url_path=/nx/search/jobs/) for categories: ['frontend']
+2025-04-10 18:16:54,090 - upwork_bot - INFO - Preparing job for channel: upwork-job-frontend (ID: 1359136544337957016) - Job Link: https://upwork.com/jobs/Senior-Front-End-Flutter-Dev-for-Social-App-Bloc-Clean-Architecture-only-complete_~021909928187432332450/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:16:54,420 - upwork_bot - INFO - Successfully sent job 021909928187... (Senior Front-End Flutter Dev for Social App (Bloc, Clean Architecture only - 30% complete)) to frontend channel (Message ID: 1359910018052260001)
+2025-04-10 18:16:54,421 - upwork_bot - INFO - Filtered out AI-related job: Boei Chatbot Customization Expert Needed (matched term: AI)
+2025-04-10 18:16:54,421 - upwork_bot - INFO - Filtered job by content: Boei Chatbot Customization Expert Needed (https://upwork.com/jobs/Boei-Chatbot-Customization-Expert-Needed_~021910350360804633255/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 18:16:54,422 - upwork_bot - INFO - Added job https://upwork.com/jobs/Boei-Chatbot-Customization-Expert-Needed_~021910350360804633255/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 18:16:54,422 - upwork_bot - INFO - Filtered out AI-related job: Build member platform with AI-generated profiles, article submission, and board roles matching (matched term: AI)
+2025-04-10 18:16:54,422 - upwork_bot - INFO - Filtered job by content: Build member platform with AI-generated profiles, article submission, and board roles matching (https://upwork.com/jobs/Build-member-platform-with-generated-profiles-article-submission-and-board-roles-matching_~021910349916022165798/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 18:16:54,423 - upwork_bot - INFO - Added job https://upwork.com/jobs/Build-member-platform-with-generated-profiles-article-submission-and-board-roles-matching_~021910349916022165798/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 18:16:54,424 - upwork_bot - INFO - Processing job: Obsidian Plugin Development for Notion Sync (https://upwork.com/jobs/Obsidian-Plugin-Development-for-Notion-Sync_~021910350122860073254/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:16:54,424 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Obsidian-Plugin-Development-for-Notion-Sync_~021910350122860073254/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:16:54,748 - upwork_bot - INFO - Successfully sent job 021910350122... (Obsidian Plugin Development for Notion Sync) to other channel (Message ID: 1359910019415539864)
+2025-04-10 18:16:54,755 - upwork_bot - INFO - Processing job: Implement Dedicated Stripe Checkout Page Payment Integration onto WooCommerce Store (https://upwork.com/jobs/Implement-Dedicated-Stripe-Checkout-Page-Payment-Integration-onto-WooCommerce-Store_~021910350110251995430/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:16:54,756 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Implement-Dedicated-Stripe-Checkout-Page-Payment-Integration-onto-WooCommerce-Store_~021910350110251995430/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:16:55,077 - upwork_bot - INFO - Successfully sent job 021910350110... (Implement Dedicated Stripe Checkout Page Payment Integration onto WooCommerce Store) to other channel (Message ID: 1359910020833087558)
+2025-04-10 18:16:55,087 - upwork_bot - INFO - Processing job: Asana, ClickUp and Monday Configuration Work (https://upwork.com/jobs/Asana-ClickUp-and-Monday-Configuration-Work_~021910350096940794216/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:16:55,087 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Asana-ClickUp-and-Monday-Configuration-Work_~021910350096940794216/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:16:55,417 - upwork_bot - INFO - Successfully sent job 021910350096... (Asana, ClickUp and Monday Configuration Work) to other channel (Message ID: 1359910022154424380)
+2025-04-10 18:16:55,419 - upwork_bot - INFO - Updated last job title to: Stdnt Dash
+2025-04-10 18:21:25,637 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 18:21:26,899 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-10 18:21:26,900 - upwork_bot - INFO - Newest job title: Webflow Developer Needed
+2025-04-10 18:21:26,900 - upwork_bot - INFO - Processing job: Webflow Developer Needed
+2025-04-10 18:21:26,900 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Webflow-Developer-Needed_~021910352200338864174/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:21:30,267 - upwork_bot - INFO - Processing job: Experienced Frontend Developer Needed for Modern Website
+2025-04-10 18:21:30,267 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Experienced-span-class-highlight-Frontend-span-Developer-Needed-for-Modern-Website_~021910351745524564328/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:21:33,926 - upwork_bot - INFO - Processing job: Create A EA for Forex
+2025-04-10 18:21:33,928 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Create-for-Forex_~021910352048387041959/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:21:37,552 - upwork_bot - INFO - Processing job: Data collection for sentiment analysis web development
+2025-04-10 18:21:37,552 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Data-collection-for-sentiment-analysis-web-development_~021910351937367834984/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:21:43,726 - upwork_bot - INFO - Processing job: Senior Golang Developer for Payments Platform
+2025-04-10 18:21:43,727 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Senior-Golang-Developer-for-Payments-Platform_~021910351814790051886/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:21:47,673 - upwork_bot - INFO - Processing job: Email Marketing Specialist & Virtual Assistant Needed
+2025-04-10 18:21:47,675 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Email-Marketing-Specialist-Virtual-Assistant-Needed_~021910351839650155761/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:21:50,203 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Stack-Developer-for-Investment-App-Next-span-class-highlight-Frontend-span-with-Strapi-and-REST-API-Integration_~021910351481501690535/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:21:53,718 - upwork_bot - INFO - Processing job: API Expert - WordPress API Integration with a platform
+2025-04-10 18:21:53,718 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/API-Expert-WordPress-API-Integration-with-platform_~021910351356746137960/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:21:56,196 - upwork_bot - INFO - Processing job: Software Developer
+2025-04-10 18:21:56,197 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Software-Developer_~021910351323892906030/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:21:58,762 - upwork_bot - INFO - Processing job: NodeJS Developer for Small CLI Tool
+2025-04-10 18:21:58,763 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/NodeJS-Developer-for-Small-CLI-Tool_~021910351245802777255/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:22:01,339 - upwork_bot - INFO - Reached previously seen job: Stdnt Dash
+2025-04-10 18:22:01,340 - upwork_bot - INFO - Updated last job title to: Webflow Developer Needed
+2025-04-10 18:22:01,341 - upwork_bot - INFO - Processing job: Webflow Developer Needed (https://upwork.com/jobs/Webflow-Developer-Needed_~021910352200338864174/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:22:01,341 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Webflow-Developer-Needed_~021910352200338864174/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:22:01,836 - upwork_bot - INFO - Successfully sent job 021910352200... (Webflow Developer Needed) to other channel (Message ID: 1359911306991370282)
+2025-04-10 18:22:01,837 - upwork_bot - INFO - Processing job: Experienced Frontend Developer Needed for Modern Website (https://upwork.com/jobs/Experienced-span-class-highlight-Frontend-span-Developer-Needed-for-Modern-Website_~021910351745524564328/?referrer_url_path=/nx/search/jobs/) for categories: ['frontend']
+2025-04-10 18:22:01,838 - upwork_bot - INFO - Preparing job for channel: upwork-job-frontend (ID: 1359136544337957016) - Job Link: https://upwork.com/jobs/Experienced-span-class-highlight-Frontend-span-Developer-Needed-for-Modern-Website_~021910351745524564328/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:22:02,123 - upwork_bot - INFO - Successfully sent job 021910351745... (Experienced Frontend Developer Needed for Modern Website) to frontend channel (Message ID: 1359911308694261872)
+2025-04-10 18:22:02,126 - upwork_bot - INFO - Processing job: Create A EA for Forex (https://upwork.com/jobs/Create-for-Forex_~021910352048387041959/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:22:02,126 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Create-for-Forex_~021910352048387041959/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:22:02,584 - upwork_bot - INFO - Successfully sent job 021910352048... (Create A EA for Forex) to other channel (Message ID: 1359911309944029215)
+2025-04-10 18:22:02,585 - upwork_bot - INFO - Filtered out AI-related job: Data collection for sentiment analysis web development (matched term: AI)
+2025-04-10 18:22:02,585 - upwork_bot - INFO - Filtered job by content: Data collection for sentiment analysis web development (https://upwork.com/jobs/Data-collection-for-sentiment-analysis-web-development_~021910351937367834984/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 18:22:02,585 - upwork_bot - INFO - Added job https://upwork.com/jobs/Data-collection-for-sentiment-analysis-web-development_~021910351937367834984/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 18:22:02,585 - upwork_bot - INFO - Processing job: Senior Golang Developer for Payments Platform (https://upwork.com/jobs/Senior-Golang-Developer-for-Payments-Platform_~021910351814790051886/?referrer_url_path=/nx/search/jobs/) for categories: ['backend']
+2025-04-10 18:22:02,585 - upwork_bot - INFO - Preparing job for channel: upwork-job-backend (ID: 1359136722079711484) - Job Link: https://upwork.com/jobs/Senior-Golang-Developer-for-Payments-Platform_~021910351814790051886/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:22:02,968 - upwork_bot - INFO - Successfully sent job 021910351814... (Senior Golang Developer for Payments Platform) to backend channel (Message ID: 1359911311768817778)
+2025-04-10 18:22:02,975 - upwork_bot - INFO - Processing job: Email Marketing Specialist & Virtual Assistant Needed (https://upwork.com/jobs/Email-Marketing-Specialist-Virtual-Assistant-Needed_~021910351839650155761/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:22:02,975 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Email-Marketing-Specialist-Virtual-Assistant-Needed_~021910351839650155761/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:22:03,249 - upwork_bot - INFO - Successfully sent job 021910351839... (Email Marketing Specialist & Virtual Assistant Needed) to other channel (Message ID: 1359911313488216275)
+2025-04-10 18:22:03,254 - upwork_bot - INFO - Added job https://upwork.com/jobs/Stack-Developer-for-Investment-App-Next-span-class-highlight-Frontend-span-with-Strapi-and-REST-API-Integration_~021910351481501690535/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 18:22:03,255 - upwork_bot - INFO - Processing job: API Expert - WordPress API Integration with a platform (https://upwork.com/jobs/API-Expert-WordPress-API-Integration-with-platform_~021910351356746137960/?referrer_url_path=/nx/search/jobs/) for categories: ['backend']
+2025-04-10 18:22:03,255 - upwork_bot - INFO - Preparing job for channel: upwork-job-backend (ID: 1359136722079711484) - Job Link: https://upwork.com/jobs/API-Expert-WordPress-API-Integration-with-platform_~021910351356746137960/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:22:03,534 - upwork_bot - INFO - Successfully sent job 021910351356... (API Expert - WordPress API Integration with a platform) to backend channel (Message ID: 1359911314352242790)
+2025-04-10 18:22:03,535 - upwork_bot - INFO - Processing job: Software Developer (https://upwork.com/jobs/Software-Developer_~021910351323892906030/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:22:03,535 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Software-Developer_~021910351323892906030/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:22:03,878 - upwork_bot - INFO - Successfully sent job 021910351323... (Software Developer) to other channel (Message ID: 1359911315556274339)
+2025-04-10 18:22:03,882 - upwork_bot - INFO - Filtered out data-related job: NodeJS Developer for Small CLI Tool (matched term: data processing)
+2025-04-10 18:22:03,883 - upwork_bot - INFO - Filtered job by content: NodeJS Developer for Small CLI Tool (https://upwork.com/jobs/NodeJS-Developer-for-Small-CLI-Tool_~021910351245802777255/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 18:22:03,883 - upwork_bot - INFO - Added job https://upwork.com/jobs/NodeJS-Developer-for-Small-CLI-Tool_~021910351245802777255/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 18:22:03,883 - upwork_bot - INFO - Updated last job title to: Webflow Developer Needed
+2025-04-10 18:26:25,651 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 18:26:27,273 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-10 18:26:27,274 - upwork_bot - INFO - Newest job title: Tengo una App Web en FlutterFlow con Integración de Stripe y Firebase
+2025-04-10 18:26:27,274 - upwork_bot - INFO - Processing job: Tengo una App Web en FlutterFlow con Integración de Stripe y Firebase
+2025-04-10 18:26:27,274 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Tengo-una-App-Web-FlutterFlow-con-Integraci-Stripe-Firebase_~021910353589348991336/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:26:30,197 - upwork_bot - INFO - Processing job: Automated LinkedIn Outreach using HeyReach or LGM
+2025-04-10 18:26:30,198 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/span-class-highlight-Automated-span-LinkedIn-Outreach-using-HeyReach-LGM_~021910353508162523430/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:26:32,821 - upwork_bot - INFO - Retrieved job URL for 'Show More' (Message 1359911314352242790): https://upwork.com/jobs/API-Expert-WordPress-API-Integration-with-platform_~021910351356746137960/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:26:33,834 - upwork_bot - INFO - Processing job: Help with Octoparse
+2025-04-10 18:26:33,834 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Help-with-Octoparse_~021910353477212754214/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:26:36,515 - upwork_bot - INFO - Processing job: Custom Digital Product Store – SvelteKit + Stripe + PayPal + Admin Dashboard + Telegram Automation
+2025-04-10 18:26:36,516 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Custom-Digital-Product-Store-SvelteKit-Stripe-PayPal-Admin-Dashboard-Telegram-span-class-highlight-Automation-span_~021910353141724479848/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:26:40,060 - upwork_bot - INFO - Processing job: META and PICO 4 VR App
+2025-04-10 18:26:40,061 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/META-and-PICO-App_~021910352526825410854/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:26:42,472 - upwork_bot - INFO - Reached previously seen job: Webflow Developer Needed
+2025-04-10 18:26:42,472 - upwork_bot - INFO - Updated last job title to: Tengo una App Web en FlutterFlow con Integración de Stripe y Firebase
+2025-04-10 18:26:42,480 - upwork_bot - INFO - Processing job: Tengo una App Web en FlutterFlow con Integración de Stripe y Firebase (https://upwork.com/jobs/Tengo-una-App-Web-FlutterFlow-con-Integraci-Stripe-Firebase_~021910353589348991336/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:26:42,480 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Tengo-una-App-Web-FlutterFlow-con-Integraci-Stripe-Firebase_~021910353589348991336/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:26:42,766 - upwork_bot - INFO - Successfully sent job 021910353589... (Tengo una App Web en FlutterFlow con Integración de Stripe y Firebase) to other channel (Message ID: 1359912485829738516)
+2025-04-10 18:26:42,767 - upwork_bot - INFO - Processing job: Automated LinkedIn Outreach using HeyReach or LGM (https://upwork.com/jobs/span-class-highlight-Automated-span-LinkedIn-Outreach-using-HeyReach-LGM_~021910353508162523430/?referrer_url_path=/nx/search/jobs/) for categories: ['automation']
+2025-04-10 18:26:42,767 - upwork_bot - INFO - Preparing job for channel: upwork-job-automation (ID: 1359136863562104913) - Job Link: https://upwork.com/jobs/span-class-highlight-Automated-span-LinkedIn-Outreach-using-HeyReach-LGM_~021910353508162523430/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:26:43,123 - upwork_bot - INFO - Successfully sent job 021910353508... (Automated LinkedIn Outreach using HeyReach or LGM) to automation channel (Message ID: 1359912487121846353)
+2025-04-10 18:26:43,125 - upwork_bot - INFO - Processing job: Help with Octoparse (https://upwork.com/jobs/Help-with-Octoparse_~021910353477212754214/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:26:43,125 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Help-with-Octoparse_~021910353477212754214/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:26:43,398 - upwork_bot - INFO - Successfully sent job 021910353477... (Help with Octoparse) to other channel (Message ID: 1359912488493387889)
+2025-04-10 18:26:43,409 - upwork_bot - INFO - Processing job: Custom Digital Product Store – SvelteKit + Stripe + PayPal + Admin Dashboard + Telegram Automation (https://upwork.com/jobs/Custom-Digital-Product-Store-SvelteKit-Stripe-PayPal-Admin-Dashboard-Telegram-span-class-highlight-Automation-span_~021910353141724479848/?referrer_url_path=/nx/search/jobs/) for categories: ['frontend']
+2025-04-10 18:26:43,410 - upwork_bot - INFO - Preparing job for channel: upwork-job-frontend (ID: 1359136544337957016) - Job Link: https://upwork.com/jobs/Custom-Digital-Product-Store-SvelteKit-Stripe-PayPal-Admin-Dashboard-Telegram-span-class-highlight-Automation-span_~021910353141724479848/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:26:43,689 - upwork_bot - INFO - Successfully sent job 021910353141... (Custom Digital Product Store – SvelteKit + Stripe + PayPal + Admin Dashboard + Telegram Automation) to frontend channel (Message ID: 1359912489331986473)
+2025-04-10 18:26:43,700 - upwork_bot - INFO - Processing job: META and PICO 4 VR App (https://upwork.com/jobs/META-and-PICO-App_~021910352526825410854/?referrer_url_path=/nx/search/jobs/) for categories: ['backend']
+2025-04-10 18:26:43,701 - upwork_bot - INFO - Preparing job for channel: upwork-job-backend (ID: 1359136722079711484) - Job Link: https://upwork.com/jobs/META-and-PICO-App_~021910352526825410854/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:26:44,037 - upwork_bot - INFO - Successfully sent job 021910352526... (META and PICO 4 VR App) to backend channel (Message ID: 1359912491068428488)
+2025-04-10 18:26:44,037 - upwork_bot - INFO - Updated last job title to: Tengo una App Web en FlutterFlow con Integración de Stripe y Firebase
+2025-04-10 18:31:25,645 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 18:31:27,253 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-10 18:31:27,253 - upwork_bot - INFO - Newest job title: Looking for Full-Stack Developer / Team to Build AI-Powered Social Media Automation Platform
+2025-04-10 18:31:27,254 - upwork_bot - INFO - Processing job: Looking for Full-Stack Developer / Team to Build AI-Powered Social Media Automation Platform
+2025-04-10 18:31:27,254 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Looking-for-span-class-highlight-Full-span-span-class-highlight-Stack-span-Developer-Team-Build-Powered-Social-Media-span-class-highlight-Automation-span-Platform_~021910354828965630246/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:31:30,949 - upwork_bot - INFO - Processing job: Full-Stack Developer (React/Node.js/Python)
+2025-04-10 18:31:30,950 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-Developer-React-Node-Python_~021910354745710389927/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:31:34,835 - upwork_bot - INFO - Processing job: Web Scraping Expert Needed for Live Match Data Extraction
+2025-04-10 18:31:34,836 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Web-span-class-highlight-Scraping-span-Expert-Needed-for-Live-Match-Data-Extraction_~021910354402540650856/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:31:38,486 - upwork_bot - INFO - Processing job: Senior Developer for Complex 3rd Party XML API Integration (Java 11 & Angular 15)
+2025-04-10 18:31:38,488 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Senior-Developer-for-Complex-3rd-Party-XML-API-Integration-Java-Angular_~021910353892492487335/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:31:40,963 - upwork_bot - INFO - Processing job: Senior Zuora Developer Needed
+2025-04-10 18:31:40,963 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Senior-Zuora-Developer-Needed_~021910353935161141927/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:31:43,560 - upwork_bot - INFO - Processing job: Web Scraping Product Details from DTC Websites
+2025-04-10 18:31:43,560 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Web-span-class-highlight-Scraping-span-Product-Details-from-DTC-Websites_~021910353769444767790/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:31:47,107 - upwork_bot - INFO - Processing job: Angelcam.com camera setup for dog boarding facility
+2025-04-10 18:31:47,107 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Angelcam-com-camera-setup-for-dog-boarding-facility_~021910353677734039846/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:31:49,831 - upwork_bot - INFO - Reached previously seen job: Tengo una App Web en FlutterFlow con Integración de Stripe y Firebase
+2025-04-10 18:31:49,832 - upwork_bot - INFO - Updated last job title to: Looking for Full-Stack Developer / Team to Build AI-Powered Social Media Automation Platform
+2025-04-10 18:31:49,833 - upwork_bot - INFO - Filtered out AI-related job: Looking for Full-Stack Developer / Team to Build AI-Powered Social Media Automation Platform (matched term: AI)
+2025-04-10 18:31:49,833 - upwork_bot - INFO - Filtered job by content: Looking for Full-Stack Developer / Team to Build AI-Powered Social Media Automation Platform (https://upwork.com/jobs/Looking-for-span-class-highlight-Full-span-span-class-highlight-Stack-span-Developer-Team-Build-Powered-Social-Media-span-class-highlight-Automation-span-Platform_~021910354828965630246/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 18:31:49,834 - upwork_bot - INFO - Added job https://upwork.com/jobs/Looking-for-span-class-highlight-Full-span-span-class-highlight-Stack-span-Developer-Team-Build-Powered-Social-Media-span-class-highlight-Automation-span-Platform_~021910354828965630246/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 18:31:49,836 - upwork_bot - INFO - Filtered out devops-related job: Full-Stack Developer (React/Node.js/Python) (matched term: docker)
+2025-04-10 18:31:49,836 - upwork_bot - INFO - Filtered job by content: Full-Stack Developer (React/Node.js/Python) (https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-Developer-React-Node-Python_~021910354745710389927/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 18:31:49,837 - upwork_bot - INFO - Added job https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-Developer-React-Node-Python_~021910354745710389927/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 18:31:49,838 - upwork_bot - INFO - Processing job: Web Scraping Expert Needed for Live Match Data Extraction (https://upwork.com/jobs/Web-span-class-highlight-Scraping-span-Expert-Needed-for-Live-Match-Data-Extraction_~021910354402540650856/?referrer_url_path=/nx/search/jobs/) for categories: ['scraping']
+2025-04-10 18:31:49,839 - upwork_bot - INFO - Preparing job for channel: upwork-job-scrape (ID: 1359136986476183723) - Job Link: https://upwork.com/jobs/Web-span-class-highlight-Scraping-span-Expert-Needed-for-Live-Match-Data-Extraction_~021910354402540650856/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:31:50,333 - upwork_bot - INFO - Successfully sent job 021910354402... (Web Scraping Expert Needed for Live Match Data Extraction) to scraping channel (Message ID: 1359913775653978505)
+2025-04-10 18:31:50,335 - upwork_bot - INFO - Filtered out data-related job: Senior Developer for Complex 3rd Party XML API Integration (Java 11 & Angular 15) (matched term: data modeling)
+2025-04-10 18:31:50,335 - upwork_bot - INFO - Filtered job by content: Senior Developer for Complex 3rd Party XML API Integration (Java 11 & Angular 15) (https://upwork.com/jobs/Senior-Developer-for-Complex-3rd-Party-XML-API-Integration-Java-Angular_~021910353892492487335/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 18:31:50,335 - upwork_bot - INFO - Added job https://upwork.com/jobs/Senior-Developer-for-Complex-3rd-Party-XML-API-Integration-Java-Angular_~021910353892492487335/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 18:31:50,339 - upwork_bot - INFO - Processing job: Senior Zuora Developer Needed (https://upwork.com/jobs/Senior-Zuora-Developer-Needed_~021910353935161141927/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:31:50,339 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Senior-Zuora-Developer-Needed_~021910353935161141927/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:31:50,725 - upwork_bot - INFO - Successfully sent job 021910353935... (Senior Zuora Developer Needed) to other channel (Message ID: 1359913777314791614)
+2025-04-10 18:31:50,743 - upwork_bot - INFO - Processing job: Web Scraping Product Details from DTC Websites (https://upwork.com/jobs/Web-span-class-highlight-Scraping-span-Product-Details-from-DTC-Websites_~021910353769444767790/?referrer_url_path=/nx/search/jobs/) for categories: ['scraping', 'automation']
+2025-04-10 18:31:50,745 - upwork_bot - INFO - Preparing job for channel: upwork-job-scrape (ID: 1359136986476183723) - Job Link: https://upwork.com/jobs/Web-span-class-highlight-Scraping-span-Product-Details-from-DTC-Websites_~021910353769444767790/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:31:51,158 - upwork_bot - INFO - Successfully sent job 021910353769... (Web Scraping Product Details from DTC Websites) to scraping channel (Message ID: 1359913778937856152)
+2025-04-10 18:31:51,158 - upwork_bot - INFO - Preparing job for channel: upwork-job-automation (ID: 1359136863562104913) - Job Link: https://upwork.com/jobs/Web-span-class-highlight-Scraping-span-Product-Details-from-DTC-Websites_~021910353769444767790/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:31:51,491 - upwork_bot - INFO - Successfully sent job 021910353769... (Web Scraping Product Details from DTC Websites) to automation channel (Message ID: 1359913780615839855)
+2025-04-10 18:31:51,493 - upwork_bot - INFO - Processing job: Angelcam.com camera setup for dog boarding facility (https://upwork.com/jobs/Angelcam-com-camera-setup-for-dog-boarding-facility_~021910353677734039846/?referrer_url_path=/nx/search/jobs/) for categories: ['other']
+2025-04-10 18:31:51,494 - upwork_bot - INFO - Preparing job for channel: upwork-job-others (ID: 1359140874759438386) - Job Link: https://upwork.com/jobs/Angelcam-com-camera-setup-for-dog-boarding-facility_~021910353677734039846/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:31:51,899 - upwork_bot - INFO - Successfully sent job 021910353677... (Angelcam.com camera setup for dog boarding facility) to other channel (Message ID: 1359913782062874936)
+2025-04-10 18:31:51,900 - upwork_bot - INFO - Updated last job title to: Web Scraping Expert Needed for Live Match Data Extraction
+2025-04-10 18:36:25,643 - upwork_bot - INFO - Fetching job list from Upwork...
+2025-04-10 18:36:27,179 - upwork_bot - INFO - Found 20 jobs on the page
+2025-04-10 18:36:27,179 - upwork_bot - INFO - Newest job title: Very Simple Web App Help
+2025-04-10 18:36:27,180 - upwork_bot - INFO - Processing job: Very Simple Web App Help
+2025-04-10 18:36:27,180 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Very-Simple-Web-App-Help_~021910356003951083880/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:36:29,992 - upwork_bot - INFO - Processing job: Prompt Engineer (GPT Bots)
+2025-04-10 18:36:29,993 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Prompt-Engineer-GPT-Bots_~021910355690557057703/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:36:32,904 - upwork_bot - INFO - Processing job: Full-Stack Web Application Development for UK University Finder
+2025-04-10 18:36:32,905 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-Web-Application-Development-for-University-Finder_~021910355776561261223/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:36:36,465 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Virtual-Assistant-Wellness-Focus-Customer-Support-Research-amp-span-class-highlight-Automation-span_~021910310104826774437/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:36:40,849 - upwork_bot - INFO - Processing job: Webhook API Specialist Needed for Make.com Integration
+2025-04-10 18:36:40,850 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Webhook-API-Specialist-Needed-for-Make-com-Integration_~021910355648581040174/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:36:43,364 - upwork_bot - INFO - Processing job: Full-Stack developer for agency website
+2025-04-10 18:36:43,364 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-developer-for-agency-website_~021910355279376853671/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:36:46,861 - upwork_bot - INFO - Processing job: WordPress Product Manager / Project Manager Needed for SaaS Development
+2025-04-10 18:36:46,861 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/WordPress-Product-Manager-Project-Manager-Needed-for-SaaS-Development_~021910355107888365928/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:36:49,478 - upwork_bot - INFO - Processing job: Looking for Full-Stack Developer / Team to Build AI-Powered Social Media Automation Platform
+2025-04-10 18:36:49,479 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/Looking-for-span-class-highlight-Full-span-span-class-highlight-Stack-span-Developer-Team-Build-Powered-Social-Media-span-class-highlight-Automation-span-Platform_~021910354828965630246/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:36:52,870 - upwork_bot - INFO - Processing job: Full-Stack Developer (React/Node.js/Python)
+2025-04-10 18:36:52,871 - upwork_bot - INFO - Fetching details for: https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-Developer-React-Node-Python_~021910354745710389927/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:36:56,267 - upwork_bot - INFO - Reached previously seen job: Web Scraping Expert Needed for Live Match Data Extraction
+2025-04-10 18:36:56,268 - upwork_bot - INFO - Updated last job title to: Very Simple Web App Help
+2025-04-10 18:36:56,272 - upwork_bot - INFO - Processing job: Very Simple Web App Help (https://upwork.com/jobs/Very-Simple-Web-App-Help_~021910356003951083880/?referrer_url_path=/nx/search/jobs/) for categories: ['frontend']
+2025-04-10 18:36:56,272 - upwork_bot - INFO - Preparing job for channel: upwork-job-frontend (ID: 1359136544337957016) - Job Link: https://upwork.com/jobs/Very-Simple-Web-App-Help_~021910356003951083880/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:36:56,760 - upwork_bot - INFO - Successfully sent job 021910356003... (Very Simple Web App Help) to frontend channel (Message ID: 1359915061061226677)
+2025-04-10 18:36:56,761 - upwork_bot - INFO - Filtered out AI-related job: Prompt Engineer (GPT Bots) (matched term: AI)
+2025-04-10 18:36:56,761 - upwork_bot - INFO - Filtered job by content: Prompt Engineer (GPT Bots) (https://upwork.com/jobs/Prompt-Engineer-GPT-Bots_~021910355690557057703/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 18:36:56,761 - upwork_bot - INFO - Added job https://upwork.com/jobs/Prompt-Engineer-GPT-Bots_~021910355690557057703/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 18:36:56,763 - upwork_bot - INFO - Processing job: Full-Stack Web Application Development for UK University Finder (https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-Web-Application-Development-for-University-Finder_~021910355776561261223/?referrer_url_path=/nx/search/jobs/) for categories: ['fullstack']
+2025-04-10 18:36:56,763 - upwork_bot - INFO - Preparing job for channel: upwork-job-fullstack (ID: 1359137471689916477) - Job Link: https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-Web-Application-Development-for-University-Finder_~021910355776561261223/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:36:57,043 - upwork_bot - INFO - Successfully sent job 021910355776... (Full-Stack Web Application Development for UK University Finder) to fullstack channel (Message ID: 1359915062328033471)
+2025-04-10 18:36:57,063 - upwork_bot - INFO - Added job https://upwork.com/jobs/Virtual-Assistant-Wellness-Focus-Customer-Support-Research-amp-span-class-highlight-Automation-span_~021910310104826774437/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 18:36:57,064 - upwork_bot - INFO - Processing job: Webhook API Specialist Needed for Make.com Integration (https://upwork.com/jobs/Webhook-API-Specialist-Needed-for-Make-com-Integration_~021910355648581040174/?referrer_url_path=/nx/search/jobs/) for categories: ['backend']
+2025-04-10 18:36:57,065 - upwork_bot - INFO - Preparing job for channel: upwork-job-backend (ID: 1359136722079711484) - Job Link: https://upwork.com/jobs/Webhook-API-Specialist-Needed-for-Make-com-Integration_~021910355648581040174/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:36:57,395 - upwork_bot - INFO - Successfully sent job 021910355648... (Webhook API Specialist Needed for Make.com Integration) to backend channel (Message ID: 1359915063401779404)
+2025-04-10 18:36:57,398 - upwork_bot - INFO - Processing job: Full-Stack developer for agency website (https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-developer-for-agency-website_~021910355279376853671/?referrer_url_path=/nx/search/jobs/) for categories: ['fullstack']
+2025-04-10 18:36:57,398 - upwork_bot - INFO - Preparing job for channel: upwork-job-fullstack (ID: 1359137471689916477) - Job Link: https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-developer-for-agency-website_~021910355279376853671/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:36:57,920 - upwork_bot - INFO - Successfully sent job 021910355279... (Full-Stack developer for agency website) to fullstack channel (Message ID: 1359915065662373908)
+2025-04-10 18:36:57,921 - upwork_bot - INFO - Processing job: WordPress Product Manager / Project Manager Needed for SaaS Development (https://upwork.com/jobs/WordPress-Product-Manager-Project-Manager-Needed-for-SaaS-Development_~021910355107888365928/?referrer_url_path=/nx/search/jobs/) for categories: ['fullstack']
+2025-04-10 18:36:57,921 - upwork_bot - INFO - Preparing job for channel: upwork-job-fullstack (ID: 1359137471689916477) - Job Link: https://upwork.com/jobs/WordPress-Product-Manager-Project-Manager-Needed-for-SaaS-Development_~021910355107888365928/?referrer_url_path=/nx/search/jobs/
+2025-04-10 18:36:58,251 - upwork_bot - INFO - Successfully sent job 021910355107... (WordPress Product Manager / Project Manager Needed for SaaS Development) to fullstack channel (Message ID: 1359915067339968745)
+2025-04-10 18:36:58,252 - upwork_bot - INFO - Filtered out AI-related job: Looking for Full-Stack Developer / Team to Build AI-Powered Social Media Automation Platform (matched term: AI)
+2025-04-10 18:36:58,252 - upwork_bot - INFO - Filtered job by content: Looking for Full-Stack Developer / Team to Build AI-Powered Social Media Automation Platform (https://upwork.com/jobs/Looking-for-span-class-highlight-Full-span-span-class-highlight-Stack-span-Developer-Team-Build-Powered-Social-Media-span-class-highlight-Automation-span-Platform_~021910354828965630246/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 18:36:58,252 - upwork_bot - INFO - Added job https://upwork.com/jobs/Looking-for-span-class-highlight-Full-span-span-class-highlight-Stack-span-Developer-Team-Build-Powered-Social-Media-span-class-highlight-Automation-span-Platform_~021910354828965630246/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 18:36:58,254 - upwork_bot - INFO - Filtered out devops-related job: Full-Stack Developer (React/Node.js/Python) (matched term: docker)
+2025-04-10 18:36:58,255 - upwork_bot - INFO - Filtered job by content: Full-Stack Developer (React/Node.js/Python) (https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-Developer-React-Node-Python_~021910354745710389927/?referrer_url_path=/nx/search/jobs/)
+2025-04-10 18:36:58,255 - upwork_bot - INFO - Added job https://upwork.com/jobs/span-class-highlight-Full-span-span-class-highlight-Stack-span-Developer-React-Node-Python_~021910354745710389927/?referrer_url_path=/nx/search/jobs/ to filtered list
+2025-04-10 18:36:58,256 - upwork_bot - INFO - Updated last job title to: Very Simple Web App Help

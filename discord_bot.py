@@ -1,5 +1,5 @@
 import discord
-from discord.ext import commands
+from discord.ext import commands, tasks
 import os
 from dotenv import load_dotenv
 import asyncio
@@ -7,8 +7,9 @@ import sys
 import time
 from discord.ui import Button, View
 import logging
+from discord import app_commands # Import app_commands
 
-from config import TOKEN, CHANNEL_IDS, JOB_CATEGORIES, COMMAND_PREFIX
+from config import TOKEN, CHANNEL_IDS, JOB_CATEGORIES, COMMAND_PREFIX, CHECK_INTERVAL
 from job_scraper import UpworkScraper
 from job_categorizer import JobCategorizer
 
@@ -138,6 +139,7 @@ async def send_discord_message(job_category, job_data):
         import traceback
         traceback.print_exc()
 
+@tasks.loop(seconds=CHECK_INTERVAL)
 async def check_upwork_jobs():
     """Check for new Upwork jobs and send them to Discord"""
     try:
@@ -213,8 +215,15 @@ async def on_ready():
         else:
             logger.warning(f"Could not find {category} channel with ID: {channel_id}")
     
+    # Sync slash commands (important!)
+    try:
+        synced = await bot.tree.sync()
+        logger.info(f"Synced {len(synced)} slash command(s)")
+    except Exception as e:
+        logger.error(f"Failed to sync slash commands: {e}")
+
     # Start the job checking loop
-    bot.loop.create_task(check_upwork_jobs())
+    check_upwork_jobs.start()
     logger.info("Bot is ready and listening for interactions.")
 
 @bot.event
@@ -366,6 +375,36 @@ async def list_filtered(ctx):
     # Create a message with all filtered job IDs
     filtered_list = "\n".join([f"- {job_id}" for job_id in sorted(job_scraper.filtered_jobs)])
     await ctx.send(f"**Manually Filtered Jobs**\n{filtered_list}")
+
+# --- Slash Commands ---
+
+@bot.tree.command(name="clear", description="Clears messages in the current channel.")
+@app_commands.checks.has_permissions(manage_messages=True) # Permission check
+async def clear(interaction: discord.Interaction, amount: int = 100):
+    """Clears a specified number of messages (default 100)."""
+    await interaction.response.defer(ephemeral=True) # Acknowledge interaction privately
+    try:
+        deleted = await interaction.channel.purge(limit=amount)
+        await interaction.followup.send(f"Successfully deleted {len(deleted)} message(s).", ephemeral=True)
+        logger.info(f"User {interaction.user} cleared {len(deleted)} messages in channel {interaction.channel.name}")
+    except discord.Forbidden:
+        await interaction.followup.send("I don't have permission to delete messages in this channel.", ephemeral=True)
+        logger.warning(f"Missing 'Manage Messages' permission in channel {interaction.channel.name} for /clear command used by {interaction.user}.")
+    except discord.HTTPException as e:
+        await interaction.followup.send(f"Failed to delete messages: {e}", ephemeral=True)
+        logger.error(f"HTTPException during /clear in {interaction.channel.name} by {interaction.user}: {e}")
+    except Exception as e:
+        await interaction.followup.send("An unexpected error occurred.", ephemeral=True)
+        logger.error(f"Error during /clear command execution by {interaction.user}: {e}", exc_info=True)
+
+@clear.error # Error handler specifically for the /clear command
+async def clear_error(interaction: discord.Interaction, error: app_commands.AppCommandError):
+    """Handles errors for the /clear command."""
+    if isinstance(error, app_commands.errors.MissingPermissions):
+        await interaction.response.send_message("You don't have permission to use this command.", ephemeral=True)
+    else:
+        await interaction.response.send_message("An error occurred.", ephemeral=True)
+        logger.error(f"Error in /clear command triggered by {interaction.user}: {error}", exc_info=error)
 
 # Run the bot
 bot.run(TOKEN) 
