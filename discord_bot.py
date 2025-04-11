@@ -10,10 +10,10 @@ import logging
 import subprocess # Keep this import
 from discord import app_commands # Keep this import
 
-from config import TOKEN, CHANNEL_IDS, JOB_CATEGORIES, COMMAND_PREFIX, CHECK_INTERVAL
+from config import TOKEN, CHANNEL_IDS, JOB_CATEGORIES, COMMAND_PREFIX, CHECK_INTERVAL, BOT_LOG_CHANNEL_ID
 from job_scraper import UpworkScraper
 from job_categorizer import JobCategorizer
-from utils import restart_warp  # Import restart_warp from utils.py
+#from utils import restart_warp  
 
 # Configure logging
 logging.basicConfig(
@@ -238,6 +238,24 @@ async def on_ready():
     # Start the job checking loop
     check_upwork_jobs.start()
     logger.info("Bot is ready and listening for interactions.")
+    
+    # Send startup message to the log channel
+    if BOT_LOG_CHANNEL_ID:
+        log_channel = bot.get_channel(BOT_LOG_CHANNEL_ID)
+        if log_channel:
+            embed = discord.Embed(
+                title="🤖 Bot Started",
+                description=f"Bot has started successfully at <t:{int(time.time())}:F>",
+                color=discord.Color.green()
+            )
+            embed.add_field(name="Version", value="1.0", inline=True)
+            embed.add_field(name="Servers", value=str(len(bot.guilds)), inline=True)
+            embed.add_field(name="Check Interval", value=f"{CHECK_INTERVAL} seconds", inline=True)
+            
+            await log_channel.send(embed=embed)
+            logger.info(f"Sent startup message to log channel (ID: {BOT_LOG_CHANNEL_ID})")
+        else:
+            logger.warning(f"Could not find bot log channel with ID: {BOT_LOG_CHANNEL_ID}")
 
 @bot.event
 async def on_interaction(interaction):
@@ -245,6 +263,9 @@ async def on_interaction(interaction):
     if interaction.type == discord.InteractionType.component:
         if interaction.data['custom_id'].startswith('show_'):
             try:
+                # First acknowledge the interaction to prevent timeout
+                await interaction.response.defer(ephemeral=True)
+                
                 # Get the job URL from the scraper's message mapping
                 message_id = interaction.message.id
                 job_url = job_scraper.message_job_map.get(message_id)
@@ -256,7 +277,7 @@ async def on_interaction(interaction):
 
                 if not job_url:
                     logger.error(f"Could not retrieve job_url for message {message_id} from map or embed.")
-                    await interaction.response.send_message("Could not find job details for this message.", ephemeral=True)
+                    await interaction.followup.send("Could not find job details for this message.", ephemeral=True)
                     return
                 
                 logger.info(f"Retrieved job URL for 'Show More' (Message {message_id}): {job_url}")
@@ -273,7 +294,7 @@ async def on_interaction(interaction):
                     if job_data:
                         description = job_data[2] # Index 2 is description
                     else:
-                        await interaction.response.send_message("Job description not available.", ephemeral=True)
+                        await interaction.followup.send("Job description not available.", ephemeral=True)
                         return
                 
                 # Create a new embed with the full description - preserve formatting by using ``` blocks
@@ -294,19 +315,30 @@ async def on_interaction(interaction):
                 if interaction.message.embeds[0].footer:
                     embed.set_footer(text=interaction.message.embeds[0].footer.text)
                 
-                # Send as ephemeral message (only visible to the user who clicked)
-                await interaction.response.send_message(embed=embed, ephemeral=True)
+                # Since we've already deferred the response, use followup.send instead
+                await interaction.followup.send(embed=embed, ephemeral=True)
                 
+            except discord.errors.NotFound as e:
+                if "Unknown interaction" in str(e):
+                    logger.warning(f"Interaction expired before response: {e}")
+                else:
+                    logger.error(f"NotFound error handling interaction: {e}")
             except Exception as e:
-                
                 logger.error(f"Error handling show more interaction: {e}")
                 import traceback
                 traceback.print_exc()
-                # Use followup if response already sent
-                if interaction.response.is_done():
-                    await interaction.followup.send("An error occurred while showing the full description.", ephemeral=True)
-                else:
-                    await interaction.response.send_message("An error occurred while showing the full description.", ephemeral=True)
+                
+                # Only try to respond if the interaction hasn't been responded to yet
+                try:
+                    if not interaction.response.is_done():
+                        await interaction.response.send_message("An error occurred while showing the full description.", ephemeral=True)
+                    else:
+                        await interaction.followup.send("An error occurred while showing the full description.", ephemeral=True)
+                except discord.errors.NotFound:
+                    # Interaction likely expired, just log it
+                    logger.warning("Could not respond to interaction: interaction expired")
+                except Exception as e:
+                    logger.error(f"Error sending error message for interaction: {e}")
     else:
         # Handle other types of interactions (like commands)
         await bot.process_commands(interaction)
@@ -343,17 +375,143 @@ async def status(ctx):
             else:
                 channel_info.append(f"❌ {category}: Channel not found")
         
-        # Create status message
-        status_message = f"**Bot Status**\n"
-        status_message += f"Uptime: {uptime_str}\n"
-        status_message += f"Last job check: {job_scraper.last_job if job_scraper.last_job else 'None'}\n\n"
-        status_message += "**Channel Configuration**\n"
-        status_message += "\n".join(channel_info)
+        # Add bot log channel info
+        if BOT_LOG_CHANNEL_ID:
+            log_channel = bot.get_channel(BOT_LOG_CHANNEL_ID)
+            if log_channel:
+                channel_info.append(f"✅ bot-log: #{log_channel.name}")
+            else:
+                channel_info.append(f"❌ bot-log: Channel not found")
         
-        await ctx.send(status_message)
+        # Create status embed
+        embed = discord.Embed(
+            title="🤖 Bot Status",
+            color=discord.Color.blue()
+        )
+        
+        embed.add_field(name="Uptime", value=uptime_str, inline=True)
+        embed.add_field(name="Python Version", value=f"{sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}", inline=True)
+        embed.add_field(name="Discord.py Version", value=discord.__version__, inline=True)
+        
+        embed.add_field(name="Last Job Check", value=job_scraper.last_job if job_scraper.last_job else "None", inline=False)
+        
+        embed.add_field(name="Channel Configuration", value="\n".join(channel_info), inline=False)
+        
+        # Get job stats
+        embed.add_field(name="Server Count", value=len(bot.guilds), inline=True)
+        
+        # Send the embed
+        await ctx.send(embed=embed)
+        
     except Exception as e:
-        
+        logger.error(f"Error checking status: {e}")
         await ctx.send(f"Error checking status: {e}")
+
+# Command to get recent logs
+@bot.command(name='logs')
+async def logs(ctx, lines: int = 25):
+    """Sends the last X lines from the log file (default 25)"""
+    try:
+        # Limit the maximum number of lines for safety
+        if lines > 100:
+            lines = 100
+            await ctx.send("Maximum 100 lines can be shown at once. Showing 100 lines.")
+        elif lines < 1:
+            lines = 25
+            await ctx.send("Invalid line count. Using default of 25 lines.")
+        
+        log_path = "bot.log"
+        
+        # Check if log file exists
+        if not os.path.exists(log_path):
+            await ctx.send("❌ Log file not found.")
+            return
+            
+        # Read the last X lines from the log file
+        with open(log_path, 'r', encoding='utf-8', errors='replace') as file:
+            log_lines = file.readlines()
+            last_logs = log_lines[-lines:] if len(log_lines) >= lines else log_lines
+            
+        # Format logs with markdown code block for better readability
+        if last_logs:
+            # Split into chunks if too long
+            chunks = []
+            current_chunk = []
+            current_length = 0
+            
+            for line in last_logs:
+                if current_length + len(line) > 1950:  # Discord message limit ~2000, leave room for backticks
+                    chunks.append("```\n" + "".join(current_chunk) + "```")
+                    current_chunk = [line]
+                    current_length = len(line)
+                else:
+                    current_chunk.append(line)
+                    current_length += len(line)
+            
+            if current_chunk:
+                chunks.append("```\n" + "".join(current_chunk) + "```")
+            
+            # Send each chunk as a separate message
+            await ctx.send(f"📃 Last {len(last_logs)} log entries:")
+            for chunk in chunks:
+                await ctx.send(chunk)
+        else:
+            await ctx.send("❌ No log entries found.")
+            
+    except Exception as e:
+        logger.error(f"Error retrieving logs: {e}")
+        await ctx.send(f"Error retrieving logs: {e}")
+
+# Function to send important logs to the bot log channel
+async def send_log_to_channel(level, message):
+    """Send important logs to the specified Discord channel"""
+    if not BOT_LOG_CHANNEL_ID:
+        return
+        
+    try:
+        log_channel = bot.get_channel(BOT_LOG_CHANNEL_ID)
+        if not log_channel:
+            return
+            
+        # Only send WARNING, ERROR, and CRITICAL logs
+        if level.upper() not in ["WARNING", "ERROR", "CRITICAL"]:
+            return
+            
+        # Create appropriate color and emoji based on level
+        if level.upper() == "WARNING":
+            color = discord.Color.yellow()
+            emoji = "⚠️"
+        elif level.upper() == "ERROR":
+            color = discord.Color.red()
+            emoji = "❌"
+        else:  # CRITICAL
+            color = discord.Color.dark_red()
+            emoji = "🚨"
+            
+        embed = discord.Embed(
+            title=f"{emoji} {level.upper()} Log",
+            description=f"```{message}```",
+            color=color,
+            timestamp=discord.utils.utcnow()
+        )
+        
+        await log_channel.send(embed=embed)
+    except Exception as e:
+        # Don't log this to avoid potential infinite loops
+        print(f"Error sending log to channel: {e}")
+
+# Custom logger handler to send logs to Discord
+class DiscordLogHandler(logging.Handler):
+    def emit(self, record):
+        # We'll handle the actual sending in an async context
+        if bot.is_ready():
+            bot.loop.create_task(send_log_to_channel(record.levelname, self.format(record)))
+
+# Add the custom handler to the logger
+discord_handler = DiscordLogHandler()
+discord_handler.setLevel(logging.WARNING)  # Only handle WARNING and above
+discord_handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(message)s'))
+logger.addHandler(discord_handler)
 
 # Add start_time to track uptime
 bot.start_time = time.time()
@@ -423,5 +581,5 @@ async def clear_error(interaction: discord.Interaction, error: app_commands.AppC
         logger.error(f"Error in /clear command triggered by {interaction.user}: {error}", exc_info=error)
 
 # Run the bot
-restart_warp()
+#restart_warp()
 bot.run(TOKEN) 

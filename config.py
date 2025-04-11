@@ -14,6 +14,8 @@ CHANNEL_IDS = {
     'scraping': int(os.getenv('SCRAPING_CHANNEL_ID')),
     'other': int(os.getenv('OTHER_CHANNEL_ID'))
 }
+# Channel for bot logging
+BOT_LOG_CHANNEL_ID = int(os.getenv('BOT_LOG_CHANNEL_ID', 0))  # Default to 0 if not set
 # Upwork configuration
 UPWORK_URL = "https://www.upwork.com/nx/search/jobs/?page=1&per_page=20&q=%28frontend%20OR%20backend%20OR%20%22full%20stack%22%20OR%20scraping%20OR%20scrapping%20OR%20automation%20OR%20automations%29&sort=recency"
 
